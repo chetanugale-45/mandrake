@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editing Signal — People & Movement Intelligence</title>
+<style>
+  :root{
+    --paper:#E9ECEB;--card:#FBFCFB;--card2:#F3F5F4;
+    --ink:#11201C;--ink-soft:#445650;--ink-faint:#7C8A85;
+    --hair:rgba(17,32,28,0.12);--hair2:rgba(17,32,28,0.07);
+    --teal:#0C7A5B;--teal-bg:rgba(12,122,91,0.10);
+    --magenta:#B43363;--magenta-bg:rgba(180,51,99,0.10);
+    --amber:#9E6416;--amber-bg:rgba(158,100,22,0.12);
+    --slate:#4C6A8C;--slate-bg:rgba(76,106,140,0.12);
+    --violet:#6B53A6;--violet-bg:rgba(107,83,166,0.12);
+    --mono:'SF Mono',ui-monospace,'JetBrains Mono',Menlo,Consolas,monospace;
+    --sans:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1280px;margin:0 auto;padding:26px 20px 70px}
+  .mono{font-family:var(--mono)}
+
+  header{border-bottom:1.5px solid var(--ink);padding-bottom:16px;margin-bottom:18px}
+  .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .pulse{width:8px;height:8px;border-radius:50%;background:var(--teal);position:relative;display:inline-block}
+  .pulse::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1.5px solid var(--teal);animation:ring 2.4s ease-out infinite}
+  @keyframes ring{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.1);opacity:0}}
+  h1{font-size:clamp(27px,4.8vw,46px);line-height:.98;letter-spacing:-.025em;margin:12px 0 8px;font-weight:800}
+  h1 .lo{color:var(--ink-soft);font-weight:500}
+  .sub{max-width:68ch;color:var(--ink-soft);font-size:14.5px;margin:0}
+  .statusline{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-left:auto;display:flex;gap:14px;align-items:center}
+  .led{display:inline-flex;align-items:center;gap:5px}.led i{width:7px;height:7px;border-radius:50%;display:inline-block}
+  .led.on i{background:var(--teal)}.led.off i{background:var(--amber)}
+
+  .strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--hair);border:1px solid var(--hair);border-radius:10px;overflow:hidden;margin-bottom:18px}
+  .stat{background:var(--card);padding:13px 15px}
+  .stat .n{font-family:var(--mono);font-size:20px;font-weight:600;letter-spacing:-.01em}
+  .stat .l{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+
+  .filters{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:18px}
+  .chip{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:5px 11px;border-radius:20px;border:1px solid var(--hair);background:var(--card);cursor:pointer;color:var(--ink-soft);transition:.12s}
+  .chip:hover{border-color:var(--ink-soft)}
+  .chip.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .chip .ct{opacity:.6;margin-left:5px}
+
+  .grid{display:grid;grid-template-columns:1.55fr 1fr;gap:22px;align-items:start}
+  .panel{background:var(--card);border:1px solid var(--hair);border-radius:12px;padding:16px 16px 10px;margin-bottom:22px}
+  .phead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+  .phead h2{font-size:12.5px;font-family:var(--mono);letter-spacing:.13em;text-transform:uppercase;margin:0;font-weight:600}
+  .phead .right{display:flex;gap:8px;align-items:center}
+  .pill{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px;border-radius:20px;font-weight:600;border:1px solid transparent}
+  .pill.live{color:var(--teal);border-color:var(--teal);background:var(--teal-bg)}
+  .pill.cur{color:var(--amber);border-color:var(--amber);background:var(--amber-bg)}
+  .meta{font-family:var(--mono);font-size:10px;color:var(--ink-faint);letter-spacing:.05em}
+
+  .feed{list-style:none;margin:0;padding:0}
+  .mv{display:grid;grid-template-columns:58px 1fr;gap:13px;padding:12px 0;border-top:1px solid var(--hair2)}
+  .mv:first-child{border-top:none}
+  .mv .when{font-family:var(--mono);font-size:11px;color:var(--ink-faint);padding-top:2px;line-height:1.35}
+  .mv .who{font-weight:700;font-size:13px}
+  .mv h3{margin:1px 0 4px;font-size:14.5px;letter-spacing:-.01em;font-weight:550}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+  .tag{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;padding:2px 6px;border-radius:4px;font-weight:600}
+  .g-research{background:var(--teal-bg);color:var(--teal)}
+  .g-funding{background:var(--amber-bg);color:var(--amber)}
+  .g-deals{background:var(--magenta-bg);color:var(--magenta)}
+  .g-hires{background:var(--slate-bg);color:var(--slate)}
+  .g-press,.g-social{background:var(--violet-bg);color:var(--violet)}
+  .src{font-family:var(--mono);font-size:10px;color:var(--ink-faint);text-decoration:none;border-bottom:1px dotted var(--hair)}
+  .src:hover{color:var(--ink)}
+  .live-dot{font-family:var(--mono);font-size:8.5px;color:var(--teal);border:1px solid var(--teal);border-radius:3px;padding:0 4px;letter-spacing:.06em}
+  .yours{background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:8.5px;padding:1px 5px;border-radius:3px;letter-spacing:.08em}
+
+  .addbar{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid var(--hair2);padding-top:11px;margin-top:4px}
+  .ghost{font-family:var(--mono);font-size:11px;letter-spacing:.07em;text-transform:uppercase;background:none;border:1px solid var(--hair);border-radius:6px;padding:6px 11px;cursor:pointer;color:var(--ink)}
+  .ghost:hover{border-color:var(--ink)}
+  .persist{font-family:var(--mono);font-size:10px;color:var(--ink-faint);display:flex;align-items:center;gap:6px}
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--teal)}.dot.off{background:var(--amber)}
+  form.addform{display:none;gap:8px;flex-wrap:wrap;padding:12px 0 4px;border-top:1px solid var(--hair2);margin-top:8px}
+  form.addform.open{display:flex}
+  form.addform input,form.addform select{font-family:var(--sans);font-size:13px;padding:8px 10px;border:1px solid var(--hair);border-radius:6px;background:#fff;color:var(--ink)}
+  .full{flex:1 1 100%}.half{flex:1 1 calc(50% - 4px)}.third{flex:1 1 calc(33% - 6px)}
+  .save{background:var(--ink);color:var(--paper);border:none;border-radius:6px;padding:8px 15px;font-family:var(--mono);font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;cursor:pointer}
+
+  .person{display:grid;grid-template-columns:1fr auto;gap:8px;padding:10px 0;border-top:1px solid var(--hair2)}
+  .person:first-child{border-top:none}
+  .person .pn{font-weight:650;font-size:13.5px}
+  .person .pr{font-size:12px;color:var(--ink-soft);margin-top:1px}
+  .person .pl{font-size:11.5px;color:var(--ink-faint);margin-top:3px;line-height:1.4}
+  .person .ptype{font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:4px;height:fit-content;white-space:nowrap}
+  .pt-founder{background:var(--teal-bg);color:var(--teal)}
+  .pt-scientist{background:var(--slate-bg);color:var(--slate)}
+  .pt-vc{background:var(--amber-bg);color:var(--amber)}
+
+  .cgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .ccard{background:var(--card);border:1px solid var(--hair);border-radius:11px;padding:15px}
+  .ccard.flag{border-color:var(--teal);box-shadow:0 0 0 1px var(--teal) inset}
+  .ctop{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .ctop h3{margin:0;font-size:17px;letter-spacing:-.01em}
+  .ctop .raise{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);white-space:nowrap}
+  .capproach{font-size:12px;color:var(--teal);font-weight:600;margin:2px 0 6px}
+  .cfacts{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:9px}
+  .fact{font-family:var(--mono);font-size:10px;background:var(--card2);border:1px solid var(--hair2);border-radius:5px;padding:3px 7px;color:var(--ink-soft)}
+  .fact b{color:var(--ink)}
+  .moves{list-style:none;margin:0;padding:0;border-top:1px dotted var(--hair);padding-top:8px}
+  .moves li{display:grid;grid-template-columns:50px 1fr;gap:9px;font-size:12.5px;padding:4px 0;align-items:start}
+  .moves .md{font-family:var(--mono);font-size:10px;color:var(--ink-faint);padding-top:2px}
+  .moves .mt b{font-weight:600}
+  .moves .mt .tag{margin-left:5px;font-size:8.5px;padding:1px 5px}
+
+  .rescat{margin-bottom:14px}
+  .rescat h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 6px;display:flex;align-items:center;gap:7px}
+  .rescat h4 .c{width:8px;height:8px;border-radius:2px;display:inline-block}
+  .resrow{display:grid;grid-template-columns:1fr auto;gap:10px;padding:7px 0;border-top:1px solid var(--hair2);font-size:13px}
+  .resrow:first-of-type{border-top:none}
+  .resrow .rt{font-weight:550}
+  .resrow .ri{font-size:11.5px;color:var(--ink-faint);margin-top:1px}
+  .resrow .rd{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);white-space:nowrap;padding-top:2px}
+
+  .note{font-size:12px;color:var(--ink-soft);padding:8px 0 2px;line-height:1.5}
+  .sechead{font-family:var(--mono);font-size:12.5px;letter-spacing:.13em;text-transform:uppercase;margin:32px 0 14px;padding-bottom:8px;border-bottom:1.5px solid var(--ink);display:flex;justify-content:space-between;align-items:center;gap:10px}
+
+  .ritual{border-top:1.5px solid var(--ink);margin-top:30px;padding-top:20px}
+  .ritual h2{font-family:var(--mono);font-size:12.5px;letter-spacing:.13em;text-transform:uppercase;margin:0 0 14px}
+  .rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .rgrid h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 9px}
+  .rgrid ul{margin:0;padding-left:0;list-style:none}
+  .rgrid li{font-size:12.5px;padding:4px 0;border-bottom:1px dotted var(--hair2)}
+  .disclaimer{margin-top:22px;font-size:12.5px;color:var(--ink-soft);background:var(--card);border:1px solid var(--hair);border-left:3px solid var(--amber);border-radius:8px;padding:13px 15px;line-height:1.6}
+  .disclaimer b{color:var(--ink)}
+
+  @media(max-width:920px){.grid{grid-template-columns:1fr}.cgrid{grid-template-columns:1fr}.strip{grid-template-columns:1fr 1fr}.rgrid{grid-template-columns:1fr}.statusline{margin-left:0;width:100%}}
+  @media(prefers-reduced-motion:reduce){.pulse::after{animation:none}}
+  :focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow"><span class="pulse"></span> Editing Signal · People &amp; Movement
+      <span class="statusline">
+        <span class="led off" id="liveled"><i></i><span id="livetxt">live feed: offline</span></span>
+        <span id="asof">updated —</span>
+      </span>
+    </div>
+    <h1>Who's moving, <span class="lo">and what it means.</span></h1>
+    <p class="sub">Tracking the founders, scientists, and investors who steer enzyme-design and gene editing — every hire, raise, paper, release, interview, and post, sorted by what kind of move it is. Live from Bluesky, Reddit, GitHub, OpenAlex and the press; curated where judgment beats scraping.</p>
+  </header>
+
+  <div class="strip" id="strip"></div>
+  <div class="filters" id="filters"></div>
+
+  <div class="grid">
+    <div>
+      <div class="panel">
+        <div class="phead"><h2>Movement feed</h2><div class="right"><span class="pill live">live</span><span class="pill cur">curated</span><span class="meta" id="count">—</span></div></div>
+        <ul class="feed" id="feed"></ul>
+        <div class="addbar">
+          <button class="ghost" id="toggleAdd">+ Log a movement</button>
+          <span class="persist" id="persist"><span class="dot" id="pdot"></span><span id="ptext">checking…</span></span>
+        </div>
+        <form class="addform" id="addform">
+          <input class="full" id="f-who" placeholder="Who — person or company" required>
+          <input class="full" id="f-title" placeholder="What moved (e.g. 'hired new Head of Bio from Editas')" required>
+          <input class="third" id="f-date" type="date" required>
+          <select class="third" id="f-type">
+            <option value="hire">hire</option><option value="exit">departure</option>
+            <option value="fundraise">fundraise</option><option value="mna">M&amp;A</option>
+            <option value="deal">deal/partnership</option><option value="publication">publication</option>
+            <option value="release">model/data release</option><option value="interview">interview/quote</option>
+            <option value="press">press</option><option value="social">social post</option>
+          </select>
+          <input class="third" id="f-src" placeholder="Source (LinkedIn, X…)">
+          <input class="full" id="f-url" placeholder="URL (optional)">
+          <button class="save" type="submit">Log it</button>
+          <button class="ghost" type="button" id="clearMine">Clear mine</button>
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel">
+        <div class="phead"><h2>People watchlist</h2><div class="right"><span class="pill cur">curated</span></div></div>
+        <div id="people"></div>
+        <p class="note">The decision-makers. Add Bluesky handles in the pipeline config to auto-pull their posts into the feed.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sechead">Competitor intelligence — micro <span class="pill cur">curated</span></div>
+  <div class="cgrid" id="competitors"></div>
+
+  <div class="sechead">Research &amp; labs — by type <span class="right"><span class="pill live">live</span><span class="pill cur">key</span></span></div>
+  <div class="grid">
+    <div class="panel">
+      <div class="phead"><h2>Latest output</h2><div class="right"><span class="pill live" id="resbadge">live</span><span class="meta">OpenAlex · bioRxiv · GitHub</span></div></div>
+      <div id="research"></div>
+      <p class="note" id="resnote">Auto-pulled and grouped by type when the pipeline runs — each item shows the lab/university behind it. Until then, the landmark work below.</p>
+    </div>
+    <div class="panel">
+      <div class="phead"><h2>Labs to watch</h2><div class="right"><span class="pill cur">curated</span></div></div>
+      <div id="labs"></div>
+    </div>
+  </div>
+
+  <div class="ritual">
+    <h2>Keep it alive — the weekly ritual</h2>
+    <div class="rgrid">
+      <div><h4>Auto (pipeline)</h4><ul>
+        <li>Bluesky posts — tracked handles</li><li>Reddit — r/biotech, r/genetic_engineering</li>
+        <li>GitHub — model &amp; code releases</li><li>OpenAlex + bioRxiv — papers by lab</li><li>News RSS — press &amp; interviews</li></ul></div>
+      <div><h4>By hand (you're the scraper)</h4><ul>
+        <li>LinkedIn — hires, departures, team-size</li><li>X/Twitter — founder &amp; VC posts</li>
+        <li>Earnings calls &amp; interviews</li><li>Conference talks (ASGCT, NeurIPS)</li>
+        <li>Log each with “+ Log a movement”</li></ul></div>
+      <div><h4>People to prioritise</h4><ul>
+        <li>Founders: Madani · Rives · van Grieken</li><li>Scientists: Doudna · Liu · Anzalone · Urnov</li>
+        <li>VCs: Benaich (Air Street) · Ball (Altimeter) · Hu (Menlo)</li><li>Firms: Flagship · Lux · Spark · Insight</li></ul></div>
+    </div>
+    <div class="disclaimer">
+      <b>On scraping, honestly.</b> Reddit (RSS), Bluesky (open API), GitHub and OpenAlex are free and durable — wired into the pipeline. <b>X/Twitter has no sustainable free scrape</b> (login-walled; workarounds get banned) — track those people on Bluesky instead, or log posts by hand. <b>LinkedIn actively blocks and litigates scraping</b> — there's no safe free route, so its signal (hires, team-size, exec moves) comes from press + your own eyes via the log button. That human-in-the-loop step is a feature: it's the judgment a tracker can't automate. Verify figures before sharing.
+    </div>
+  </div>
+</div>
+
+<script>
+const TYPE_GROUP={hire:"hires",exit:"hires",fundraise:"funding",mna:"funding",deal:"deals",partnership:"deals",publication:"research",release:"research",interview:"press",press:"press",social:"social"};
+const TYPE_LABEL={hire:"hire",exit:"departure",fundraise:"fundraise",mna:"M&A",deal:"deal",partnership:"partnership",publication:"publication",release:"release",interview:"interview",press:"press",social:"social"};
+const FILTERS=[["all","All"],["hires","Hires"],["funding","Funding"],["deals","Deals"],["research","Research"],["press","Press"],["social","Social"]];
+
+const MOVES=[
+  {date:"2026-06-12",who:"Field",type:"release",title:"EvoPRIME prime-editing screening platform released",src:"CRISPR Medicine News",url:"https://crisprmedicinenews.com/"},
+  {date:"2026-05-14",who:"Ali Madani (Profluent)",type:"interview",title:"Berkeley MCB commencement address; ASGCT 2026 recap",src:"LinkedIn",url:"https://www.linkedin.com/in/madani-ali/"},
+  {date:"2026-05",who:"Profluent × Eli Lilly",type:"deal",title:"Teams kick off work on AI-designed recombinases",src:"LinkedIn",url:"https://www.linkedin.com/in/madani-ali/"},
+  {date:"2026-04-28",who:"Profluent",type:"deal",title:"Eli Lilly multi-program partnership announced",src:"STAT",url:"https://www.statnews.com/2026/04/28/eli-lilly-crispr-gene-editing-deal-profluent-ai/"},
+  {date:"2026-01-26",who:"Knott lab (Monash)",type:"publication",title:"De novo AI-designed anti-CRISPRs (Cas13) in 8 weeks",src:"Nature Chem Biol",url:"https://www.monash.edu/discovery-institute/news-and-events/news/2026-articles/australian-scientists-have-used-ai-to-develop-a-precise,-safe-and-fast-way-to-keep-crispr-technology-in-check"},
+  {date:"2026-01-09",who:"Aurora Therapeutics",type:"fundraise",title:"Launches with $16M (Menlo Ventures); Doudna advising",src:"MIT Tech Review",url:"https://www.technologyreview.com/2026/01/09/1130945/crispr-startup-aurora-betting-regulation-pku/"},
+  {date:"2025-11-19",who:"Profluent",type:"fundraise",title:"$106M Series B (Altimeter + Bezos Expeditions); total $150M",src:"BusinessWire",url:"https://www.businesswire.com/news/home/20251119356889/en/"},
+  {date:"2025",who:"EvolutionaryScale",type:"mna",title:"Acquired by Chan Zuckerberg (CZI); team to long-term research",src:"press",url:""}
+];
+
+const PEOPLE=[
+  {n:"Ali Madani",t:"founder",r:"CEO, Profluent · ex-Salesforce, ProGen",l:"Last: kicked off Lilly recombinase work; ASGCT 2026"},
+  {n:"Alexander Rives",t:"founder",r:"Chief scientist, EvolutionaryScale · ex-Meta FAIR",l:"Last: team moved under Chan Zuckerberg"},
+  {n:"Stef van Grieken",t:"founder",r:"CEO, Cradle · ex-Google",l:"Watch: enterprise protein-design traction"},
+  {n:"Jennifer Doudna",t:"scientist",r:"UC Berkeley / IGI · CRISPR pioneer",l:"Advising Aurora Therapeutics"},
+  {n:"David Liu",t:"scientist",r:"Broad / Harvard · base + prime editing",l:"Source lab for the editing modalities"},
+  {n:"Andrew Anzalone",t:"scientist",r:"Prime Medicine · prime-editing co-inventor",l:"Watch: PM359 / Wilson's pipeline"},
+  {n:"Fyodor Urnov",t:"scientist",r:"UC Berkeley · Aurora co-founder",l:"Vocal on bespoke-therapy regulation"},
+  {n:"Nathan Benaich",t:"vc",r:"Air Street Capital · 'State of AI'",l:"Early Profluent backer; AI-bio thesis"},
+  {n:"Jamin Ball",t:"vc",r:"Altimeter Capital",l:"Led Profluent's $106M Series B"},
+  {n:"Johnny Hu",t:"vc",r:"Menlo Ventures",l:"Funded Aurora Therapeutics"}
+];
+
+const COMPETITORS=[
+  {name:"Profluent",flag:false,raise:"~$150M · Series B",approach:"AI Cas + recombinases · LLMs + scaling laws",
+   facts:["HQ <b>Emeryville</b>","team <b>~57</b>","founded <b>2022</b>"],
+   moves:[
+     {d:"May '26",t:"Madani gives <b>Berkeley MCB commencement</b>; recaps ASGCT",g:"press",ty:"interview"},
+     {d:"Apr '26",t:"<b>Eli Lilly</b> deal — AI recombinases for large DNA edits",g:"deals",ty:"deal"},
+     {d:"Nov '25",t:"<b>$106M Series B</b> (Altimeter + Bezos)",g:"funding",ty:"fundraise"},
+     {d:"hires",t:"CBO <b>Hilary Eaton</b> (ex-Editas) · VP <b>Peter Cameron</b> (ex-Caribou) · board <b>Fraser Kelton</b> (ex-OpenAI)",g:"hires",ty:"hire"},
+     {d:"2025",t:"Collabs: <b>Ensoma</b>, <b>Rett Trust</b> · commercial Revvity, Corteva, IDT",g:"deals",ty:"deal"}
+   ]},
+  {name:"EvolutionaryScale",flag:false,raise:"$142M seed",approach:"Protein foundation models — ESM3 (98B params)",
+   facts:["HQ <b>New York</b>","ex-<b>Meta FAIR</b>","founded <b>2023</b>"],
+   moves:[
+     {d:"2025",t:"<b>Acquired by Chan Zuckerberg</b> — team to long-term research",g:"funding",ty:"mna"},
+     {d:"lead",t:"<b>A. Rives</b> chief scientist · <b>T. Sercu</b> VP eng · <b>S. Candido</b>",g:"hires",ty:"hire"},
+     {d:"2024",t:"ESM3 + <b>$142M seed</b> (Friedman, Gross, Lux, NVIDIA)",g:"funding",ty:"fundraise"}
+   ]},
+  {name:"Generate Biomedicines",flag:false,raise:"~$700M+",approach:"AI design + own therapeutics pipeline",
+   facts:["<b>Flagship</b> company","Somerville MA","platform <b>Chroma</b>"],
+   moves:[
+     {d:"deals",t:"Pharma partnerships incl. <b>Novartis</b>, <b>Amgen</b>",g:"deals",ty:"deal"},
+     {d:"watch",t:"Largest war-chest in the category — pipeline progress",g:"research",ty:"publication"}
+   ]},
+  {name:"Cradle",flag:false,raise:"~$103M",approach:"Protein-engineering SaaS for wet labs",
+   facts:["Amsterdam / Zurich","CEO <b>van Grieken</b>","model: tools"],
+   moves:[
+     {d:"funding",t:"Series B led by <b>IVP</b>; Index, Kindred",g:"funding",ty:"fundraise"},
+     {d:"watch",t:"Net-new logos = the leading indicator for this model",g:"deals",ty:"deal"}
+   ]},
+  {name:"Arzeda",flag:false,raise:"~$70M",approach:"De novo enzyme design — industrial / ag / materials",
+   facts:["Seattle","CEO <b>Zanghellini</b>","near-cash lane"],
+   moves:[{d:"focus",t:"Enzymes for chemicals &amp; crops — different buyer than therapeutics",g:"research",ty:"publication"}]},
+  {name:"Mandrake",flag:true,raise:"seed · undisclosed",approach:"De novo editing enzymes · biophysics-first",
+   facts:["Bangalore","founded <b>Mar '25</b>","backer <b>Antler</b>"],
+   moves:[
+     {d:"2025",t:"<b>ORBIT</b> wins GEM × Adaptyv RBX1 binder challenge",g:"research",ty:"publication"},
+     {d:"hiring",t:"Building <b>founder's office</b> + AI research team",g:"hires",ty:"hire"},
+     {d:"open",t:"<b>Retroviral Wall</b> challenge live · 'The Assay' blog",g:"research",ty:"release"}
+   ]}
+];
+
+const RESEARCH_CUR={
+  "Model & data releases":[
+    {rt:"OpenCRISPR-1 + CRISPR-Cas Atlas",ri:"Profluent",rd:"Nature '25"},
+    {rt:"ESM3 foundation model",ri:"EvolutionaryScale",rd:"2024"}
+  ],
+  "Benchmark datasets":[
+    {rt:"PRIDICT / 2.0 — pegRNA efficiency",ri:"92k+ pegRNAs",rd:"dataset"},
+    {rt:"BE-Hive — base-editing outcomes",ri:"38k targets",rd:"dataset"},
+    {rt:"Retroviral Wall — RT activity",ri:"Mandrake · 57 enzymes",rd:"challenge"}
+  ],
+  "Papers & preprints":[
+    {rt:"De novo anti-CRISPRs (Cas13 inhibitors)",ri:"Knott lab, Monash",rd:"Nat Chem Biol '26"},
+    {rt:"AI × CRISPR review",ri:"Nature Reviews Genetics",rd:"'26"}
+  ]
+};
+const GROUP_COLOR={"Model & data releases":"var(--magenta)","Benchmark datasets":"var(--teal)","Papers & preprints":"var(--slate)","Preprints":"var(--teal)","Peer-reviewed":"var(--slate)"};
+
+const LABS=[
+  {k:"Doudna lab / IGI",s:"UC Berkeley — CRISPR foundations, anti-CRISPR",v:"Berkeley"},
+  {k:"Liu lab",s:"Broad / Harvard — base & prime editing source",v:"Boston"},
+  {k:"Knott lab",s:"Monash — AI de novo anti-CRISPR design",v:"Melbourne"},
+  {k:"Meeske lab",s:"UW — Cas biology (Profluent co-founder)",v:"Seattle"},
+  {k:"Anzalone / Prime",s:"Prime-editing translation",v:"Cambridge"}
+];
+
+const MONTH=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function fmtWhen(d){const p=String(d).split("-");if(p.length<2)return p[0];const mo=MONTH[(+p[1])-1];return p[2]?`${mo}\u2009${+p[2]}<br>${p[0]}`:`${mo}<br>${p[0]}`;}
+const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+document.getElementById("asof").textContent="updated "+new Date().toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
+
+const hasStore=typeof window!=="undefined"&&window.storage&&typeof window.storage.get==="function";
+let userMoves=[];
+async function loadUser(){if(!hasStore)return[];try{const r=await window.storage.get("es_user_moves");return r&&r.value?JSON.parse(r.value):[];}catch(e){return[];}}
+async function saveUser(){if(!hasStore)return;try{await window.storage.set("es_user_moves",JSON.stringify(userMoves));}catch(e){}}
+
+let LIVE={movements:[],research:[]};
+async function loadLive(){
+  try{
+    const r=await fetch("./data.json",{cache:"no-store"});if(!r.ok)throw 0;
+    const d=await r.json();LIVE.movements=d.movements||[];LIVE.research=d.research||[];
+    document.getElementById("liveled").className="led on";
+    document.getElementById("livetxt").textContent="live feed: "+(d.updated?("updated "+d.updated.slice(0,10)):"on");
+    return true;
+  }catch(e){return false;}
+}
+
+let activeFilter="all";
+function allMoves(){
+  const live=(LIVE.movements||[]).map(m=>({...m,_live:true}));
+  return [...userMoves.map(m=>({...m,_user:true})),...live,...MOVES].sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+}
+function renderFilters(){
+  const moves=allMoves();const counts={all:moves.length};
+  moves.forEach(m=>{const g=TYPE_GROUP[m.type]||"social";counts[g]=(counts[g]||0)+1;});
+  document.getElementById("filters").innerHTML=FILTERS.map(([id,label])=>
+    `<button class="chip ${id===activeFilter?'active':''}" data-f="${id}">${label}<span class="ct">${counts[id]||0}</span></button>`).join("");
+  document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{activeFilter=c.dataset.f;renderFilters();renderFeed();}));
+}
+function renderFeed(){
+  let moves=allMoves();
+  if(activeFilter!=="all")moves=moves.filter(m=>(TYPE_GROUP[m.type]||"social")===activeFilter);
+  document.getElementById("feed").innerHTML=moves.map(m=>{
+    const g=TYPE_GROUP[m.type]||"social";
+    return `<li class="mv"><span class="when">${fmtWhen(m.date)}</span>
+      <div>
+        <div class="who">${esc(m.who||m.source||"")} ${m._user?'<span class="yours">YOURS</span>':''} ${m._live?'<span class="live-dot">LIVE</span>':''}</div>
+        <h3>${esc(m.title)}</h3>
+        <div class="tags"><span class="tag g-${g}">${TYPE_LABEL[m.type]||m.type}</span>
+        ${m.src||m.source?(m.url?`<a class="src" href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.src||m.source)} \u2197</a>`:`<span class="src">${esc(m.src||m.source)}</span>`):""}</div>
+      </div></li>`;}).join("");
+  document.getElementById("count").textContent=moves.length+(activeFilter==="all"?" movements":" shown");
+}
+function renderPeople(){
+  document.getElementById("people").innerHTML=PEOPLE.map(p=>`
+    <div class="person"><div>
+      <div class="pn">${esc(p.n)}</div><div class="pr">${esc(p.r)}</div><div class="pl">${esc(p.l)}</div>
+    </div><span class="ptype pt-${p.t}">${p.t}</span></div>`).join("");
+}
+function renderCompetitors(){
+  document.getElementById("competitors").innerHTML=COMPETITORS.map(c=>`
+    <div class="ccard ${c.flag?'flag':''}">
+      <div class="ctop"><h3>${esc(c.name)}</h3><span class="raise">${esc(c.raise)}</span></div>
+      <div class="capproach">${esc(c.approach)}</div>
+      <div class="cfacts">${c.facts.map(f=>`<span class="fact">${f}</span>`).join("")}</div>
+      <ul class="moves">${c.moves.map(m=>`<li><span class="md">${esc(m.d)}</span><span class="mt">${m.t}<span class="tag g-${m.g}">${TYPE_LABEL[m.ty]||m.ty}</span></span></li>`).join("")}</ul>
+    </div>`).join("");
+}
+function renderResearch(){
+  const box=document.getElementById("research");
+  if(LIVE.research&&LIVE.research.length){
+    document.getElementById("resbadge").textContent="live";
+    document.getElementById("resnote").style.display="none";
+    const groups={};
+    LIVE.research.forEach(r=>{const k=r.type==="preprint"?"Preprints":(r.type==="release"?"Model & data releases":"Peer-reviewed");(groups[k]=groups[k]||[]).push(r);});
+    box.innerHTML=Object.entries(groups).map(([g,items])=>`
+      <div class="rescat"><h4><span class="c" style="background:${GROUP_COLOR[g]||'var(--ink-soft)'}"></span>${esc(g)}</h4>
+      ${items.slice(0,6).map(r=>`<div class="resrow"><div><div class="rt">${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`:esc(r.title)}</div><div class="ri">${esc(r.institution||r.source||"")}</div></div><span class="rd">${esc((r.date||"").slice(0,7))}</span></div>`).join("")}
+      </div>`).join("");
+  }else{
+    document.getElementById("resbadge").textContent="offline";
+    box.innerHTML=Object.entries(RESEARCH_CUR).map(([g,items])=>`
+      <div class="rescat"><h4><span class="c" style="background:${GROUP_COLOR[g]||'var(--ink-soft)'}"></span>${esc(g)}</h4>
+      ${items.map(r=>`<div class="resrow"><div><div class="rt">${esc(r.rt)}</div><div class="ri">${esc(r.ri)}</div></div><span class="rd">${esc(r.rd)}</span></div>`).join("")}
+      </div>`).join("");
+  }
+}
+function rows(id,arr){document.getElementById(id).innerHTML=arr.map(r=>`<div class="resrow"><div><div class="rt">${esc(r.k)}</div><div class="ri">${esc(r.s)}</div></div><span class="rd">${esc(r.v)}</span></div>`).join("");}
+
+document.getElementById("strip").innerHTML=[
+  {n:"10",l:"people tracked"},{n:"6",l:"competitors"},{n:"5",l:"labs watched"},{n:"7",l:"move types"}
+].map(s=>`<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join("");
+
+renderPeople();renderCompetitors();rows("labs",LABS);
+(function(){const dot=document.getElementById("pdot"),txt=document.getElementById("ptext");if(hasStore){dot.classList.remove("off");txt.textContent="saves persist";}else{dot.classList.add("off");txt.textContent="session only";}})();
+
+const form=document.getElementById("addform");
+const $=id=>document.getElementById(id);
+$("toggleAdd").addEventListener("click",()=>form.classList.toggle("open"));
+$("f-date").value=new Date().toISOString().slice(0,10);
+form.addEventListener("submit",async e=>{e.preventDefault();
+  const m={who:$("f-who").value.trim(),title:$("f-title").value.trim(),date:$("f-date").value,type:$("f-type").value,src:$("f-src").value.trim(),url:$("f-url").value.trim()};
+  if(!m.title||!m.date)return;userMoves.unshift(m);await saveUser();renderFilters();renderFeed();
+  form.reset();$("f-date").value=new Date().toISOString().slice(0,10);form.classList.remove("open");});
+$("clearMine").addEventListener("click",async()=>{userMoves=[];await saveUser();renderFilters();renderFeed();});
+
+(async function(){userMoves=await loadUser();await loadLive();renderFilters();renderFeed();renderResearch();})();
+</script>
+</body>
+</html>
