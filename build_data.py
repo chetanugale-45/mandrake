@@ -52,7 +52,46 @@ KEYWORDS = [
 # Find a handle on someone's Bluesky profile (looks like name.bsky.social).
 # Unknown/empty handles are skipped gracefully, so it's safe to leave examples.
 BLUESKY_HANDLES = [
-    # "example.bsky.social",
+    # --- Competitors / industry (closest to Mandrake) ---
+    "thisismadani.bsky.social",       # Ali Madani — CEO, Profluent
+    "jeffruffolo.bsky.social",        # Jeff Ruffolo — Protein Design/ML, Profluent
+    "countablyfinite.bsky.social",    # Neil Thomas — EvolutionaryScale / Biohub
+    "roshanrao.bsky.social",          # Roshan Rao — proteins, ex-MetaAI
+    "jelleprins.com",                 # Jelle Prins — co-founder, Cradle
+    "tbepler.bsky.social",            # Tristan Bepler — CEO, OpenProtein.ai
+    "lucanaef.bsky.social",           # Luca Naef — CTO, VantAI
+    "lizbwood.bsky.social",           # Elizabeth Wood — CEO, Jura Bio
+    "sgrodriques.bsky.social",        # Sam Rodriques — CEO, FutureHouse
+    "microyunha.bsky.social",         # Yunha Hwang — Tatta Bio
+    "ncfrey.bsky.social",             # Nathan Frey — Anthropic, ex-Coefficient Bio
+    "daniel-c0deb0t.bsky.social",     # Daniel Liu — Anthropic, bioinformatics
+
+    # --- Investors (the money + thesis) ---
+    "nathanbenaich.bsky.social",      # Nathan Benaich — Air Street Capital
+    "judewells.bsky.social",          # Jude Wells — Pillar VC / AI-for-science fellow
+
+    # --- Leading PIs: protein / enzyme design ---
+    "francesarnold.bsky.social",      # Frances Arnold — Nobel, enzyme engineering, Caltech
+    "uwproteindesign.bsky.social",    # Institute for Protein Design (Baker lab), UW
+    "noeliaferruz.bsky.social",       # Noelia Ferruz — generative protein design, CRG
+    "possuhuanglab.bsky.social",      # Possu Huang — de novo design, Stanford
+    "ginaelnesr.bsky.social",         # Gina El Nesr — enzyme design + biophysics
+    "pranam.bsky.social",             # Pranam Chatterjee — Duke, peptide/protein design
+    "sokrypton.org",                  # Sergey Ovchinnikov — MIT, protein ML
+    "brianhie.bsky.social",           # Brian Hie — Stanford / Arc, AI for biology
+    "moalquraishi.bsky.social",       # Mohammed AlQuraishi — Columbia, protein structure
+    "martinpacesa.bsky.social",       # Martin Pacesa — protein design, UZurich
+    "philromero.bsky.social",         # Philip Romero — Duke BME, enzyme ML
+    "kevinkaichuang.bsky.social",     # Kevin Yang — BioML, Microsoft Research
+    "scottsoderling.bsky.social",     # Scott Soderling — founder, Triangle Protein Design
+
+    # --- Gene editing specifically (Mandrake's core) ---
+    "lucapinello.bsky.social",        # Luca Pinello — CRISPR editing + genomics, Harvard/MGH
+
+    # --- Ecosystem / events worth the noise ---
+    "workshopmlsb.bsky.social",       # MLSB — ML in Structural Biology (NeurIPS)
+    "synbiobeta.bsky.social",         # SynBioBeta — industry conference
+    "biorxivpreprint.bsky.social",    # bioRxiv preprints feed
 ]
 
 REDDIT_SUBS  = ["biotech", "genetic_engineering", "CRISPR"]
