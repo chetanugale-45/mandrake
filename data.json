@@ -1,5 +1,326 @@
 {
-  "updated": "2026-06-18T11:28:23Z",
-  "movements": [],
+  "updated": "2026-06-19T02:58:36Z",
+  "movements": [
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Bayesian modeling of longitudinal metatranscriptomes of broiler meat spoilage microbiomes shows shared predictive signature associated with…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molz7t3bq52a"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Validation of a multiscale Hill-type actuator against comprehensive benchmarks of motor unit and muscle force measurements https://www.bior…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molz6smqfe2o"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Beyond competence: a mechanistic model of avian demographic drivers in West Nile virus dynamics https://www.biorxiv.org/content/10.64898/20…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molycw6yri2s"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Pyocyanin disrupts airway regeneration to favor chronic Pseudomonas aeruginosa infection https://www.biorxiv.org/content/10.64898/2026.06.1…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molxkupij72a"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Cardiac Myosin Activation Enhances Contractility While Preserving Myocardial Energetics Compared With β-Adrenergic Stimulation https://www.…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molwpg443z2r"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "DNA Sequence and Histone Variant H2A.Z Jointly Govern Nucleosome Unwrapping Pathways https://www.biorxiv.org/content/10.64898/2026.06.15.73…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molw34tcr522"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "MorphoStat: A Statistics-Aware Pipeline for Morphological Profiling Analysis https://www.biorxiv.org/content/10.64898/2026.06.15.732111v1",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molvzm3mmm2c"
+    },
+    {
+      "date": "2026-06-18",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Predicting optimal growth temperatures of bacteria using learned structural information from a single protein https://www.biorxiv.org/conte…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molvz6a3bn2s"
+    },
+    {
+      "date": "2026-06-17",
+      "type": "social",
+      "who": "Yunha Hwang",
+      "title": "Excited to share the latest version of FlashPPI published with @pnas.org ! And stay tuned for updates soon…👀",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/microyunha.bsky.social/post/3moiy5noypk2b"
+    },
+    {
+      "date": "2026-06-16",
+      "type": "social",
+      "who": "Martin Pacesa",
+      "title": "www.aeplan.co.jp/bmb2026/en/r... Register for the BMB2026 meeting in Yokohama 1-4th of December! おじかんが ありましたら、ぜひ いっぱい ごいっしょ させてください。",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3mofv4ijqn22f"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Sergey Ovchinnikov",
+      "title": "Finally, the code for anyone wanting to run alphafold3 locally with openfold3 weights (including convert script) can be found here: github.…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/sokrypton.org/post/3modhoclztc2p"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Sergey Ovchinnikov",
+      "title": "To get OpenFold3 (pytorch weights) working in AlphaFold3 (jax code base) was not super easy. Required an entire weekend and $40 of Claude C…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/sokrypton.org/post/3modho6b2ks2p"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Sergey Ovchinnikov",
+      "title": "New Experimental Google Colab Notebook now integrates AlphaFold3 with OpenFold3 and py2Dmol: colab.research.google.com/github/sokry... (1/3)",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/sokrypton.org/post/3modhnzfqtk2p"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Sergey Ovchinnikov",
+      "title": "New Experimental Google Colab Notebook now integrates AlphaFold3 with OpenFold3 and py2Dmol: colab.research.google.com/github/sokry... (1/3)",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3modhnzfqtk2p"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Sergey Ovchinnikov",
+      "title": "New Experimental Google Colab Notebook now integrates AlphaFold3 with OpenFold3 and py2Dmol: colab.research.google.com/github/sokry... (1/3)",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3modhnzfqtk2p"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Martin Pacesa",
+      "title": "My favourite sequential folding video, featured on the homepage",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3modasoyzxs2l"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Martin Pacesa",
+      "title": "Lastly, I want to give massive credit to @bradyajohnston.bsky.social , who built Molecular Nodes, and made it possible to generate such bea…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3mod3n4llws2g"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Martin Pacesa",
+      "title": "We also have a page on BindCraft, where we describe what it can and cannot do currently, and list publications that have experimentally val…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3mod3n2pda22g"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Martin Pacesa",
+      "title": "We have a page for resources where you can find some online tools we have built that everyone can use (such as the Matthew probability calc…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3mod3mxptks2g"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Martin Pacesa",
+      "title": "Our lab website is finally online! pacesalab.com You can find information about our research, publications, and on-going developments in th…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3mod3mvl6cc2g"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "social",
+      "who": "Kevin K. Yang 楊凱筌",
+      "title": "Aggregating many experiments into one zero-shot protein language model score obscures that current models cannot meaningfully rank a set of…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3modzzjn3fs22"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "press",
+      "who": "Phys.org Biotech",
+      "title": "Scientists improve nearly every aspect of prime editing, moving it closer to treating more genetic diseases",
+      "source": "Phys.org Biotech",
+      "url": "https://phys.org/news/2026-06-scientists-aspect-prime-closer-genetic.html"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "social",
+      "who": "Scott Soderling",
+      "title": "Funny quote of the day. “No major life decisions within 30 days of: A meditation retreat A psychedelic experience Your first encounter with…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mnziitecgc2u"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "social",
+      "who": "Scott Soderling",
+      "title": "Looking forward to this!",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mnz6pqafek2q"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "social",
+      "who": "Emma Chory, Ph.D.",
+      "title": "Deeply honored to be named a 2026 Beckman Young Investigator #BYI!🧬 This recognition reflects the creativity and hard work of my incredible…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mnuzgcdz522a"
+    },
+    {
+      "date": "2026-05-30",
+      "type": "social",
+      "who": "Martin Pacesa",
+      "title": "Amazing work from the Kellogg lab!! I had this kind of project in my very first 2022 professorship proposal and but never actually did it, …",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3mn2ydouo4k2l"
+    },
+    {
+      "date": "2026-05-29",
+      "type": "social",
+      "who": "Kevin K. Yang 楊凱筌",
+      "title": "Learn which structural domains are compatible with each other, then generate protein sequences conditioned on the desired structural domain…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3mmzcixzogc2s"
+    },
+    {
+      "date": "2026-05-29",
+      "type": "social",
+      "who": "Scott Soderling",
+      "title": "CONGRATS!!! Not surprised at all 😁",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mmzlklxgrk2b"
+    },
+    {
+      "date": "2026-05-26",
+      "type": "social",
+      "who": "Yunha Hwang",
+      "title": "SeqHub API Beta now live - genomic neighborhood retrieval and functional annotation just became instantaneous🤗",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/microyunha.bsky.social/post/3mmr5rpf3z226"
+    },
+    {
+      "date": "2026-05-21",
+      "type": "social",
+      "who": "Yehlin Cho",
+      "title": "🚀 Excited to share our new work: Absolute Stability Predictor! 📊: forms.gle/4ZnXZSnTBvay... Built the MGnify Stability Dataset (1.8M+ measu…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/sokrypton.org/post/3mmfh4xvc7k2a"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "social",
+      "who": "Gozde Demirer",
+      "title": "Caltech Chemical Engineering is recruiting a long-term lecturer! Reach out if you’re interested and have any questions. applications.caltec…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/francesarnold.bsky.social/post/3mlwh2szm622x"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "social",
+      "who": "Jase Gehring",
+      "title": "very very cool! i had the privilege of asking Mohammed AlQuraishi's opinion on this topic a couple years ago",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3mlwdxcoyck2g"
+    },
+    {
+      "date": "2026-05-15",
+      "type": "social",
+      "who": "Kevin K. Yang 楊凱筌",
+      "title": "Screen 1M random protein sequences to discover that biology-like folds are accessible from random sequences with surprising frequency www.b…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3mlwamkks5c2k"
+    },
+    {
+      "date": "2026-05-11",
+      "type": "social",
+      "who": "OpenBind",
+      "title": "Our latest blog takes a behind‑the‑scenes look at the experimental and structural biology work behind #OpenBind’s first data release - from…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mlksp6664f2p"
+    },
+    {
+      "date": "2026-05-11",
+      "type": "social",
+      "who": "Janani Durairaj (Jay)",
+      "title": "It's finally out!",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mlliizli5s2w"
+    },
+    {
+      "date": "2026-05-11",
+      "type": "social",
+      "who": "Kevin K. Yang 楊凱筌",
+      "title": "Genie3: all-atom SE3-equivariance for fast and performant protein design. @yeqinglin.bsky.social @moalquraishi.bsky.social www.biorxiv.org/…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3mlmailbut22n"
+    },
+    {
+      "date": "2026-05-08",
+      "type": "social",
+      "who": "Mohammed AlQuraishi",
+      "title": "Equivariance is dead! 😢 Or is it? 😈 Genie 3 is out! Our latest protein design model achieves SoTA results for binder design and motif scaff…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mldvvb5s4c2q"
+    },
+    {
+      "date": "2026-05-08",
+      "type": "social",
+      "who": "OpenBind",
+      "title": "The latest blog from #OpenBind introduces a new structure–affinity dataset for the EV‑A71 2A protease, alongside reference benchmarks and g…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mldbbrkouj2v"
+    },
+    {
+      "date": "2026-05-04",
+      "type": "social",
+      "who": "John Chodera",
+      "title": "Tremendously excited to help launch the Open Source for Science Fund, led by a fantastic team with an extraordinary track record of support…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3ml275ugdg22k"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "social",
+      "who": "Simon Kozlov",
+      "title": "Yours truly is a proper scientist now! TL;DR: we used AI to redesign parts of essential cell machinery with only 19 canonical amino acids i…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/sokrypton.org/post/3mkt4jk2adc2s"
+    }
+  ],
   "research": []
 }
