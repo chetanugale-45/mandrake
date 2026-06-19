@@ -44,8 +44,14 @@ UA = {"User-Agent": "editing-signal-tracker/2.0 (research dashboard)"}
 CONTACT_EMAIL = "you@example.com"   # speeds up OpenAlex (their polite pool)
 
 KEYWORDS = [
-    "prime editing","base editing","gene editing","protein design","de novo protein",
+    "prime editing","gene editing infrastructure", "base editing","gene editing","protein design","de novo protein",
     "CRISPR","reverse transcriptase","protein language model","enzyme design","genome editor",
+]
+KEYWORDS = [
+    "prime editing","gene editing infrastructure","base editing","gene editing","protein design","de novo protein",
+    "CRISPR","reverse transcriptase","protein language model","enzyme design","genome editor",
+    "Profluent","Prime Medicine",,"EvolutionaryScale","Generate Biomedicines",
+    "Beam Therapeutics","Intellia","Editas","Arzeda","Cradle","base editor","recombinase",
 ]
 
 # --- Bluesky handles of people you track (REPLACE with real handles) ---
@@ -95,13 +101,23 @@ BLUESKY_HANDLES = [
 ]
 
 REDDIT_SUBS  = ["biotech", "genetic_engineering", "CRISPR"]
-GITHUB_ORGS  = ["Mandrake-Bioworks", "evolutionaryscale"]   # add competitor orgs
+GITHUB_ORGS  = ["Mandrake-Bioworks", "evolutionaryscale", "google-deepmind", "pinellolab", "Physics4MedicineLab", "Profluent-AI", "samgould2", "cong-lab", "RosettaCommons", "DISCO-design", "EnzymeAD", "ChemBioHTP", "industrial-enzymes", "uzh-dqbm-cmi"]   # add competitor orgs
 
 RSS_FEEDS = [
-    ("Fierce Biotech", "https://www.fiercebiotech.com/rss/xml"),
-    ("Nature Biotech", "https://www.nature.com/nbt.rss"),
-    ("STAT",           "https://www.statnews.com/feed/"),
-    ("Endpoints",      "https://endpts.com/feed/"),
+    # --- business / money / people moves (highest value for you) ---
+    ("Endpoints News",   "https://endpts.com/feed"),                           # ✓ funding, deals, exec moves
+    ("BioPharma Dive",   "https://www.biopharmadive.com/feeds/news/"),         # ✓ exec/business news
+    ("GEN",              "https://www.genengnews.com/feed/"),                  # ✓ genetic-engineering specific
+    ("Fierce Biotech",   "https://www.fiercebiotech.com/rss/xml"),            # ✓ business (already worked for you)
+    ("STAT",             "https://www.statnews.com/feed/"),                    # ✓ broad biotech, strong
+
+    # --- research-heavy / high volume ---
+    ("ScienceDaily Biotech", "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml"),  # ✓ high volume
+    ("Phys.org Biotech",     "https://phys.org/rss-feed/biology-news/biotechnology/"),              # ✓ high volume
+    ("Nature Biotech",       "https://www.nature.com/nbt.rss"),         # ✓ journal cadence
+    ("CRISPR Therapeutics", "https://crisprtx.gcs-web.com/rss/news-releases.xml")
+    ("MIT Tech Review Bio", "https://www.technologyreview.com/topic/biotechnology/feed/"),  # ran the Aurora/CRISPR features
+    ("LifeSciVC",           "https://lifescivc.com/feed/"),            # Atlas Venture partner — investor thesis
 ]
 
 LOOKBACK_DAYS = 30
