@@ -54,6 +54,12 @@ PERSON_QUERIES = {
     "Andrew Anzalone":  '"Andrew Anzalone"',
     "Frances Arnold":   '"Frances Arnold"',
     "Fyodor Urnov":     '"Fyodor Urnov"',
+    "Alexander Rives":  '"Alexander Rives" EvolutionaryScale',
+    "Stef van Grieken": '"Stef van Grieken" Cradle',
+    "David Liu":        '"David Liu"',
+    "Nathan Benaich":  '"Nathan Benaich" editing',
+    "Jamin Ball":  '"Jamin Ball" gene editing',
+    "Johnny Hu":   '"Johnny Hu" gene editing'
 }
 
 # Keyword filter applies to the broad biotech RSS + reddit + bioRxiv (NOT to the
