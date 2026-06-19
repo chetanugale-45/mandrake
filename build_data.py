@@ -115,7 +115,7 @@ RSS_FEEDS = [
     ("ScienceDaily Biotech", "https://www.sciencedaily.com/rss/plants_animals/biotechnology.xml"),  # ✓ high volume
     ("Phys.org Biotech",     "https://phys.org/rss-feed/biology-news/biotechnology/"),              # ✓ high volume
     ("Nature Biotech",       "https://www.nature.com/nbt.rss"),         # ✓ journal cadence
-    ("CRISPR Therapeutics", "https://crisprtx.gcs-web.com/rss/news-releases.xml")
+    ("CRISPR Therapeutics", "https://crisprtx.gcs-web.com/rss/news-releases.xml"),
     ("MIT Tech Review Bio", "https://www.technologyreview.com/topic/biotechnology/feed/"),  # ran the Aurora/CRISPR features
     ("LifeSciVC",           "https://lifescivc.com/feed/"),            # Atlas Venture partner — investor thesis
 ]
