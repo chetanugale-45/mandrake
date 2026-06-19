@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T04:07:09Z",
+  "updated": "2026-06-19T04:31:26Z",
   "movements": [
     {
       "date": "2026-06-19",
@@ -15,9 +15,41 @@
       "date": "2026-06-19",
       "type": "social",
       "who": "bioRxivpreprint",
-      "title": "segSHAPE: RNA secondary structure prediction from nanopore direct RNA sequencing https://www.biorxiv.org/content/10.64898/2026.06.15.732177v1",
+      "title": "Antagonism of stress granules key for SARS-CoV-2 infection and pathogenesis. https://www.biorxiv.org/content/10.64898/2026.06.16.732644v1",
       "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3momgllri7222"
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3momicudedh2m"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Laudanosine restricts Ebola virus entry by targeting TPC2-dependent endolysosomal trafficking https://www.biorxiv.org/content/10.64898/2026.06.17.732…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3momicku2a62x"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Microaerobic Copper Stress Redirects Pyruvate Metabolism and Reveals a CopL-linked Nitrogen Response in Staphylococcus aureus. https://www.biorxiv.or…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3momic6lcw22f"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Coupled effects of salinity and host phylogeny on niche breadth and viral evolution from seawater to salt saturation https://www.biorxiv.org/content/…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3momibpg2hb2c"
+    },
+    {
+      "date": "2026-06-19",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Abiotic cues modulate exopolysaccharides to influence type VI secretion system-mediated antagonism https://www.biorxiv.org/content/10.64898/2026.06.1…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3momiaycs642x"
     },
     {
       "date": "2026-06-18",
@@ -118,38 +150,6 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeDkzVFo4Ri1WS0xGZmZPZnRBV284TXdkQUxWbXhRWjlrWGZQYU43aXo2T1R0OUkxMGlHMzFjZ18zWEI0M0pLTGR5U25XSG9faWVoWDlUNUdLeU1qVjhrcmhmWnNwdUs2Q1h6aUZZRTFxVGlVajJNVlZJb1g2X0NkeDk0LWtKempITGE0NUZmdlo2djRsZjFuYVlKS1c4UXBOTU1CSEk0ekI4WmpUQW5zVGRIVWQ4RkhwbVVTdw?oc=5",
       "entity": "Beam Therapeutics",
       "entkind": "competitor"
-    },
-    {
-      "date": "2026-06-18",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Bayesian modeling of longitudinal metatranscriptomes of broiler meat spoilage microbiomes shows shared predictive signature associated with spoilage …",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molz7t3bq52a"
-    },
-    {
-      "date": "2026-06-18",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Validation of a multiscale Hill-type actuator against comprehensive benchmarks of motor unit and muscle force measurements https://www.biorxiv.org/co…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molz6smqfe2o"
-    },
-    {
-      "date": "2026-06-18",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Beyond competence: a mechanistic model of avian demographic drivers in West Nile virus dynamics https://www.biorxiv.org/content/10.64898/2026.06.15.7…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molycw6yri2s"
-    },
-    {
-      "date": "2026-06-18",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Pyocyanin disrupts airway regeneration to favor chronic Pseudomonas aeruginosa infection https://www.biorxiv.org/content/10.64898/2026.06.15.732350v1",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3molxkupij72a"
     },
     {
       "date": "2026-06-17",
@@ -380,11 +380,11 @@
     {
       "date": "2026-06-01",
       "type": "press",
-      "who": "Frances Arnold",
-      "title": "Alphabet director Frances Arnold sells $38,862 in class C stock",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckZhQzk2X2pUSHJfV1lDbHJQbk1oOTcxY3o4QldCMnRHRmpHSWdkcjBGQ05xYnNiZUgtSFV4bW1Pd0xhTXRGNUpwdUg4Rk1JNDBhWHdHS3RRRmVOb3htQ3loaUwyRnVhMXlzdkFzVF93LWU0NTBoalI5WWxTVXRhQzNDOEJ3cm1rNmlfZG9NWTNGNGF2eDJCR1otVmItTjJWN05ucXBEaDI0ZFRJVnJSQVh3Nlg2Z1F2T0NUVURiTjVNLTRR?oc=5",
-      "entity": "Frances Arnold",
+      "who": "David Liu",
+      "title": "David Liu Builds a Lifetime of History Between Lovers in His Temporally Fluid Short ‘A Song for Gracie’",
+      "source": "IMDb",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIdzNlLU5mYmFFNGU2cXVTbk15T0p6LWpmYWNyd3ZNT2duSEZ0WnI3TUxGZzB5eWxTSk9yMFFfc0tDblhLNGJBclctMkdKNHd4NF8yQ29oUnM4VUhGTV9mRFQ0WlE?oc=5",
+      "entity": "David Liu",
       "entkind": "person"
     },
     {
@@ -436,6 +436,16 @@
       "title": "🚀 Excited to share our new work: Absolute Stability Predictor! 📊: forms.gle/4ZnXZSnTBvay... Built the MGnify Stability Dataset (1.8M+ measurements) a…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/sokrypton.org/post/3mmfh4xvc7k2a"
+    },
+    {
+      "date": "2026-05-19",
+      "type": "press",
+      "who": "David Liu",
+      "title": "First rule of a disease fighter: Be curious",
+      "source": "Harvard Gazette",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY2hacXd5TTZtSl9PSEtnQjdRWU9mblpjdVVkc2I0d2FVY0RYMmgwVEJfeEhDQVZkZTZjNm1tUTBmWjlTX1pZV0hmRHF6VmpSOXlWRjBPTnlKRmctLXNxQURIUWpWNDVLbF9QcThBTHdZb2hja2FmSXdmTmhQYUhZc3pyREswSTZ4TGd0Mnc2cHYxcFho?oc=5",
+      "entity": "David Liu",
+      "entkind": "person"
     },
     {
       "date": "2026-05-16",
@@ -522,6 +532,16 @@
       "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mldbbrkouj2v"
     },
     {
+      "date": "2026-05-06",
+      "type": "press",
+      "who": "David Liu",
+      "title": "Long David Liu, AD-49 candidate, 2026 primary election questionnaire",
+      "source": "Orange County Register",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYUJiNDJXZGozcEZHMWNWYnJFNWFycFRQWkxIU3dFbDFoRnpodllCV3dMS2NhSmpXSUhUbm9MRHhRZC1Ec0ZZa28xQ3pQTFR3T05CWjhKUlZudHBlbG80elZxRHlGUGpsZkQyZ19wM2s1MzB4TnpOcE5ianVhZDRjVG1PemN2TldEZ0tRNVRIRHo5Wld3YjlKR1NSWW1ucXIwdEJIeW1nSFI?oc=5",
+      "entity": "David Liu",
+      "entkind": "person"
+    },
+    {
       "date": "2026-05-05",
       "type": "press",
       "who": "Arzeda",
@@ -538,6 +558,16 @@
       "title": "Yours truly is a proper scientist now! TL;DR: we used AI to redesign parts of essential cell machinery with only 19 canonical amino acids instead of …",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/sokrypton.org/post/3mkt4jk2adc2s"
+    },
+    {
+      "date": "2026-04-30",
+      "type": "press",
+      "who": "David Liu",
+      "title": "Gene therapy pioneer David Liu among 2026 Franklin Institute honorees",
+      "source": "Inquirer.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVdQQ3JWaUNNYTdWZWprRVdnZ3EzUWg0ZHRGWUlhNVZWbENJaEtfcmhlV0tOSXFPSUMzM2c4Y194Vlhra1hLanZEcWNHSG5YMDhVT2V1UmlUTFNOck5QazZMY2tranRwVWVmS2tqQk5nOThhTXVFaFgzOF9wWTRoTTRucTQwM21NTkNrY0VsTkJfMkI5NFVDWUU4SQ?oc=5",
+      "entity": "David Liu",
+      "entkind": "person"
     },
     {
       "date": "2026-04-28",
@@ -678,30 +708,6 @@
       "title": "Such an incredible journey building DISCO 🪩. Love working with this team. DISCO is a co-design model with functional, de novo, new-to-nature enzymes.…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/francesarnold.bsky.social/post/3miyqx7cqd22z"
-    },
-    {
-      "date": "2026-04-08",
-      "type": "social",
-      "who": "Marta Skreta",
-      "title": "What if AI could invent enzymes that nature hasn’t seen? 👩‍🔬🧑‍🔬 Introducing 🪩 DISCO: Diffusion for Sequence-structure CO-design 📝 Blog: disco-design.…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/francesarnold.bsky.social/post/3miyncz4lmc24"
-    },
-    {
-      "date": "2026-04-07",
-      "type": "social",
-      "who": "Yunha Hwang",
-      "title": "We’re incredibly grateful to have Alex Bateman on our advisory board. Biology today would look very different without UniProt. Scientific data infras…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/microyunha.bsky.social/post/3mivyietpfk2n"
-    },
-    {
-      "date": "2026-04-02",
-      "type": "social",
-      "who": "Tatta Bio",
-      "title": "Most protein-protein interaction tools work on protein pairs. FlashPPI runs at proteome scale and now across two proteomes at once. Upload any two da…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/microyunha.bsky.social/post/3mijforqlrs2l"
     }
   ],
   "research": [
@@ -989,16 +995,16 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTnMzbWZrVlVJMGhsdXc4aGpjdXp0c2pZSnMyTGl2MTRWRHVONDcxNXNlc0FUVWdET1BWR2NJdzFLUkZrUDdaU0lVcUE4eU9YU09HYTBzYlVwck80cVNON2llckx5Wk1IbUtrMHRsYlZWdk9XZWs1RTJjYVJGZzdtMEtmY2hRU2E2LWlWS0tMaERsN1JhcFNhMHVVSEZoX1hQ?oc=5"
       },
       {
-        "date": "2026-06-15",
-        "title": "Intellia touts ‘paradigm-shifting’ phase 3 data for one-time HAE treatment",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMnJxRFRzUEg3aUcyZGdWNGFVRC01NHhQdG1VZFpLLVdsYTBRUjF0WUI1YjhLcE9veEtTTDVvdHpYTG1VeE1LLVV3ZTJOeHVyWXEtcFNrUDhpTDNnc2VSOWVxRXZVcmFxekdVUE1IOXAzTUl4bmJsWlI2TDdQYW5TQUc2UTZSaWNicW1aMTdGamZPMkFPNDZHZ0UzWmowUE5odUNkOExtMEdNVXFNbldWMjhZYw?oc=5"
-      },
-      {
         "date": "2026-06-19",
         "title": "Friday Five – FDA flexibility, Biogen's latest bolt-on, Intellia's CRISPR case may be needle in a HAE-stack…and more",
         "source": "FirstWord Pharma",
         "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9QenpnWnFwZVJTQ2llMTRlZjhVZjc2dzFRTTFqdFlDaEJ3WWJVT0NDZnN1d0JGVXltUnVkUHF5UTJnLUxfanBnVFY4dGxKVmgxRTZj?oc=5"
+      },
+      {
+        "date": "2026-06-15",
+        "title": "Intellia touts ‘paradigm-shifting’ phase 3 data for one-time HAE treatment",
+        "source": "Fierce Biotech",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMnJxRFRzUEg3aUcyZGdWNGFVRC01NHhQdG1VZFpLLVdsYTBRUjF0WUI1YjhLcE9veEtTTDVvdHpYTG1VeE1LLVV3ZTJOeHVyWXEtcFNrUDhpTDNnc2VSOWVxRXZVcmFxekdVUE1IOXAzTUl4bmJsWlI2TDdQYW5TQUc2UTZSaWNicW1aMTdGamZPMkFPNDZHZ0UzWmowUE5odUNkOExtMEdNVXFNbldWMjhZYw?oc=5"
       }
     ],
     "Ali Madani": [
@@ -1035,6 +1041,32 @@
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JMjFxSnBZZkwtN3llNWQwWUg1RmpfYTVyLW5BVHNmUmZnb3NsLUtOVnFoMjlwUVJNMUpwU05RSElWX3lFUzI4cjlyUUpjNzdtQUM4SnVHSVhnNlhHb25PdThpcTh4bmJCUG9lOHBmNi13OFp5U3JZZFhRSElMSGs?oc=5"
       }
     ],
+    "David Liu": [
+      {
+        "date": "2026-06-01",
+        "title": "David Liu Builds a Lifetime of History Between Lovers in His Temporally Fluid Short ‘A Song for Gracie’",
+        "source": "IMDb",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBIdzNlLU5mYmFFNGU2cXVTbk15T0p6LWpmYWNyd3ZNT2duSEZ0WnI3TUxGZzB5eWxTSk9yMFFfc0tDblhLNGJBclctMkdKNHd4NF8yQ29oUnM4VUhGTV9mRFQ0WlE?oc=5"
+      },
+      {
+        "date": "2026-04-30",
+        "title": "Gene therapy pioneer David Liu among 2026 Franklin Institute honorees",
+        "source": "Inquirer.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVdQQ3JWaUNNYTdWZWprRVdnZ3EzUWg0ZHRGWUlhNVZWbENJaEtfcmhlV0tOSXFPSUMzM2c4Y194Vlhra1hLanZEcWNHSG5YMDhVT2V1UmlUTFNOck5QazZMY2tranRwVWVmS2tqQk5nOThhTXVFaFgzOF9wWTRoTTRucTQwM21NTkNrY0VsTkJfMkI5NFVDWUU4SQ?oc=5"
+      },
+      {
+        "date": "2026-05-06",
+        "title": "Long David Liu, AD-49 candidate, 2026 primary election questionnaire",
+        "source": "Orange County Register",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYUJiNDJXZGozcEZHMWNWYnJFNWFycFRQWkxIU3dFbDFoRnpodllCV3dMS2NhSmpXSUhUbm9MRHhRZC1Ec0ZZa28xQ3pQTFR3T05CWjhKUlZudHBlbG80elZxRHlGUGpsZkQyZ19wM2s1MzB4TnpOcE5ianVhZDRjVG1PemN2TldEZ0tRNVRIRHo5Wld3YjlKR1NSWW1ucXIwdEJIeW1nSFI?oc=5"
+      },
+      {
+        "date": "2026-05-19",
+        "title": "First rule of a disease fighter: Be curious",
+        "source": "Harvard Gazette",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPY2hacXd5TTZtSl9PSEtnQjdRWU9mblpjdVVkc2I0d2FVY0RYMmgwVEJfeEhDQVZkZTZjNm1tUTBmWjlTX1pZV0hmRHF6VmpSOXlWRjBPTnlKRmctLXNxQURIUWpWNDVLbF9QcThBTHdZb2hja2FmSXdmTmhQYUhZc3pyREswSTZ4TGd0Mnc2cHYxcFho?oc=5"
+      }
+    ],
     "Andrew Anzalone": [
       {
         "date": "2026-06-14",
@@ -1043,20 +1075,20 @@
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcm0yMnJWeVFEc19Mb1hJLUpJQUJjeU9lb2M1Sjh4X3dXdkZYNGVidVBqZi1wd0g1VXFyNTZhSnktZ0NnVThLVDhLb3M4RDlYWWZvM0xRaGtJTVNNY0traFMydTZ2TC1pR0tJRGxmYXYtZ1lrRGZ2WUROcTdLeW1qUjEydjRtR25nb0VqNVhLTmxEbzVFMGtMTDgxak5kcXpr?oc=5"
       }
     ],
-    "Frances Arnold": [
-      {
-        "date": "2026-06-01",
-        "title": "Alphabet director Frances Arnold sells $38,862 in class C stock",
-        "source": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckZhQzk2X2pUSHJfV1lDbHJQbk1oOTcxY3o4QldCMnRHRmpHSWdkcjBGQ05xYnNiZUgtSFV4bW1Pd0xhTXRGNUpwdUg4Rk1JNDBhWHdHS3RRRmVOb3htQ3loaUwyRnVhMXlzdkFzVF93LWU0NTBoalI5WWxTVXRhQzNDOEJ3cm1rNmlfZG9NWTNGNGF2eDJCR1otVmItTjJWN05ucXBEaDI0ZFRJVnJSQVh3Nlg2Z1F2T0NUVURiTjVNLTRR?oc=5"
-      }
-    ],
     "Fyodor Urnov": [
       {
         "date": "2026-05-13",
         "title": "“It Was Not a Cure”: Musunuru Cautions ASGCT on Baby KJ Promise",
         "source": "Genetic Engineering and Biotechnology News",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQlhZMGl2VW9RaC1aZjl1dkU1VndfcFBBLU9YeUx2UG1yUXM2Qjd2Q3ZBVVVDeU45czRBRVAwRVRnSlMzZzlEUnFHWnBNdFl6T2pqN0pYcFN4X2dpLV9Salk2V0toMDRtaEF0TFI3MkI4WDRzSmJ6UzlNMDdvc3lScUgyR0JVMHp3a3EyTEpxclkwUHR3ZHZqOFFFSXQzQQ?oc=5"
+      }
+    ],
+    "Nathan Benaich": [
+      {
+        "date": "2026-03-24",
+        "title": "Dermer dispatched on Iran",
+        "source": "Jewish Insider",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83TnZMTVZ1eDQ1WTlrUDBKclpRdkd2ZktMMnBxdHI5c3hzMlU4NjM1ZjRtNVlWTVJsc3J4aWFiYjVLTjVYa1RIelZzZkhtSUtocWgzbEN1YUw2NVA2N1pqWkp4aG9GNXliWHpsTUZoR2F0bXhBQUZPc3BFQU1mZ2M?oc=5"
       }
     ]
   },
