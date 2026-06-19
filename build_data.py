@@ -50,16 +50,16 @@ COMPETITOR_QUERIES = {
 PERSON_QUERIES = {
     "Ali Madani":       '"Ali Madani" Profluent',
     "Jennifer Doudna":  '"Jennifer Doudna"',
-    "David Liu":        '"David Liu" editing',
-    "Andrew Anzalone":  '"Andrew Anzalone"',
+    "David Liu":        '"David Liu" Harvard',
+    "Andrew Anzalone":  '"Andrew Anzalone" Prime Editing ',
     "Frances Arnold":   '"Frances Arnold"',
-    "Fyodor Urnov":     '"Fyodor Urnov"',
+    "Fyodor Urnov":     '"Fyodor Urnov" Aurora',
     "Alexander Rives":  '"Alexander Rives" EvolutionaryScale',
     "Stef van Grieken": '"Stef van Grieken" Cradle',
     "David Liu":        '"David Liu"',
-    "Nathan Benaich":  '"Nathan Benaich" editing',
-    "Jamin Ball":  '"Jamin Ball" gene editing',
-    "Johnny Hu":   '"Johnny Hu" gene editing'
+    "Nathan Benaich":  '"Nathan Benaich" Air Street Capital',
+    "Jamin Ball":  '"Jamin Ball" Altimeter',
+    "Johnny Hu":   '"Johnny Hu" Menlo'
 }
 
 # Keyword filter applies to the broad biotech RSS + reddit + bioRxiv (NOT to the
