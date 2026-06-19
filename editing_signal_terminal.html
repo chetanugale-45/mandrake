@@ -154,9 +154,9 @@
 <nav class="sidenav" id="sidenav">
   <a href="#sec-feed"><span class="nd"></span>Feed</a>
   <a href="#sec-people"><span class="nd"></span>People</a>
-  <a href="#sec-competitors"><span class="nd"></span>Competitors</a>
   <a href="#sec-research"><span class="nd"></span>Research</a>
   <a href="#sec-labs"><span class="nd"></span>Labs</a>
+  <a href="#sec-competitors"><span class="nd"></span>Competitors</a>
   <a href="#sec-ritual"><span class="nd"></span>Ritual</a>
 </nav>
 <div class="wrap">
@@ -214,9 +214,6 @@
     </div>
   </div>
 
-  <div class="sechead" id="sec-competitors">Competitor intelligence — micro <span class="pill cur">curated</span></div>
-  <div class="cgrid" id="competitors"></div>
-
   <div class="sechead" id="sec-research">Research &amp; labs — by type <span class="right"><span class="pill live">live</span><span class="pill cur">key</span></span></div>
   <div class="grid">
     <div class="panel">
@@ -229,6 +226,9 @@
       <div id="labs"></div>
     </div>
   </div>
+
+  <div class="sechead" id="sec-competitors">Competitor intelligence — micro <span class="pill cur">curated</span></div>
+  <div class="cgrid" id="competitors"></div>
 
   <div class="ritual" id="sec-ritual">
     <h2>Keep it alive — the weekly ritual</h2>
@@ -253,7 +253,7 @@
 <script>
 const TYPE_GROUP={hire:"hires",exit:"hires",fundraise:"funding",mna:"funding",deal:"deals",partnership:"deals",publication:"research",release:"research",interview:"press",press:"press",social:"social"};
 const TYPE_LABEL={hire:"hire",exit:"departure",fundraise:"fundraise",mna:"M&A",deal:"deal",partnership:"partnership",publication:"publication",release:"release",interview:"interview",press:"press",social:"social"};
-const FILTERS=[["all","All"],["hires","Hires"],["funding","Funding"],["deals","Deals"],["research","Research"],["press","Press"],["social","Social"]];
+const FILTERS=[["all","All"],["funding","Funding"],["deals","Deals"],["research","Research"],["press","Press"],["social","Social"]];
 
 const MOVES=[
   {date:"2026-06-12",who:"Field",type:"release",title:"EvoPRIME prime-editing screening platform released",src:"CRISPR Medicine News",url:"https://crisprmedicinenews.com/"},
@@ -314,8 +314,7 @@ const COMPETITORS=[
   {name:"Mandrake",flag:true,raise:"seed · undisclosed",approach:"De novo editing enzymes · biophysics-first",
    facts:["Bangalore","founded <b>Mar '25</b>","backer <b>Antler</b>"],
    moves:[
-     {d:"2025",t:"<b>ORBIT</b> wins GEM × Adaptyv RBX1 binder challenge",g:"research",ty:"publication"},
-     {d:"hiring",t:"Building <b>founder's office</b> + AI research team",g:"hires",ty:"hire"},
+     {d:"Apr '26",t:"<b>ORBIT</b> wins GEM × Adaptyv RBX1 binder challenge (only 'Strong' design, beat 321)",g:"research",ty:"release"},
      {d:"open",t:"<b>Retroviral Wall</b> challenge live · 'The Assay' blog",g:"research",ty:"release"}
    ]}
 ];
