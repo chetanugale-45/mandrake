@@ -1,32 +1,23 @@
 #!/usr/bin/env python3
 """
-Editing Signal — people & movement pipeline
-===========================================
-Pulls REAL, free, durable signals about the people and orgs in enzyme-design /
-gene editing, and writes `data.json` for the dashboard.
+Editing Signal — people & movement pipeline (v4)
+================================================
+Writes data.json for the dashboard. Free sources, zero API keys.
 
-LIVE & FREE (wired here):
-  - Bluesky   : posts from tracked founders/VCs/scientists   (open API, no auth)
-  - Reddit    : keyword-matched posts in tracked subreddits   (RSS, no auth)
-  - GitHub    : new releases/tags from tracked orgs           (REST API, no auth)
-  - OpenAlex  : recent papers + the LAB/UNIVERSITY behind them(no auth)
-  - bioRxiv   : recent preprints                              (API, no auth)
-  - News RSS  : press & interviews                            (RSS, no auth)
+NEW in v4 — the "live competitor intelligence" unlock:
+  Google News RSS (news.google.com/rss/search?q=...) returns a free, no-key
+  live news feed for ANY search term. So the pipeline now runs a targeted
+  query for every competitor AND every tracked person, by name. Each entity
+  gets its own live news stream that flows into:
+    - the main movement feed (type "press", tagged with the entity)
+    - a per-entity news map the dashboard shows INSIDE each competitor card
 
-DELIBERATELY NOT SCRAPED (and why):
-  - X / Twitter : login-walled since 2023; free workarounds get IP/account
-                  banned within days. Track those people on BLUESKY instead,
-                  or log their posts by hand in the dashboard.
-  - LinkedIn    : actively blocks + litigates scraping. No safe free route.
-                  Its signal (hires, team-size, exec moves) -> press + your eyes
-                  via the "+ Log a movement" button.
+What this does NOT do (honest limits): it surfaces news, it does not *write
+analysis* of it (that needs a paid LLM), and it can't see things that never
+hit public news (private hires, etc.). But "every competitor + person gets a
+live news feed about them, by name" is the real, free version of live intel.
 
-Everything runs with ZERO API keys.
-
-WHERE TO RUN
-  - Colab (manual): paste this whole file into one cell, run, download data.json.
-  - GitHub Actions (auto/live): see README — schedule it, commit data.json,
-    serve the HTML on GitHub Pages. Self-updating, free.
+Social (Bluesky/Reddit) is still collected but shown behind the SOCIAL filter.
 """
 
 import sys, subprocess, json, datetime, time, re
@@ -40,23 +31,43 @@ _ensure([("requests","requests"), ("feedparser","feedparser")])
 import requests, feedparser
 
 # ============================ CONFIG ============================
-UA = {"User-Agent": "editing-signal-tracker/2.0 (research dashboard)"}
-CONTACT_EMAIL = "you@example.com"   # speeds up OpenAlex (their polite pool)
+UA = {"User-Agent": "editing-signal-tracker/4.0 (research dashboard)"}
+CONTACT_EMAIL = "you@example.com"
 
+# Entities to track BY NAME via Google News. The "key" must match the competitor
+# name used in the dashboard (COMPETITORS[].name) so cards can show their news.
+COMPETITOR_QUERIES = {
+    "Profluent":              '"Profluent"',
+    "EvolutionaryScale":      '"EvolutionaryScale"',
+    "Generate Biomedicines":  '"Generate Biomedicines"',
+    "Cradle":                 '"Cradle" protein design',
+    "Arzeda":                 '"Arzeda"',
+    "Mandrake":               '"Mandrake" gene editing',
+    "Prime Medicine":         '"Prime Medicine"',
+    "Beam Therapeutics":      '"Beam Therapeutics"',
+    "Intellia":               '"Intellia Therapeutics"',
+}
+PERSON_QUERIES = {
+    "Ali Madani":       '"Ali Madani" Profluent',
+    "Jennifer Doudna":  '"Jennifer Doudna"',
+    "David Liu":        '"David Liu" editing',
+    "Andrew Anzalone":  '"Andrew Anzalone"',
+    "Frances Arnold":   '"Frances Arnold"',
+    "Fyodor Urnov":     '"Fyodor Urnov"',
+}
+
+# Keyword filter applies to the broad biotech RSS + reddit + bioRxiv (NOT to the
+# Google-News-by-name searches, which are already entity-targeted, and NOT to OpenAlex).
 KEYWORDS = [
-    "prime editing","gene editing infrastructure", "base editing","gene editing","protein design","de novo protein",
+    "prime editing","base editing","gene editing","protein design","de novo protein",
     "CRISPR","reverse transcriptase","protein language model","enzyme design","genome editor",
-]
-KEYWORDS = [
-    "prime editing","gene editing infrastructure","base editing","gene editing","protein design","de novo protein",
-    "CRISPR","reverse transcriptase","protein language model","enzyme design","genome editor",
-    "Profluent","Prime Medicine","EvolutionaryScale","Generate Biomedicines",
-    "Beam Therapeutics","Intellia","Editas","Arzeda","Cradle","base editor","recombinase",
+    "base editor","recombinase","deaminase","gene therapy",
+    "Profluent","Prime Medicine","Mandrake","EvolutionaryScale","Generate Biomedicines",
+    "Beam Therapeutics","Intellia","Editas","Arzeda","Cradle","Caribou","Metagenomi",
+    "Scribe Therapeutics","Tessera","Aurora Therapeutics",
+    "Doudna","David Liu","Anzalone","Ali Madani","Frances Arnold","Urnov",
 ]
 
-# --- Bluesky handles of people you track (REPLACE with real handles) ---
-# Find a handle on someone's Bluesky profile (looks like name.bsky.social).
-# Unknown/empty handles are skipped gracefully, so it's safe to leave examples.
 BLUESKY_HANDLES = [
     # --- Competitors / industry (closest to Mandrake) ---
     "thisismadani.bsky.social",       # Ali Madani — CEO, Profluent
@@ -101,7 +112,8 @@ BLUESKY_HANDLES = [
 ]
 
 REDDIT_SUBS  = ["biotech", "genetic_engineering", "CRISPR"]
-GITHUB_ORGS  = ["Mandrake-Bioworks", "evolutionaryscale", "google-deepmind", "pinellolab", "Physics4MedicineLab", "Profluent-AI", "samgould2", "cong-lab", "RosettaCommons", "DISCO-design", "EnzymeAD", "ChemBioHTP", "industrial-enzymes", "uzh-dqbm-cmi"]   # add competitor orgs
+GITHUB_ORGS  = ["Mandrake-Bioworks", "evolutionaryscale", "facebookresearch","sokrypton", "google-deepmind", "pinellolab", "Physics4MedicineLab", "Profluent-AI", "samgould2", "cong-lab", "RosettaCommons", "DISCO-design", "EnzymeAD", "ChemBioHTP", "industrial-enzymes", "uzh-dqbm-cmi"]   # add competitor orgs
+
 
 RSS_FEEDS = [
     # --- business / money / people moves (highest value for you) ---
@@ -120,38 +132,87 @@ RSS_FEEDS = [
     ("LifeSciVC",           "https://lifescivc.com/feed/"),            # Atlas Venture partner — investor thesis
 ]
 
-LOOKBACK_DAYS = 30
-MAX_MOVEMENTS = 40
-MAX_RESEARCH  = 16
+
+# Labs -> OpenAlex institution search string, so we can pull each lab's latest paper.
+LAB_QUERIES = {
+    "Doudna lab / IGI":   "Innovative Genomics Institute",
+    "Liu lab (Broad)":    "Broad Institute prime editing",
+    "Knott lab (Monash)": "Monash University anti-CRISPR",
+    "Baker / IPD (UW)":   "Institute for Protein Design",
+    "Arc Institute":      "Arc Institute protein",
+}
+
+LOOKBACK_DAYS  = 30
+RESEARCH_DAYS  = 60
+NEWS_PER_ENTITY = 4     # max headlines kept per competitor/person
+MAX_MOVEMENTS  = 80
+MAX_RESEARCH   = 16
 
 # ============================ helpers ============================
-def kw(text): t=(text or "").lower(); return any(k in t for k in KEYWORDS)
+def kw(text): t=(text or "").lower(); return any(k.lower() in t for k in KEYWORDS)
 def today():  return datetime.date.today()
-def clip(s,n=140): s=re.sub(r"\s+"," ",s or "").strip(); return s if len(s)<=n else s[:n-1]+"\u2026"
+def clip(s,n=150): s=re.sub(r"\s+"," ",s or "").strip(); return s if len(s)<=n else s[:n-1]+"\u2026"
 
-# ============================ Bluesky (social) ============================
+# ============================ Google News (live per-entity) ============================
+def _gnews(query):
+    """Return recent headlines for a search term from Google News RSS (free, no key)."""
+    items=[]
+    try:
+        url=f"https://news.google.com/rss/search?q={requests.utils.quote(query)}&hl=en-US&gl=US&ceid=US:en"
+        d=feedparser.parse(url, agent=UA["User-Agent"])
+        for e in d.entries[:NEWS_PER_ENTITY]:
+            when=""
+            if getattr(e,"published_parsed",None):
+                when=datetime.date(*e.published_parsed[:3]).isoformat()
+            title=getattr(e,"title","")
+            # Google News appends " - Source"; split it off for a clean source label
+            src="Google News"
+            if " - " in title:
+                title, src = title.rsplit(" - ",1)
+            items.append({"date":when,"title":clip(title,170),"source":src.strip(),
+                          "url":getattr(e,"link","")})
+    except Exception as e:
+        print(f"  [gnews] '{query}': {e}")
+    return items
+
+def fetch_entity_news(query_map, kind):
+    """kind: 'competitor' or 'person'. Returns (movements, per_entity_map)."""
+    movements=[]; per_entity={}
+    cutoff=today()-datetime.timedelta(days=90)  # entity news: 90-day window
+    for name, q in query_map.items():
+        hits=_gnews(q)
+        keep=[]
+        for h in hits:
+            if h["date"]:
+                try:
+                    if datetime.date.fromisoformat(h["date"])<cutoff: continue
+                except Exception: pass
+            keep.append(h)
+            movements.append({"date":h["date"],"type":"press","who":name,
+                              "title":h["title"],"source":h["source"],"url":h["url"],
+                              "entity":name,"entkind":kind})
+        if keep: per_entity[name]=keep
+        time.sleep(0.4)  # be polite to Google News
+    return movements, per_entity
+
+# ============================ Bluesky / Reddit (social) ============================
 def fetch_bluesky():
-    out=[]
-    base="https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
+    out=[]; base="https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
     for handle in BLUESKY_HANDLES:
         try:
-            r=requests.get(base, params={"actor":handle,"limit":8}, headers=UA, timeout=20)
+            r=requests.get(base, params={"actor":handle,"limit":5}, headers=UA, timeout=20)
             if r.status_code!=200: continue
             for item in r.json().get("feed", []):
-                post=item.get("post",{}); rec=post.get("record",{})
-                text=rec.get("text",""); 
+                post=item.get("post",{}); rec=post.get("record",{}); text=rec.get("text","")
                 if not text: continue
-                when=(post.get("indexedAt","") or "")[:10]
-                rkey=(post.get("uri","").split("/")[-1])
+                when=(post.get("indexedAt","") or "")[:10]; rkey=post.get("uri","").split("/")[-1]
                 who=(post.get("author",{}) or {}).get("displayName") or handle
-                out.append({"date":when,"type":"social","who":who,
-                            "title":clip(text),"source":"Bluesky",
-                            "url":f"https://bsky.app/profile/{handle}/post/{rkey}"})
+                out.append({"date":when,"type":"social","who":who,"title":clip(text),
+                            "source":"Bluesky","url":f"https://bsky.app/profile/{handle}/post/{rkey}"})
         except Exception as e: print(f"  [bluesky] {handle}: {e}")
         time.sleep(0.2)
     return out
 
-# ============================ Reddit (social, RSS) ============================
 def fetch_reddit():
     out=[]; cutoff=today()-datetime.timedelta(days=LOOKBACK_DAYS)
     for sub in REDDIT_SUBS:
@@ -165,22 +226,20 @@ def fetch_reddit():
                     dt=datetime.date(*e.updated_parsed[:3])
                     if dt<cutoff: continue
                     when=dt.isoformat()
-                out.append({"date":when,"type":"social","who":f"r/{sub}",
-                            "title":clip(title),"source":"Reddit","url":getattr(e,"link","")})
+                out.append({"date":when,"type":"social","who":f"r/{sub}","title":clip(title),
+                            "source":"Reddit","url":getattr(e,"link","")})
         except Exception as ex: print(f"  [reddit] {sub}: {ex}")
     return out
 
-# ============================ GitHub (release) ============================
+# ============================ GitHub ============================
 def fetch_github():
     out=[]
     for org in GITHUB_ORGS:
         try:
-            r=requests.get(f"https://api.github.com/users/{org}/events/public",
-                           headers=UA, timeout=20)
+            r=requests.get(f"https://api.github.com/users/{org}/events/public", headers=UA, timeout=20)
             if r.status_code!=200: continue
             for ev in r.json()[:30]:
-                et=ev.get("type"); repo=(ev.get("repo",{}) or {}).get("name","")
-                when=(ev.get("created_at","") or "")[:10]
+                et=ev.get("type"); repo=(ev.get("repo",{}) or {}).get("name",""); when=(ev.get("created_at","") or "")[:10]
                 if et=="ReleaseEvent":
                     rel=ev.get("payload",{}).get("release",{})
                     out.append({"date":when,"type":"release","who":org,
@@ -188,19 +247,18 @@ def fetch_github():
                                 "source":"GitHub","url":rel.get("html_url",f"https://github.com/{repo}")})
                 elif et=="CreateEvent" and ev.get("payload",{}).get("ref_type")=="tag":
                     out.append({"date":when,"type":"release","who":org,
-                                "title":f"{repo}: tagged {ev['payload'].get('ref','')}",
-                                "source":"GitHub","url":f"https://github.com/{repo}"})
+                                "title":f"{repo}: tagged {ev['payload'].get('ref','')}","source":"GitHub","url":f"https://github.com/{repo}"})
         except Exception as e: print(f"  [github] {org}: {e}")
         time.sleep(0.3)
     return out
 
-# ============================ News RSS (press) ============================
+# ============================ broad biotech news ============================
 def fetch_news():
     out=[]; cutoff=today()-datetime.timedelta(days=LOOKBACK_DAYS)
     for source,url in RSS_FEEDS:
         try:
-            d=feedparser.parse(url)
-            for e in d.entries[:40]:
+            d=feedparser.parse(url, agent=UA["User-Agent"])
+            for e in d.entries[:50]:
                 title=getattr(e,"title","")
                 if not kw(title): continue
                 when=""
@@ -208,46 +266,49 @@ def fetch_news():
                     dt=datetime.date(*e.published_parsed[:3])
                     if dt<cutoff: continue
                     when=dt.isoformat()
-                out.append({"date":when,"type":"press","who":source,
-                            "title":clip(title,160),"source":source,"url":getattr(e,"link","")})
+                out.append({"date":when,"type":"press","who":source,"title":clip(title,170),
+                            "source":source,"url":getattr(e,"link","")})
         except Exception as ex: print(f"  [news] {source}: {ex}")
     return out
 
-# ============================ OpenAlex (research / labs) ============================
+# ============================ OpenAlex (research) ============================
 def fetch_openalex():
-    out=[]; since=(today()-datetime.timedelta(days=LOOKBACK_DAYS)).isoformat()
+    out=[]; since=(today()-datetime.timedelta(days=RESEARCH_DAYS)).isoformat()
     try:
         r=requests.get("https://api.openalex.org/works", timeout=30, params={
-            "search":"prime editing OR base editing OR de novo protein design OR genome editor",
-            "filter":f"from_publication_date:{since}","sort":"publication_date:desc",
-            "per_page":25,"mailto":CONTACT_EMAIL})
+            "search":"prime editing base editing genome editor de novo protein design reverse transcriptase",
+            "filter":f"from_publication_date:{since}","sort":"relevance_score:desc","per_page":25,"mailto":CONTACT_EMAIL})
         r.raise_for_status()
         for w in r.json().get("results",[]):
             title=w.get("title") or w.get("display_name")
-            if not title or not kw(title): continue
+            if not title: continue
             inst=""; au=w.get("authorships") or []
             if au:
                 ins=au[0].get("institutions") or []
                 if ins: inst=ins[0].get("display_name","")
             venue=((w.get("primary_location") or {}).get("source") or {}).get("display_name","")
             out.append({"title":title.strip(),"institution":inst,"source":venue,
-                        "date":w.get("publication_date",""),
-                        "url":w.get("doi") or w.get("id",""),"type":"paper"})
+                        "date":w.get("publication_date",""),"url":w.get("doi") or w.get("id",""),"type":"paper"})
     except Exception as e: print(f"  [openalex] {e}")
     return out
 
-# ============================ bioRxiv (preprints) ============================
+# ============================ bioRxiv ============================
 def fetch_biorxiv():
-    out=[]; frm=(today()-datetime.timedelta(days=LOOKBACK_DAYS)).isoformat(); to=today().isoformat()
+    out=[]; frm=(today()-datetime.timedelta(days=RESEARCH_DAYS)).isoformat(); to=today().isoformat()
     try:
-        r=requests.get(f"https://api.biorxiv.org/details/biorxiv/{frm}/{to}/0", timeout=30)
-        r.raise_for_status()
-        for p in r.json().get("collection",[]):
-            title=p.get("title","")
-            if not kw(title) and not kw(p.get("abstract","")): continue
-            out.append({"title":title.strip(),"institution":p.get("author_corresponding_institution",""),
-                        "source":"bioRxiv","date":p.get("date",""),
-                        "url":f"https://doi.org/{p.get('doi','')}" if p.get("doi") else "","type":"preprint"})
+        cursor=0
+        for _ in range(3):
+            r=requests.get(f"https://api.biorxiv.org/details/biorxiv/{frm}/{to}/{cursor}", timeout=30)
+            r.raise_for_status()
+            coll=r.json().get("collection",[])
+            if not coll: break
+            for p in coll:
+                title=p.get("title","")
+                if not kw(title) and not kw(p.get("abstract","")): continue
+                out.append({"title":title.strip(),"institution":p.get("author_corresponding_institution",""),
+                            "source":"bioRxiv","date":p.get("date",""),
+                            "url":f"https://doi.org/{p.get('doi','')}" if p.get("doi") else "","type":"preprint"})
+            cursor+=len(coll)
     except Exception as e: print(f"  [biorxiv] {e}")
     seen,uniq=set(),[]
     for x in out:
@@ -255,30 +316,64 @@ def fetch_biorxiv():
         if k not in seen: seen.add(k); uniq.append(x)
     return uniq
 
+# ============================ Labs: latest paper each (live) ============================
+def fetch_labs():
+    labs=[]
+    for name, q in LAB_QUERIES.items():
+        latest=None
+        try:
+            r=requests.get("https://api.openalex.org/works", timeout=25, params={
+                "search":q,"sort":"publication_date:desc","per_page":1,"mailto":CONTACT_EMAIL})
+            r.raise_for_status()
+            res=r.json().get("results",[])
+            if res:
+                w=res[0]
+                latest={"title":(w.get("title") or "").strip(),"date":w.get("publication_date",""),
+                        "url":w.get("doi") or w.get("id","")}
+        except Exception as e: print(f"  [labs] {name}: {e}")
+        labs.append({"name":name,"latest":latest})
+        time.sleep(0.3)
+    return labs
+
 # ============================ main ============================
 def main():
-    print("Editing Signal — building data.json ...")
+    print("Editing Signal v4 — building data.json ...")
     movements=[]
+    print(" • google-news: competitors"); comp_moves, comp_news = fetch_entity_news(COMPETITOR_QUERIES,"competitor")
+    print(" • google-news: people");      pers_moves, pers_news = fetch_entity_news(PERSON_QUERIES,"person")
+    movements += comp_moves + pers_moves
     print(" • bluesky"); movements+=fetch_bluesky()
     print(" • reddit");  movements+=fetch_reddit()
     print(" • github");  movements+=fetch_github()
     print(" • news");    movements+=fetch_news()
-    movements.sort(key=lambda x:x.get("date",""), reverse=True)
+
+    # de-dupe movements by (title) to collapse the same story from multiple feeds
+    seen,uniq=set(),[]
+    for m in sorted(movements, key=lambda x:x.get("date",""), reverse=True):
+        k=(m.get("title","")[:80].lower())
+        if k and k not in seen: seen.add(k); uniq.append(m)
+    movements=uniq
 
     print(" • openalex"); research=fetch_openalex()
     print(" • biorxiv");  research+=fetch_biorxiv()
     research.sort(key=lambda x:x.get("date",""), reverse=True)
 
-    data={"updated":datetime.datetime.utcnow().isoformat(timespec="seconds")+"Z",
+    print(" • labs");     labs=fetch_labs()
+
+    data={"updated":datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds").replace("+00:00","Z"),
           "movements":movements[:MAX_MOVEMENTS],
-          "research":research[:MAX_RESEARCH]}
+          "research":research[:MAX_RESEARCH],
+          "entity_news":{**comp_news, **pers_news},
+          "labs":labs}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=2)
 
-    print(f"\nDone -> data.json   movements:{len(data['movements'])}  research:{len(data['research'])}")
-    if not BLUESKY_HANDLES:
-        print("TIP: add real handles to BLUESKY_HANDLES to start pulling founder/VC posts.")
-    print("Put data.json next to editing_signal_terminal.html.")
+    press=sum(1 for m in data["movements"] if m["type"]=="press")
+    social=sum(1 for m in data["movements"] if m["type"]=="social")
+    print(f"\nDone -> data.json")
+    print(f"  movements: {len(data['movements'])} (press {press}, social {social})")
+    print(f"  research:  {len(data['research'])}   entity_news: {len(data['entity_news'])} entities   labs: {len(data['labs'])}")
+    if len(data["research"])==0: print("  NOTE: research empty — check [openalex]/[biorxiv] lines above.")
 
 if __name__=="__main__":
     main()
