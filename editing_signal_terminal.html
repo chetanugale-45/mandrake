@@ -145,6 +145,7 @@
       <span class="statusline">
         <span class="led off" id="liveled"><i></i><span id="livetxt">live feed: offline</span></span>
         <span id="asof">updated —</span>
+        <button id="refreshBtn" class="ghost" style="padding:4px 10px;font-size:10px">↻ Refresh</button>
       </span>
     </div>
     <h1>Who's moving, <span class="lo">and what it means.</span></h1>
@@ -186,7 +187,7 @@
       <div class="panel">
         <div class="phead"><h2>People watchlist</h2><div class="right"><span class="pill cur">curated</span></div></div>
         <div id="people"></div>
-        <p class="note">The decision-makers. Add Bluesky handles in the pipeline config to auto-pull their posts into the feed.</p>
+        <p class="note">The decision-makers driving this market. Raw social posts sit behind the SOCIAL filter — this main view shows substantive moves only.</p>
       </div>
     </div>
   </div>
@@ -332,11 +333,11 @@ let userMoves=[];
 async function loadUser(){if(!hasStore)return[];try{const r=await window.storage.get("es_user_moves");return r&&r.value?JSON.parse(r.value):[];}catch(e){return[];}}
 async function saveUser(){if(!hasStore)return;try{await window.storage.set("es_user_moves",JSON.stringify(userMoves));}catch(e){}}
 
-let LIVE={movements:[],research:[]};
+let LIVE={movements:[],research:[],entity_news:{},labs:[]};
 async function loadLive(){
   try{
     const r=await fetch("./data.json",{cache:"no-store"});if(!r.ok)throw 0;
-    const d=await r.json();LIVE.movements=d.movements||[];LIVE.research=d.research||[];
+    const d=await r.json();LIVE.movements=d.movements||[];LIVE.research=d.research||[];LIVE.entity_news=d.entity_news||{};LIVE.labs=d.labs||[];
     document.getElementById("liveled").className="led on";
     document.getElementById("livetxt").textContent="live feed: "+(d.updated?("updated "+d.updated.slice(0,10)):"on");
     return true;
@@ -349,15 +350,16 @@ function allMoves(){
   return [...userMoves.map(m=>({...m,_user:true})),...live,...MOVES].sort((a,b)=>String(b.date).localeCompare(String(a.date)));
 }
 function renderFilters(){
-  const moves=allMoves();const counts={all:moves.length};
-  moves.forEach(m=>{const g=TYPE_GROUP[m.type]||"social";counts[g]=(counts[g]||0)+1;});
+  const moves=allMoves();const counts={all:0};
+  moves.forEach(m=>{const g=TYPE_GROUP[m.type]||"social";counts[g]=(counts[g]||0)+1;if(g!=="social")counts.all++;});
   document.getElementById("filters").innerHTML=FILTERS.map(([id,label])=>
     `<button class="chip ${id===activeFilter?'active':''}" data-f="${id}">${label}<span class="ct">${counts[id]||0}</span></button>`).join("");
   document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{activeFilter=c.dataset.f;renderFilters();renderFeed();}));
 }
 function renderFeed(){
   let moves=allMoves();
-  if(activeFilter!=="all")moves=moves.filter(m=>(TYPE_GROUP[m.type]||"social")===activeFilter);
+  if(activeFilter==="all")moves=moves.filter(m=>(TYPE_GROUP[m.type]||"social")!=="social");
+  else moves=moves.filter(m=>(TYPE_GROUP[m.type]||"social")===activeFilter);
   document.getElementById("feed").innerHTML=moves.map(m=>{
     const g=TYPE_GROUP[m.type]||"social";
     return `<li class="mv"><span class="when">${fmtWhen(m.date)}</span>
@@ -370,19 +372,28 @@ function renderFeed(){
   document.getElementById("count").textContent=moves.length+(activeFilter==="all"?" movements":" shown");
 }
 function renderPeople(){
-  document.getElementById("people").innerHTML=PEOPLE.map(p=>`
-    <div class="person"><div>
-      <div class="pn">${esc(p.n)}</div><div class="pr">${esc(p.r)}</div><div class="pl">${esc(p.l)}</div>
-    </div><span class="ptype pt-${p.t}">${p.t}</span></div>`).join("");
+  document.getElementById("people").innerHTML=PEOPLE.map(p=>{
+    const news=(LIVE.entity_news&&LIVE.entity_news[p.n])||[];
+    const latest=news.length?`<div class="pl" style="margin-top:4px"><a href="${esc(news[0].url)}" target="_blank" rel="noopener" style="color:var(--violet)">${esc(news[0].title)} \u2197</a> <span style="color:var(--ink-faint)">${esc((news[0].date||'').slice(0,7))}</span></div>`:"";
+    return `<div class="person"><div>
+      <div class="pn">${esc(p.n)}</div><div class="pr">${esc(p.r)}</div><div class="pl">${esc(p.l)}</div>${latest}
+    </div><span class="ptype pt-${p.t}">${p.t}</span></div>`;}).join("");
 }
 function renderCompetitors(){
-  document.getElementById("competitors").innerHTML=COMPETITORS.map(c=>`
-    <div class="ccard ${c.flag?'flag':''}">
+  document.getElementById("competitors").innerHTML=COMPETITORS.map(c=>{
+    const news=(LIVE.entity_news&&LIVE.entity_news[c.name])||[];
+    const newsBlock=news.length?`
+      <div style="border-top:1px solid var(--hair);margin-top:9px;padding-top:8px">
+        <div style="font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--violet);margin-bottom:5px">● in the news · live</div>
+        ${news.slice(0,3).map(n=>`<div style="font-size:12px;padding:2px 0"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a> <span style="font-family:var(--mono);font-size:9.5px;color:var(--ink-faint)">${esc(n.source)} · ${esc((n.date||'').slice(0,7))}</span></div>`).join("")}
+      </div>`:"";
+    return `<div class="ccard ${c.flag?'flag':''}">
       <div class="ctop"><h3>${esc(c.name)}</h3><span class="raise">${esc(c.raise)}</span></div>
       <div class="capproach">${esc(c.approach)}</div>
       <div class="cfacts">${c.facts.map(f=>`<span class="fact">${f}</span>`).join("")}</div>
       <ul class="moves">${c.moves.map(m=>`<li><span class="md">${esc(m.d)}</span><span class="mt">${m.t}<span class="tag g-${m.g}">${TYPE_LABEL[m.ty]||m.ty}</span></span></li>`).join("")}</ul>
-    </div>`).join("");
+      ${newsBlock}
+    </div>`;}).join("");
 }
 function renderResearch(){
   const box=document.getElementById("research");
@@ -405,11 +416,27 @@ function renderResearch(){
 }
 function rows(id,arr){document.getElementById(id).innerHTML=arr.map(r=>`<div class="resrow"><div><div class="rt">${esc(r.k)}</div><div class="ri">${esc(r.s)}</div></div><span class="rd">${esc(r.v)}</span></div>`).join("");}
 
+const LAB_DETAIL={
+  "Doudna lab / IGI":"UC Berkeley — CRISPR foundations, anti-CRISPR, in-vivo delivery",
+  "Liu lab (Broad)":"Broad / Harvard — base & prime editing inventors",
+  "Knott lab (Monash)":"Monash — AI de novo anti-CRISPR design",
+  "Baker / IPD (UW)":"UW — de novo protein design (RFdiffusion; 2024 Nobel)",
+  "Arc Institute":"Arc — Evo genomic models; Hsu & Hie labs"
+};
+function renderLabs(){
+  const src=(LIVE.labs&&LIVE.labs.length)?LIVE.labs:Object.keys(LAB_DETAIL).map(n=>({name:n,latest:null}));
+  document.getElementById("labs").innerHTML=src.map(l=>{
+    const det=LAB_DETAIL[l.name]||"";
+    const latest=(l.latest&&l.latest.title)?`<div class="ri" style="margin-top:5px"><b style="color:var(--teal)">latest paper:</b> ${l.latest.url?`<a href="${esc(l.latest.url)}" target="_blank" rel="noopener">${esc(l.latest.title)}</a>`:esc(l.latest.title)} <span style="color:var(--ink-faint)">${esc((l.latest.date||'').slice(0,7))}</span></div>`:"";
+    return `<div class="resrow" style="display:block;padding:9px 0"><div class="rt">${esc(l.name)}</div><div class="ri">${esc(det)}</div>${latest}</div>`;
+  }).join("");
+}
+
 document.getElementById("strip").innerHTML=[
   {n:"10",l:"people tracked"},{n:"6",l:"competitors"},{n:"5",l:"labs watched"},{n:"7",l:"move types"}
 ].map(s=>`<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join("");
 
-renderPeople();renderCompetitors();rows("labs",LABS);
+renderPeople();renderCompetitors();renderLabs();
 (function(){const dot=document.getElementById("pdot"),txt=document.getElementById("ptext");if(hasStore){dot.classList.remove("off");txt.textContent="saves persist";}else{dot.classList.add("off");txt.textContent="session only";}})();
 
 const form=document.getElementById("addform");
@@ -422,7 +449,16 @@ form.addEventListener("submit",async e=>{e.preventDefault();
   form.reset();$("f-date").value=new Date().toISOString().slice(0,10);form.classList.remove("open");});
 $("clearMine").addEventListener("click",async()=>{userMoves=[];await saveUser();renderFilters();renderFeed();});
 
-(async function(){userMoves=await loadUser();await loadLive();renderFilters();renderFeed();renderResearch();})();
+async function refreshAll(){
+  const btn=document.getElementById("refreshBtn"); if(btn){btn.textContent="↻ …";btn.disabled=true;}
+  await loadLive();
+  renderFilters();renderFeed();renderResearch();renderPeople();renderCompetitors();renderLabs();
+  document.getElementById("asof").textContent="updated "+new Date().toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
+  if(btn){btn.textContent="↻ Refresh";btn.disabled=false;}
+}
+document.getElementById("refreshBtn").addEventListener("click",refreshAll);
+
+(async function(){userMoves=await loadUser();await loadLive();renderFilters();renderFeed();renderResearch();renderPeople();renderCompetitors();renderLabs();})();
 </script>
 </body>
 </html>
