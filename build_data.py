@@ -50,7 +50,7 @@ KEYWORDS = [
 KEYWORDS = [
     "prime editing","gene editing infrastructure","base editing","gene editing","protein design","de novo protein",
     "CRISPR","reverse transcriptase","protein language model","enzyme design","genome editor",
-    "Profluent","Prime Medicine",,"EvolutionaryScale","Generate Biomedicines",
+    "Profluent","Prime Medicine","EvolutionaryScale","Generate Biomedicines",
     "Beam Therapeutics","Intellia","Editas","Arzeda","Cradle","base editor","recombinase",
 ]
 
