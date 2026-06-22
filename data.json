@@ -1,48 +1,106 @@
 {
-  "updated": "2026-06-21T09:58:37Z",
+  "updated": "2026-06-22T12:16:00Z",
   "movements": [
     {
-      "date": "2026-06-21",
+      "date": "2026-06-22",
+      "type": "press",
+      "who": "Generate Biomedicines",
+      "title": "Oaktree-backed digital infra firm ITG aims to raise $429 million in US IPO",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNazdNel95TEY2MHBfci1ibmtETGctMlp0N0F5cWRSRXFKZEdfOG9lT0U2LXRxUjRBa29zYTJQOXg3aXhJb1ZkYThDSl9vaDFLbkZRX2ZGTVhNRFJoa2dCUHkwZVFnUGNLTzhNVjRpaFlqN0dnYnJfS2hNY3YzRnpTUkZSVjJNRWw2Y0dDN2ZkZkJoZVhJTi0wbF9WaTBNczhNYjJ1RWNSX004M2JzbXJtTkpMN2Y?oc=5",
+      "entity": "Generate Biomedicines",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "press",
+      "who": "Prime Medicine",
+      "title": "Prime Medicine Receives U.S. FDA Regenerative Medicine",
+      "source": "GlobeNewswire",
+      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNRVVkMVVGWkNQUFhyNXVfRVFfNTBoWHlDaUdXLUh4akVqNjNUZTl4VktVandHbXh1aEladm54UGRQUDl0X2hVeW1FSVNtVnROT19rdG4zRklRYmJDY1BGd2FpX0R5WGxZanBaWXhKbmR3YmxUMTJ1d0paOTBNMGRNTndOcUp6eU5heWRxYXozUTQxdnZDd0RyY3RfV003Wi1MY0RnMXFSQ3psV1pfZ1NOV3VXTUNzaTRmRWVldVRpS0JFaEYweVBsVXBCMENpdmtNRGFmZDJLb1lLSHNFSFh6MU5qT09SMFQ3ZDQ2NWl2YWhCMmVISFQ3OUFKc2lIUWIxRk5jT1JFSnRjb0F0Tkp5RG55dHB0ekFxRHZ4YTVGejkzbWxLZDFENXBILVc1bTBxWm5QMWVvTUJyRFFuVXVwOFdadTU2WHM?oc=5",
+      "entity": "Prime Medicine",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "press",
+      "who": "Prime Medicine",
+      "title": "Prime Medicine’s CGD therapy gets FDA RMAT, speeding review",
+      "source": "Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMlhTckNtdDNhejQ0RmJ2cWtPVENKOVRTeGZScjNmWnBtOVViMXJHTDg1Mk9iMXlyY0NMTkJIVERMWWNrRmloc0stR2ZVSVdXZHJiYkZKbEtMTmxqRy13LTZwLTFGNWNkak1QTTVtS3ZwWnQzYk14dDBpZC1obnlicmpSeDNrRGgzQzdlUXFEWnNaSzRCZTU0cE5rRXppN0xSVEo3SEROWGh0N0dnR0wzMjhrVVhJS1pZ?oc=5",
+      "entity": "Prime Medicine",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "press",
+      "who": "Prime Medicine",
+      "title": "Citizens reiterates Prime Medicine stock rating on gene therapy focus",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObTREVzV2R1JEb2lGQVJja0hpaE0xMzZkdnJRd2hSRnowb3REMFc4am8tYUlLUjdGZTkwTHFRQmtXVHQ0SDJ6SzBld0FJM1BjdFN6MG03OTU0b3lDV1NqZi1iM0RZTkp2X1k0Z2pjYXVzWVNuWkJ0bVhzSDN3Znl1TzVnTUdGSEhFZmZsa3FQcTVzV2d3TFg5RDNJYnppd1V4anJtRGt0b1FhRWhuWU5Qb2l0SS1BTDc3czhCWjBpMWdsaWxGNUJWbw?oc=5",
+      "entity": "Prime Medicine",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "press",
+      "who": "Beam Therapeutics",
+      "title": "Clinical: Beam Advances Base Editing For PKU",
+      "source": "CRISPR Medicine News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN2xHZUl1LXVvWWJ2WlEyd2xJZ3pydnBJOGpNNFFRVHNoWWJORThUVzMtSmZyMTdZRWZrRm5rTExrclV5S2QwRHkzd29JZnJvdk5GZ2ZnUU9BbjFiMkN0aDhSa0k4MHQ2TWZqQTdTeWJoZnd2eW55RzhIQVplOWlDVlFzbEpmZ28?oc=5",
+      "entity": "Beam Therapeutics",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-22",
       "type": "social",
       "who": "bioRxivpreprint",
-      "title": "Antibody-Antigen Affinity Prediction with Chain-Aware Protein Language Modeling https://www.biorxiv.org/content/10.64898/2026.06.19.733375v1",
+      "title": "Cell division dynamics generate heterogeneous contact-mediated signaling outputs https://www.biorxiv.org/content/10.64898/2026.06.18.733180v1",
       "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3moryccqe2u2q"
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3moustxtjkv2d"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Mechanical tension expands the microtubule lattice stepwise and modulates kinesin-1 binding in an isoform-dependent manner https://www.biorxiv.org/co…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3moustdcr5c2c"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Capturing early events in aryl hydrocarbon receptor activation using two complementary protein-protein interaction assays https://www.biorxiv.org/con…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3moupgcveit26"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "NicheDiv: A DAPC framework to quantify niche divergence across highly multivariate environmental space https://www.biorxiv.org/content/10.64898/2026.…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mouon7y3vz26"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Response diversity inconsistently predicts functional robustness to simulated zooplankton extinctions https://www.biorxiv.org/content/10.64898/2026.0…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mouomo66mb26"
+    },
+    {
+      "date": "2026-06-22",
+      "type": "press",
+      "who": "STAT",
+      "title": "STAT+: FDA reverses course on Regenxbio’s childhood gene therapy after rejection",
+      "source": "STAT",
+      "url": "https://www.statnews.com/2026/06/22/fda-reverses-course-regenxbio-gene-therapy-navsunli-hunter-syndrome/?utm_campaign=rss"
     },
     {
       "date": "2026-06-21",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Assessing the efficacy of human mesenchymal stromal cells of different tissue origins in a mouse model of kidney ischaemia reperfusion injury https:/…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3morsgak3rt22"
-    },
-    {
-      "date": "2026-06-21",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Capillary bundling of microtubules by condensates https://www.biorxiv.org/content/10.64898/2026.06.19.733462v1",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3morrlxchap2a"
-    },
-    {
-      "date": "2026-06-21",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Chemical augmentation of the validated HepaRGTM CYP induction test method Part 2: Additional laboratory study supported by mRNA analysis https://www.…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3morp3ynkku2v"
-    },
-    {
-      "date": "2026-06-21",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Chemical augmentation of the validated HepaRGTM CYP enzyme induction test method Part 1: The Goliath two laboratory study https://www.biorxiv.org/con…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3morp3nypfe2c"
-    },
-    {
-      "date": "2026-06-20",
       "type": "press",
       "who": "Generate Biomedicines",
       "title": "Top Generate Biomedicines (GENB) Competitors 2026",
@@ -52,12 +110,42 @@
       "entkind": "competitor"
     },
     {
-      "date": "2026-06-20",
+      "date": "2026-06-21",
+      "type": "press",
+      "who": "Prime Medicine",
+      "title": "Ocular Therapeutix vs. Prime Medicine: Which Healthcare Stock Is a Better Buy in 2026?",
+      "source": "AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODNLOG1ZSUxDRHZoRzk5WWV3NDVoUGNBX1k5R2NBMkhpcTNpMktvbTlUU2pwckpFeGc2WEtGbUJuSjJuWVVwSzBCcVFmcVpaMGlqVXY3MDNOTjBqT3huUGZ2WklCUmxkdDItZzFhZVkwRzFYY3lJSk9xbm00WmhQZVJhLVdiZw?oc=5",
+      "entity": "Prime Medicine",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-21",
       "type": "press",
       "who": "Intellia",
-      "title": "Intellia Therapeutics vs. Omeros: Which Emerging Biotech Stock Is a Better Buy in 2026?",
-      "source": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMk1JaFU3SU5iY2xJeHluektfX1hrTVh3ZEdUSGU2SDg4MzAxWUVUNXFWWXFhNEgxR0VFb1NsamVuYk5Ka2tVMnI3dnlIR21OWEh3dVBWWERhOFpxZlRORU1tSmFfVU9DT0VoejZIbnptQmx6bzQ4OUszRGVCa0czNU1nRHRYdlY0VlAzUFk5R0ZXbDRwVWlQSHNfMXJwZm02QnBDVndzWmJoU2RxLUp4TmRnbTU1Yl9YYWdxd254dXJ0T2hzdGdXTUxUSER1NjV1Y2dB?oc=5",
+      "title": "Why is Intellia Therapeutics (NTLA) a Battleground Stock with 38% Short Interest",
+      "source": "Kavout",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOGN5ekxXVGRDQkVHYXI1ZERGYm91aG1GRHpSY2RKeGF4N0J1UXJ2TVJYaEc1Z3lnSG9kUXE4bHRCRHJmajYxOU00LUdDenh0LU5ETXJZdVQ0ZllUZHVIV1I0X0c3Qm9QNmx6UmZEeFREWFZia0psaTVzbkRacHVHVUdoVjRrcXplOXM0VWtoWWNQamh3WC0zTGs3WGgtaXA3bHM1blpqTFB3R3phNUxVR0tn?oc=5",
+      "entity": "Intellia",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-21",
+      "type": "press",
+      "who": "Intellia",
+      "title": "StockWatch: Positive Phase III Data Sells Investors on Intellia",
+      "source": "Genetic Engineering and Biotechnology News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYlRCc29jRkZwR1VNRHlJYXdLd2VaWjVuUXZaU1E3TkVpT3lqYUduRk9rWGpXVVNBMjhwVkRwZm11ZmtrTG1XMldMNEstdUlrelNkV081R1lwVUNYTHVhWHJOcDZTOThRZG9KNmJXcWF2S0J2M1lldmJaQ2FFemROdjFRbnRWbFpwbnE5UHJQRm5vMTB6dTR2TndlQlNxd0pqZHhNZ3hJdTRkUVlZaUc1MDNWS0RrVi1reF96Yw?oc=5",
+      "entity": "Intellia",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-21",
+      "type": "press",
+      "who": "Intellia",
+      "title": "Intellia Therapeutics (NTLA) Is Up 29.4% After New Phase 3 Lonvo-z Data and FDA Filing",
+      "source": "simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSEtNRGVad1JrbDBYNUwzdXNwWG5JVTNFV1JBbWV3NmJBaUhNQTAteXhPcmdhX0Y0MFpWNVllOEtsWlNlcE52UGt3QU5YdlFRQWYxQ0V0WFNaVTBaV3pycmkwbjItbEZOZTZfbVljRDY3NHpaaFJBRFAzdE9fU3lmdEwwNHk4SmQtaVFBcXFTM1VSZ3B2YW4wRU5DZk9oOE56ZXdJNlQtckkxYkpOY2RrSDJqQWs3TXkzdlRuQzlieWw1ZndFc0NvOFd6UHJ6cllKVVBIY19qaFhHdlF4d0F2NTEzZm5qb0NpdF9j0gHwAUFVX3lxTE45RktkWm50dzZuQlBzc2xRNHJlNEFUSzJHRzVUaUphNmR3aVFpU1NVR1VBX2lTTTlRZWJyOTJGaFBRVmtUY24tb05IVnkxSHI0enYyNDV2TG1FbmoxbjNDVTYydGw0Y19qTy1KX1VCejhMREE3Y18tTzRra1R4czI2azFGTHFxcklKYm56LU50X2JXR0I4QVFqNVl2alJJbHBQeUJHNTZSTDJlZXFEUzRRYW80Q211LUpHMTZRRWJ2Q2kyS1l4WkxfWEpZbmc2ckJKYTRXUDV1a2tteDNYQzBWTnRralRnbUlGZGVzLXEwbg?oc=5",
       "entity": "Intellia",
       "entkind": "competitor"
     },
@@ -69,26 +157,6 @@
       "source": "Quartr",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wOG1NcnBpRE1pWnNfMnpCWnhyU21mWWx6WkxTSVBzYUJPTDdoQ3JtY2ZENnZFc3I5RzFkWG9IQ25SV1Q3YkpRSnRic0s5SUV6ZHlsTFFvbUVUOFFXZHB2YWFIcGwwcFcyZmZ3OWtCX3NlRWVPZGlyTg?oc=5",
       "entity": "Generate Biomedicines",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-06-19",
-      "type": "press",
-      "who": "Prime Medicine",
-      "title": "Prime Medicine’s PM-577a cleared for clinic for Wilson’s disease",
-      "source": "BioWorld News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ3RXblhTdWpRTHlMbVJkSHZkQzhTTHVnZjI4dDhlQ2tRekRDTklaemppVmNZSzZBa21kd1NPNkF5c0VNNGU3TkNWVmNzUldPSkI0UkZUZ2ZuVHUtdkF2LTR2QkN0c3RHZms3bXE1b3lLLTVjeFllWFJiQU52VHRfb3loSno3Z1FEbTMtR0FtTE04OUZVTUVKTVZYWXV6VzI2MWVfVlV3?oc=5",
-      "entity": "Prime Medicine",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-06-19",
-      "type": "press",
-      "who": "Beam Therapeutics",
-      "title": "Why Beam Therapeutics (BEAM) Is Up 16.1% After FDA Clears Platform-Based PKU Gene-Editing Trial",
-      "source": "simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUWdSanMxYi1rdUZvMTk1WWVsb09jN3lBbmcyeVU2aTVGMXhneGdDM3BtMjhLUEIxamtUNVgwY0x4aGRYeUZEbGRBWU4wZnMxa2pFOTY4YXZYYU5uYlJ3emE0SkNhN19hekdMZjZnVW9BS3pMLVl4bzlobW9tQ0s0Tll2OWg2Q3Rrd0hKbDhQbkk1V19ZbllOejFCa1ZYMGpMQ2dXWVhnTzM1aXowaDc5WFZyQ1pTcUZMNVhtdWVrT3pNMXFxcm5zSDZrc3p4NkxSRXJ0bGZRUTNwNGU3UTN5U0JuOUNuZ9IB6wFBVV95cUxNYThzM1ozVlU1aWI5cWNvYl9Dc0diTTNYaDlXRTdOaEFqRzhkTGZobjZTTThSU3hlYTQxZ0hfWDc4LTlnRVdxVXN4bkhYMmc2UlYwT3pBSVpjYjBwamF4dHVIeHB3QWpibm5rOXlEZDFLZEIxZHFMVk1mRG0yd2NBaU55UWc3cWVPeFZHTkh6S2p4QWRXTEpjMzBDMlJDVEUyODFxdG9KajdKWHRRRGRRNENCUTJndmw0c1NOb2dLaHhsa3BXYWhBdzhKLVlsZVcyZ1lfeWlWSjZtUFpRaW1QY3hrdnlzZHBubVIw?oc=5",
-      "entity": "Beam Therapeutics",
       "entkind": "competitor"
     },
     {
@@ -107,26 +175,6 @@
       "source": "BioSpace",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOZU9ySndUUGJrdkEyMDJubkhYMENBeUI3aUtiYVFCb1FEaU9vNXFsN18ydzBPOE5DcmdGQ1ZmaFhHbEpyV0R1TWF5OUZvUXBYZjJESkpfcDlmbWlPdWg4?oc=5",
       "entity": "Generate Biomedicines",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-06-18",
-      "type": "press",
-      "who": "Prime Medicine",
-      "title": "Prime Medicine Announces New Zealand Clearance of Clinical",
-      "source": "GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQSEtPSmJtbFFwc0Z6Mmk4VldCenFHLS1zbE1OVmx5N0N0VnVrUlM3UE1QczNyRTVYRUs0VXRRc1BvQkc5R0lWTzR2V0VzeS1nSkhzdjhvaE11TFFyOTUyR3dBQ3RmalY0M25uMnk0RmNLbUtjWmJxNGNKRmQ0LTNEQkZEbXppNkhydklkNlZXTEMxbm0xdF9EU2RxakJTdGt0UUxiVm5BYzF0ZnpGeU1uSVQ2V0p3SU5OYjBwMHRTeWhhSnRwZXZSdEFzVFRLVTJ0SlMxdEg5UkRITHNnUEpjaUlzR1E2ODNBRUxyNVAyV0E1eUtMRDQ0ZkNiLXh1OERSQzRwZXhVel9LUkdKMFB0QWZsNXgzOEEzVWVFXw?oc=5",
-      "entity": "Prime Medicine",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-06-18",
-      "type": "press",
-      "who": "Prime Medicine",
-      "title": "Prime Medicine clears first in vivo gene-editing trial for Wilson disease",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkswZV9GME1yZzZXYjVheHVYVW02clRFTFRuRVoyRlZLNE9WMDYyZFNxMWJwdEpJVGsyMFczcjBzSUQ0MXlvTUhUOGRCNXRHdDlic2REMGMwVjl5U1JydEtPZXlCeUZaZ2N1U0tmeUtMSnNZOFFzME9Tc3l5OTdHdjhhWUdfVFFPdGVYZkFrVlRFNnpDX3lhNXVYOFZfZEMwblo2VXZ4OHZvNXFYeFFvZ05TT3A3VjZCd21z?oc=5",
-      "entity": "Prime Medicine",
       "entkind": "competitor"
     },
     {
@@ -176,30 +224,10 @@
     {
       "date": "2026-06-16",
       "type": "press",
-      "who": "Intellia",
-      "title": "Intellia’s gene editor ‘keeps pace’ with Ionis in hereditary angioedema",
-      "source": "BioSpace",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1FDeWJwdzNSQ3NaVFowRU5LNHQ1dGtndjUxU0tYTExaZmk2UUpjelJjRzJaSF9QVTJKNTJBVDZrSDZhMjVFb1lYZFA4R2hYeVpiUnhPZm9RLWVtNGpNR2l6X19XbUY2NGdSYVJTSXIzWUhJSWxzUDdsaExPWUZHazZnclZ0OVJSbXhFdHp2ODB2RTRIekN6WVY1X1dtNUdnWUdRckhvb1V5WHVMUy1R?oc=5",
-      "entity": "Intellia",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-06-16",
-      "type": "press",
       "who": "Jennifer Doudna",
       "title": "Nobel winner Jennifer Doudna talks personalized gene therapies, AI and why collaboration matters",
       "source": "Yahoo",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JMjFxSnBZZkwtN3llNWQwWUg1RmpfYTVyLW5BVHNmUmZnb3NsLUtOVnFoMjlwUVJNMUpwU05RSElWX3lFUzI4cjlyUUpjNzdtQUM4SnVHSVhnNlhHb25PdThpcTh4bmJCUG9lOHBmNi13OFp5U3JZZFhRSElMSGs?oc=5",
-      "entity": "Jennifer Doudna",
-      "entkind": "person"
-    },
-    {
-      "date": "2026-06-16",
-      "type": "press",
-      "who": "Jennifer Doudna",
-      "title": "Nobel winner Jennifer Doudna talks personalized gene therapies, AI and the importance of collaboration",
-      "source": "Scientific American",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ycU9pZm1TWFNxMHAyV0tNM2lOM2pqTTNHLUc4N0ViZWMzRmo2ZU9ucTFuaHVIRHRtNWFyUWFUOHBzM29jd3c5bDlZWEVzanFnSzFJX1RscGY5TUkyRnQ4QjdRVTEtTTVBQnRR?oc=5",
       "entity": "Jennifer Doudna",
       "entkind": "person"
     },
@@ -302,6 +330,16 @@
       "entkind": "competitor"
     },
     {
+      "date": "2026-06-13",
+      "type": "press",
+      "who": "Jennifer Doudna",
+      "title": "Jennifer Doudna",
+      "source": "Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JTy1RanVJMk1qbHlhdkpOTk1mOVdWS0VNelJOcHhKV3RzaU4yTWkwUVJlanp5QUJkdkZNYU1DQk11a0V3SXVudGRUbnFFTWlxQlpHWVRHZC1KaWllcVdaTUt3?oc=5",
+      "entity": "Jennifer Doudna",
+      "entkind": "person"
+    },
+    {
       "date": "2026-06-11",
       "type": "press",
       "who": "Jennifer Doudna",
@@ -336,26 +374,6 @@
       "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mnuzgcdz522a"
     },
     {
-      "date": "2026-06-04",
-      "type": "press",
-      "who": "Prime Medicine",
-      "title": "We're Keeping An Eye On Prime Medicine's (NASDAQ:PRME) Cash Burn Rate",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMWRXUTNpcHZJVnN4OXlvaXlOUGplVTRuRUFfdGppaXp4ZUk4LUZhMVRfMnFnbGtlbm02QWw4TDFqLVlTX0xPa3ZFUnpoTEstTUVtUU04NE5ZYWNwVjdkTUR3WldyUDk0dlk5eVRlSHdvT09LZ2Uta3V1X3hyTF90RTBXbElqV0JZUHdrTnpJeUc4MGdoM2Q4ZmtPak9mZw?oc=5",
-      "entity": "Prime Medicine",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-06-04",
-      "type": "press",
-      "who": "Intellia",
-      "title": "Intellia (NTLA) Rockets 13% Ahead of Phase 3 Lonvo-Z Study Update",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTnMzbWZrVlVJMGhsdXc4aGpjdXp0c2pZSnMyTGl2MTRWRHVONDcxNXNlc0FUVWdET1BWR2NJdzFLUkZrUDdaU0lVcUE4eU9YU09HYTBzYlVwck80cVNON2llckx5Wk1IbUtrMHRsYlZWdk9XZWs1RTJjYVJGZzdtMEtmY2hRU2E2LWlWS0tMaERsN1JhcFNhMHVVSEZoX1hQ?oc=5",
-      "entity": "Intellia",
-      "entkind": "competitor"
-    },
-    {
       "date": "2026-06-03",
       "type": "press",
       "who": "Cradle",
@@ -366,14 +384,14 @@
       "entkind": "competitor"
     },
     {
-      "date": "2026-06-03",
+      "date": "2026-06-01",
       "type": "press",
-      "who": "Cradle",
-      "title": "Lundbeck partners with Cradle on brain disorders",
-      "source": "The Pharma Letter",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaThMN29hM0Jwa0FLdG5vRU5YVlU3bEszRVRaMkdad2hWUUJISzIwRTJDRTAtUmMzSlBfQ2hKY21SNTQ5M1RhRDNyU2x1MmhLc2t2R292RnFtQzN0WW5iazRjQ2d5VWtEWnN4dDhRSkNHOVUxZENsUVExbkdGQmRTcWhwaFczZTJoNnNpN2FVWXN2MGsyLUZ0Vg?oc=5",
-      "entity": "Cradle",
-      "entkind": "competitor"
+      "who": "Frances Arnold",
+      "title": "Alphabet director Frances Arnold sells $38,862 in class C stock",
+      "source": "Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckZhQzk2X2pUSHJfV1lDbHJQbk1oOTcxY3o4QldCMnRHRmpHSWdkcjBGQ05xYnNiZUgtSFV4bW1Pd0xhTXRGNUpwdUg4Rk1JNDBhWHdHS3RRRmVOb3htQ3loaUwyRnVhMXlzdkFzVF93LWU0NTBoalI5WWxTVXRhQzNDOEJ3cm1rNmlfZG9NWTNGNGF2eDJCR1otVmItTjJWN05ucXBEaDI0ZFRJVnJSQVh3Nlg2Z1F2T0NUVURiTjVNLTRR?oc=5",
+      "entity": "Frances Arnold",
+      "entkind": "person"
     },
     {
       "date": "2026-05-29",
@@ -508,6 +526,16 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUxzdVd1T3hFdThiczNSZjc3bFZzczlTZzdLdmEtdW4ybmtOUGNTWnA2a1JYaElaR1RDRGZjem9ObHJfdGNRTjlob2htakJ1QXlwNUpZYmRyc1dValBiZEhsZ2FHSW13eXgwanRreGViRnRwa1N0UFA5Uk8yaEY2RmFJNkphNFExMUVKQ1FEdw?oc=5",
       "entity": "Beam Therapeutics",
       "entkind": "competitor"
+    },
+    {
+      "date": "2026-04-30",
+      "type": "press",
+      "who": "David Liu",
+      "title": "Gene therapy pioneer David Liu among 2026 Franklin Institute honorees",
+      "source": "Inquirer.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVdQQ3JWaUNNYTdWZWprRVdnZ3EzUWg0ZHRGWUlhNVZWbENJaEtfcmhlV0tOSXFPSUMzM2c4Y194Vlhra1hLanZEcWNHSG5YMDhVT2V1UmlUTFNOck5QazZMY2tranRwVWVmS2tqQk5nOThhTXVFaFgzOF9wWTRoTTRucTQwM21NTkNrY0VsTkJfMkI5NFVDWUU4SQ?oc=5",
+      "entity": "David Liu",
+      "entkind": "person"
     },
     {
       "date": "2026-04-28",
@@ -672,34 +700,6 @@
       "title": "Most protein-protein interaction tools work on protein pairs. FlashPPI runs at proteome scale and now across two proteomes at once. Upload any two da…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/microyunha.bsky.social/post/3mijforqlrs2l"
-    },
-    {
-      "date": "2026-03-31",
-      "type": "social",
-      "who": "tbepler.bsky.social",
-      "title": "We’re excited to announce our expanded partnership with Boehringer Ingelheim. Together, we are building the future of AI‑driven antibody discovery an…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/tbepler.bsky.social/post/3mieoui7fyk2c"
-    },
-    {
-      "date": "2026-03-28",
-      "type": "press",
-      "who": "Arzeda",
-      "title": "Arzeda and MANE Join Forces to Bring a Better Stevia at Scale",
-      "source": "SynBioBeta",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0tvNnFtTU1rMTlRT1RpS050cWg3NHRGT0lEZl9RRjRTVG5vUFplQ2ViSG9Ba3ZLVFBJNmFWV3BfWS1RS2RjeVhYRk1fQlZxVVVRR19kQTdmRlVBWGVjQ2N5b3E2NHRpUjI0dkIxMEticTNweHEzaGtSYXlKVGpnSEZBNTJERzNPN1pWUlNVVzdIUlY1bWkycA?oc=5",
-      "entity": "Arzeda",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-03-23",
-      "type": "press",
-      "who": "Nathan Benaich",
-      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-      "source": "TechCrunch",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVmRQbEpjOEE3QTZ4QW1zQmlhUFlYYzlDX0laT2FCY2RqMmNkM2U0QXhEUndjSzNJb1B5alU5T3E0b1NTRVB0UkYwbTFLa2NUb29YRzVrc1gyMTJWckpQQkJnRzk1MnRtZnd0aVhnekx6UHBQLWVrQ2o3Mk1kQU9odi1YY3Y5YTRYeExzaFFOZUFTSnR4d0Y0SkxPNkJxbTZ6aWgyRHZLc1VDZw?oc=5",
-      "entity": "Nathan Benaich",
-      "entkind": "person"
     }
   ],
   "research": [
@@ -861,22 +861,28 @@
     ],
     "Generate Biomedicines": [
       {
-        "date": "2026-06-20",
+        "date": "2026-06-21",
         "title": "Top Generate Biomedicines (GENB) Competitors 2026",
         "source": "MarketBeat",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5"
       },
       {
-        "date": "2026-06-18",
-        "title": "IPO Tracker 2026: Cardio biotech Kardigan binds off $400M upsized IPO",
-        "source": "BioSpace",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOZU9ySndUUGJrdkEyMDJubkhYMENBeUI3aUtiYVFCb1FEaU9vNXFsN18ydzBPOE5DcmdGQ1ZmaFhHbEpyV0R1TWF5OUZvUXBYZjJESkpfcDlmbWlPdWg4?oc=5"
+        "date": "2026-06-22",
+        "title": "Oaktree-backed digital infra firm ITG aims to raise $429 million in US IPO",
+        "source": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNazdNel95TEY2MHBfci1ibmtETGctMlp0N0F5cWRSRXFKZEdfOG9lT0U2LXRxUjRBa29zYTJQOXg3aXhJb1ZkYThDSl9vaDFLbkZRX2ZGTVhNRFJoa2dCUHkwZVFnUGNLTzhNVjRpaFlqN0dnYnJfS2hNY3YzRnpTUkZSVjJNRWw2Y0dDN2ZkZkJoZVhJTi0wbF9WaTBNczhNYjJ1RWNSX004M2JzbXJtTkpMN2Y?oc=5"
       },
       {
         "date": "2026-06-19",
         "title": "Generate Biomedicines (GENB) Q1 2026 earnings summary",
         "source": "Quartr",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8wOG1NcnBpRE1pWnNfMnpCWnhyU21mWWx6WkxTSVBzYUJPTDdoQ3JtY2ZENnZFc3I5RzFkWG9IQ25SV1Q3YkpRSnRic0s5SUV6ZHlsTFFvbUVUOFFXZHB2YWFIcGwwcFcyZmZ3OWtCX3NlRWVPZGlyTg?oc=5"
+      },
+      {
+        "date": "2026-06-18",
+        "title": "IPO Tracker 2026: Cardio biotech Kardigan binds off $400M upsized IPO",
+        "source": "BioSpace",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOZU9ySndUUGJrdkEyMDJubkhYMENBeUI3aUtiYVFCb1FEaU9vNXFsN18ydzBPOE5DcmdGQ1ZmaFhHbEpyV0R1TWF5OUZvUXBYZjJESkpfcDlmbWlPdWg4?oc=5"
       }
     ],
     "Cradle": [
@@ -891,66 +897,60 @@
         "title": "Cradle co-founder Elise de Reus on why openness is protein engineering's competitive advantage",
         "source": "R&D World",
         "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNb1NCbEdVcERHaXd3VXAtNnB4Q1BtZVE5WTBZdUZGbTZPd1V5MTJPMzVUNWZ3LWdrM2J3Ymtja1pUZmczVzE4TjlUV0dPUXhGYlRTUkFSRnFrOUZpUDh5eXlwQnljQUo5bHhBd3Y1ZHQwUndIYWVqSk9BNnF6RHBZV3l1UGRBNFZnME1ZWUcyM1h3cWNiSWNKbHBBem5lYVNtV29vMmluSlRZc3F4RXdpVklwMVZZZWZvWmp5bHZ6NmEzUQ?oc=5"
-      },
-      {
-        "date": "2026-06-03",
-        "title": "Lundbeck partners with Cradle on brain disorders",
-        "source": "The Pharma Letter",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaThMN29hM0Jwa0FLdG5vRU5YVlU3bEszRVRaMkdad2hWUUJISzIwRTJDRTAtUmMzSlBfQ2hKY21SNTQ5M1RhRDNyU2x1MmhLc2t2R292RnFtQzN0WW5iazRjQ2d5VWtEWnN4dDhRSkNHOVUxZENsUVExbkdGQmRTcWhwaFczZTJoNnNpN2FVWXN2MGsyLUZ0Vg?oc=5"
       }
     ],
     "Arzeda": [
-      {
-        "date": "2026-03-28",
-        "title": "Arzeda and MANE Join Forces to Bring a Better Stevia at Scale",
-        "source": "SynBioBeta",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0tvNnFtTU1rMTlRT1RpS050cWg3NHRGT0lEZl9RRjRTVG5vUFplQ2ViSG9Ba3ZLVFBJNmFWV3BfWS1RS2RjeVhYRk1fQlZxVVVRR19kQTdmRlVBWGVjQ2N5b3E2NHRpUjI0dkIxMEticTNweHEzaGtSYXlKVGpnSEZBNTJERzNPN1pWUlNVVzdIUlY1bWkycA?oc=5"
-      },
       {
         "date": "2026-05-05",
         "title": "Arzeda and KENT Specialty Milling Announce Strategic Product Development Collaboration",
         "source": "PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeU9jUEdENFd5b0ItTi1BeWZOX2FOZXdOTW1RZ2dORmJmZjBOTF9JWERXbl9xRmpGYWZVcnA4bnRDQW80QUtGTms2OUpLUEVXaFM2blVDTlRHbU8tS056U09Gc1BNdHFFa0Q4MjB0THo4Nm9QazF6VHpZdTZqbWdIVGJJNjlCY0loU3gxNUxZVGZYRE1VY1ZCM3NXaVpHV2ZSSnc5cldFU2k1OF9MWlcwWUpDQ1p3RVlXemQwaU5lbHFfZl9xa3JtZ3dzMnFlUG11bTB4dGJJQm92QQ?oc=5"
+      },
+      {
+        "date": "2026-03-28",
+        "title": "Arzeda and MANE Join Forces to Bring a Better Stevia at Scale",
+        "source": "SynBioBeta",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR0tvNnFtTU1rMTlRT1RpS050cWg3NHRGT0lEZl9RRjRTVG5vUFplQ2ViSG9Ba3ZLVFBJNmFWV3BfWS1RS2RjeVhYRk1fQlZxVVVRR19kQTdmRlVBWGVjQ2N5b3E2NHRpUjI0dkIxMEticTNweHEzaGtSYXlKVGpnSEZBNTJERzNPN1pWUlNVVzdIUlY1bWkycA?oc=5"
       }
     ],
     "Prime Medicine": [
       {
-        "date": "2026-06-18",
-        "title": "Prime Medicine Announces New Zealand Clearance of Clinical",
+        "date": "2026-06-22",
+        "title": "Prime Medicine Receives U.S. FDA Regenerative Medicine",
         "source": "GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQSEtPSmJtbFFwc0Z6Mmk4VldCenFHLS1zbE1OVmx5N0N0VnVrUlM3UE1QczNyRTVYRUs0VXRRc1BvQkc5R0lWTzR2V0VzeS1nSkhzdjhvaE11TFFyOTUyR3dBQ3RmalY0M25uMnk0RmNLbUtjWmJxNGNKRmQ0LTNEQkZEbXppNkhydklkNlZXTEMxbm0xdF9EU2RxakJTdGt0UUxiVm5BYzF0ZnpGeU1uSVQ2V0p3SU5OYjBwMHRTeWhhSnRwZXZSdEFzVFRLVTJ0SlMxdEg5UkRITHNnUEpjaUlzR1E2ODNBRUxyNVAyV0E1eUtMRDQ0ZkNiLXh1OERSQzRwZXhVel9LUkdKMFB0QWZsNXgzOEEzVWVFXw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNRVVkMVVGWkNQUFhyNXVfRVFfNTBoWHlDaUdXLUh4akVqNjNUZTl4VktVandHbXh1aEladm54UGRQUDl0X2hVeW1FSVNtVnROT19rdG4zRklRYmJDY1BGd2FpX0R5WGxZanBaWXhKbmR3YmxUMTJ1d0paOTBNMGRNTndOcUp6eU5heWRxYXozUTQxdnZDd0RyY3RfV003Wi1MY0RnMXFSQ3psV1pfZ1NOV3VXTUNzaTRmRWVldVRpS0JFaEYweVBsVXBCMENpdmtNRGFmZDJLb1lLSHNFSFh6MU5qT09SMFQ3ZDQ2NWl2YWhCMmVISFQ3OUFKc2lIUWIxRk5jT1JFSnRjb0F0Tkp5RG55dHB0ekFxRHZ4YTVGejkzbWxLZDFENXBILVc1bTBxWm5QMWVvTUJyRFFuVXVwOFdadTU2WHM?oc=5"
       },
       {
-        "date": "2026-06-04",
-        "title": "We're Keeping An Eye On Prime Medicine's (NASDAQ:PRME) Cash Burn Rate",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMWRXUTNpcHZJVnN4OXlvaXlOUGplVTRuRUFfdGppaXp4ZUk4LUZhMVRfMnFnbGtlbm02QWw4TDFqLVlTX0xPa3ZFUnpoTEstTUVtUU04NE5ZYWNwVjdkTUR3WldyUDk0dlk5eVRlSHdvT09LZ2Uta3V1X3hyTF90RTBXbElqV0JZUHdrTnpJeUc4MGdoM2Q4ZmtPak9mZw?oc=5"
-      },
-      {
-        "date": "2026-06-19",
-        "title": "Prime Medicine’s PM-577a cleared for clinic for Wilson’s disease",
-        "source": "BioWorld News",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ3RXblhTdWpRTHlMbVJkSHZkQzhTTHVnZjI4dDhlQ2tRekRDTklaemppVmNZSzZBa21kd1NPNkF5c0VNNGU3TkNWVmNzUldPSkI0UkZUZ2ZuVHUtdkF2LTR2QkN0c3RHZms3bXE1b3lLLTVjeFllWFJiQU52VHRfb3loSno3Z1FEbTMtR0FtTE04OUZVTUVKTVZYWXV6VzI2MWVfVlV3?oc=5"
-      },
-      {
-        "date": "2026-06-18",
-        "title": "Prime Medicine clears first in vivo gene-editing trial for Wilson disease",
+        "date": "2026-06-22",
+        "title": "Prime Medicine’s CGD therapy gets FDA RMAT, speeding review",
         "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkswZV9GME1yZzZXYjVheHVYVW02clRFTFRuRVoyRlZLNE9WMDYyZFNxMWJwdEpJVGsyMFczcjBzSUQ0MXlvTUhUOGRCNXRHdDlic2REMGMwVjl5U1JydEtPZXlCeUZaZ2N1U0tmeUtMSnNZOFFzME9Tc3l5OTdHdjhhWUdfVFFPdGVYZkFrVlRFNnpDX3lhNXVYOFZfZEMwblo2VXZ4OHZvNXFYeFFvZ05TT3A3VjZCd21z?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMlhTckNtdDNhejQ0RmJ2cWtPVENKOVRTeGZScjNmWnBtOVViMXJHTDg1Mk9iMXlyY0NMTkJIVERMWWNrRmloc0stR2ZVSVdXZHJiYkZKbEtMTmxqRy13LTZwLTFGNWNkak1QTTVtS3ZwWnQzYk14dDBpZC1obnlicmpSeDNrRGgzQzdlUXFEWnNaSzRCZTU0cE5rRXppN0xSVEo3SEROWGh0N0dnR0wzMjhrVVhJS1pZ?oc=5"
+      },
+      {
+        "date": "2026-06-22",
+        "title": "Citizens reiterates Prime Medicine stock rating on gene therapy focus",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObTREVzV2R1JEb2lGQVJja0hpaE0xMzZkdnJRd2hSRnowb3REMFc4am8tYUlLUjdGZTkwTHFRQmtXVHQ0SDJ6SzBld0FJM1BjdFN6MG03OTU0b3lDV1NqZi1iM0RZTkp2X1k0Z2pjYXVzWVNuWkJ0bVhzSDN3Znl1TzVnTUdGSEhFZmZsa3FQcTVzV2d3TFg5RDNJYnppd1V4anJtRGt0b1FhRWhuWU5Qb2l0SS1BTDc3czhCWjBpMWdsaWxGNUJWbw?oc=5"
+      },
+      {
+        "date": "2026-06-21",
+        "title": "Ocular Therapeutix vs. Prime Medicine: Which Healthcare Stock Is a Better Buy in 2026?",
+        "source": "AOL.com",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNODNLOG1ZSUxDRHZoRzk5WWV3NDVoUGNBX1k5R2NBMkhpcTNpMktvbTlUU2pwckpFeGc2WEtGbUJuSjJuWVVwSzBCcVFmcVpaMGlqVXY3MDNOTjBqT3huUGZ2WklCUmxkdDItZzFhZVkwRzFYY3lJSk9xbm00WmhQZVJhLVdiZw?oc=5"
       }
     ],
     "Beam Therapeutics": [
+      {
+        "date": "2026-06-22",
+        "title": "Clinical: Beam Advances Base Editing For PKU",
+        "source": "CRISPR Medicine News",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN2xHZUl1LXVvWWJ2WlEyd2xJZ3pydnBJOGpNNFFRVHNoWWJORThUVzMtSmZyMTdZRWZrRm5rTExrclV5S2QwRHkzd29JZnJvdk5GZ2ZnUU9BbjFiMkN0aDhSa0k4MHQ2TWZqQTdTeWJoZnd2eW55RzhIQVplOWlDVlFzbEpmZ28?oc=5"
+      },
       {
         "date": "2026-06-18",
         "title": "Beam Therapeutics Announces Clearance of Investigational",
         "source": "GlobeNewswire",
         "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNWXMtUGhXY2FiR19hSm9wRUF4aE5zNDBjQV9rMklyQnRJcHFqdzZGNFR1X1lMUkc0VXpKa3FtXzAtVVJqRmpVRTVTLXNHNkdXOVhjVjJ6ZzNJTk5xUWs4RlpBSkIyTzVNMjJjS2hteGxtMEpWVVgzbU0xblNOUlFyRzBScnlqRVU2ZHkyMFo4VnAxeFZPRHBVY0prSUgyWi0zZGsyMmVpdGtXRUpuc0FJeXRxWVItbUEtSkRRWmppdzBtZXdVU2stSnlyc25oRkVEeWJFY1JidjFyc1BsWTVtQW9TS1FxS0JaY3F4R3VBVld4UmJmNHZwSmFyaEstNFBHVXFGb245LVNSam1xTVQ5Y2xXNjRyZi1BWkNwUC1HLVplVFdhXzVmQjlDdXFHcm1mRUFOelRtWUQzaFhRNXRSYmlfZVZsV0FmUWxVTWhJTy1jMEo2djNweHAzdzFpSUw3LWNxQVNUU2dDLW1L?oc=5"
-      },
-      {
-        "date": "2026-06-16",
-        "title": "Beam Therapeutics Stock Soars 21% in Three Months: Here's Why",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRFNPSkdxamZCMWM0NDZ0N0dLRXBVU3hWRzJvSnBfUUJ6ME5uak9vOExZTjE4YmdtcG5lS2pjSk5Yb2tYNE02MjVIMmltSzV4aUx6OG1mc3dCNm5zZzgwOWQwYndpUGoxZE93WGpqX3pVcHRXYUpUbWxGV2VKaV9zdlJEbm4wcmVlalUxWFdaV3lxUFMwYU5vdQ?oc=5"
       },
       {
         "date": "2026-04-30",
@@ -959,13 +959,25 @@
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUxzdVd1T3hFdThiczNSZjc3bFZzczlTZzdLdmEtdW4ybmtOUGNTWnA2a1JYaElaR1RDRGZjem9ObHJfdGNRTjlob2htakJ1QXlwNUpZYmRyc1dValBiZEhsZ2FHSW13eXgwanRreGViRnRwa1N0UFA5Uk8yaEY2RmFJNkphNFExMUVKQ1FEdw?oc=5"
       },
       {
-        "date": "2026-06-19",
-        "title": "Why Beam Therapeutics (BEAM) Is Up 16.1% After FDA Clears Platform-Based PKU Gene-Editing Trial",
-        "source": "simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUWdSanMxYi1rdUZvMTk1WWVsb09jN3lBbmcyeVU2aTVGMXhneGdDM3BtMjhLUEIxamtUNVgwY0x4aGRYeUZEbGRBWU4wZnMxa2pFOTY4YXZYYU5uYlJ3emE0SkNhN19hekdMZjZnVW9BS3pMLVl4bzlobW9tQ0s0Tll2OWg2Q3Rrd0hKbDhQbkk1V19ZbllOejFCa1ZYMGpMQ2dXWVhnTzM1aXowaDc5WFZyQ1pTcUZMNVhtdWVrT3pNMXFxcm5zSDZrc3p4NkxSRXJ0bGZRUTNwNGU3UTN5U0JuOUNuZ9IB6wFBVV95cUxNYThzM1ozVlU1aWI5cWNvYl9Dc0diTTNYaDlXRTdOaEFqRzhkTGZobjZTTThSU3hlYTQxZ0hfWDc4LTlnRVdxVXN4bkhYMmc2UlYwT3pBSVpjYjBwamF4dHVIeHB3QWpibm5rOXlEZDFLZEIxZHFMVk1mRG0yd2NBaU55UWc3cWVPeFZHTkh6S2p4QWRXTEpjMzBDMlJDVEUyODFxdG9KajdKWHRRRGRRNENCUTJndmw0c1NOb2dLaHhsa3BXYWhBdzhKLVlsZVcyZ1lfeWlWSjZtUFpRaW1QY3hrdnlzZHBubVIw?oc=5"
+        "date": "2026-06-16",
+        "title": "Beam Therapeutics Stock Soars 21% in Three Months: Here's Why",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRFNPSkdxamZCMWM0NDZ0N0dLRXBVU3hWRzJvSnBfUUJ6ME5uak9vOExZTjE4YmdtcG5lS2pjSk5Yb2tYNE02MjVIMmltSzV4aUx6OG1mc3dCNm5zZzgwOWQwYndpUGoxZE93WGpqX3pVcHRXYUpUbWxGV2VKaV9zdlJEbm4wcmVlalUxWFdaV3lxUFMwYU5vdQ?oc=5"
       }
     ],
     "Intellia": [
+      {
+        "date": "2026-06-21",
+        "title": "Why is Intellia Therapeutics (NTLA) a Battleground Stock with 38% Short Interest",
+        "source": "Kavout",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOGN5ekxXVGRDQkVHYXI1ZERGYm91aG1GRHpSY2RKeGF4N0J1UXJ2TVJYaEc1Z3lnSG9kUXE4bHRCRHJmajYxOU00LUdDenh0LU5ETXJZdVQ0ZllUZHVIV1I0X0c3Qm9QNmx6UmZEeFREWFZia0psaTVzbkRacHVHVUdoVjRrcXplOXM0VWtoWWNQamh3WC0zTGs3WGgtaXA3bHM1blpqTFB3R3phNUxVR0tn?oc=5"
+      },
+      {
+        "date": "2026-06-21",
+        "title": "StockWatch: Positive Phase III Data Sells Investors on Intellia",
+        "source": "Genetic Engineering and Biotechnology News",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYlRCc29jRkZwR1VNRHlJYXdLd2VaWjVuUXZaU1E3TkVpT3lqYUduRk9rWGpXVVNBMjhwVkRwZm11ZmtrTG1XMldMNEstdUlrelNkV081R1lwVUNYTHVhWHJOcDZTOThRZG9KNmJXcWF2S0J2M1lldmJaQ2FFemROdjFRbnRWbFpwbnE5UHJQRm5vMTB6dTR2TndlQlNxd0pqZHhNZ3hJdTRkUVlZaUc1MDNWS0RrVi1reF96Yw?oc=5"
+      },
       {
         "date": "2026-06-13",
         "title": "Intellia Therapeutics Reports Additional Positive Phase 3 Results for Lonvoguran Ziclumeran (lonvo-z) in Patients with Hereditary Angioedema",
@@ -973,22 +985,10 @@
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelhtVFRTNVk4MGhDM2NYSGViWEo0LUdkTmFWbHp6SGNPb0xxNUVDc1hRakpnYWw4X3VieHZ5RDVmcjFRaUZzNEVwYjYyTDVKYTdEaDdnS3FoZEllNVZsR1ljcmp2S0d2LWdCQ2ZYUzZPelJ5bVdVcXBLYkdxYU55dHZzcjlTTmRBSHhvN0tkTV9UUzFESGNPZFdYb1JuMzZaSHVQY1gwMDFqaE1GdHc1eWVpcG5VR09XdkE?oc=5"
       },
       {
-        "date": "2026-06-20",
-        "title": "Intellia Therapeutics vs. Omeros: Which Emerging Biotech Stock Is a Better Buy in 2026?",
-        "source": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMk1JaFU3SU5iY2xJeHluektfX1hrTVh3ZEdUSGU2SDg4MzAxWUVUNXFWWXFhNEgxR0VFb1NsamVuYk5Ka2tVMnI3dnlIR21OWEh3dVBWWERhOFpxZlRORU1tSmFfVU9DT0VoejZIbnptQmx6bzQ4OUszRGVCa0czNU1nRHRYdlY0VlAzUFk5R0ZXbDRwVWlQSHNfMXJwZm02QnBDVndzWmJoU2RxLUp4TmRnbTU1Yl9YYWdxd254dXJ0T2hzdGdXTUxUSER1NjV1Y2dB?oc=5"
-      },
-      {
-        "date": "2026-06-04",
-        "title": "Intellia (NTLA) Rockets 13% Ahead of Phase 3 Lonvo-Z Study Update",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTnMzbWZrVlVJMGhsdXc4aGpjdXp0c2pZSnMyTGl2MTRWRHVONDcxNXNlc0FUVWdET1BWR2NJdzFLUkZrUDdaU0lVcUE4eU9YU09HYTBzYlVwck80cVNON2llckx5Wk1IbUtrMHRsYlZWdk9XZWs1RTJjYVJGZzdtMEtmY2hRU2E2LWlWS0tMaERsN1JhcFNhMHVVSEZoX1hQ?oc=5"
-      },
-      {
-        "date": "2026-06-16",
-        "title": "Intellia’s gene editor ‘keeps pace’ with Ionis in hereditary angioedema",
-        "source": "BioSpace",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd1FDeWJwdzNSQ3NaVFowRU5LNHQ1dGtndjUxU0tYTExaZmk2UUpjelJjRzJaSF9QVTJKNTJBVDZrSDZhMjVFb1lYZFA4R2hYeVpiUnhPZm9RLWVtNGpNR2l6X19XbUY2NGdSYVJTSXIzWUhJSWxzUDdsaExPWUZHazZnclZ0OVJSbXhFdHp2ODB2RTRIekN6WVY1X1dtNUdnWUdRckhvb1V5WHVMUy1R?oc=5"
+        "date": "2026-06-21",
+        "title": "Intellia Therapeutics (NTLA) Is Up 29.4% After New Phase 3 Lonvo-z Data and FDA Filing",
+        "source": "simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSEtNRGVad1JrbDBYNUwzdXNwWG5JVTNFV1JBbWV3NmJBaUhNQTAteXhPcmdhX0Y0MFpWNVllOEtsWlNlcE52UGt3QU5YdlFRQWYxQ0V0WFNaVTBaV3pycmkwbjItbEZOZTZfbVljRDY3NHpaaFJBRFAzdE9fU3lmdEwwNHk4SmQtaVFBcXFTM1VSZ3B2YW4wRU5DZk9oOE56ZXdJNlQtckkxYkpOY2RrSDJqQWs3TXkzdlRuQzlieWw1ZndFc0NvOFd6UHJ6cllKVVBIY19qaFhHdlF4d0F2NTEzZm5qb0NpdF9j0gHwAUFVX3lxTE45RktkWm50dzZuQlBzc2xRNHJlNEFUSzJHRzVUaUphNmR3aVFpU1NVR1VBX2lTTTlRZWJyOTJGaFBRVmtUY24tb05IVnkxSHI0enYyNDV2TG1FbmoxbjNDVTYydGw0Y19qTy1KX1VCejhMREE3Y18tTzRra1R4czI2azFGTHFxcklKYm56LU50X2JXR0I4QVFqNVl2alJJbHBQeUJHNTZSTDJlZXFEUzRRYW80Q211LUpHMTZRRWJ2Q2kyS1l4WkxfWEpZbmc2ckJKYTRXUDV1a2tteDNYQzBWTnRralRnbUlGZGVzLXEwbg?oc=5"
       }
     ],
     "Ali Madani": [
@@ -1013,6 +1013,12 @@
     ],
     "Jennifer Doudna": [
       {
+        "date": "2026-06-13",
+        "title": "Jennifer Doudna",
+        "source": "Britannica",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JTy1RanVJMk1qbHlhdkpOTk1mOVdWS0VNelJOcHhKV3RzaU4yTWkwUVJlanp5QUJkdkZNYU1DQk11a0V3SXVudGRUbnFFTWlxQlpHWVRHZC1KaWllcVdaTUt3?oc=5"
+      },
+      {
         "date": "2026-06-11",
         "title": "What’s the Future of Gene Editing?",
         "source": "Quanta Magazine",
@@ -1023,32 +1029,22 @@
         "title": "Nobel winner Jennifer Doudna talks personalized gene therapies, AI and why collaboration matters",
         "source": "Yahoo",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JMjFxSnBZZkwtN3llNWQwWUg1RmpfYTVyLW5BVHNmUmZnb3NsLUtOVnFoMjlwUVJNMUpwU05RSElWX3lFUzI4cjlyUUpjNzdtQUM4SnVHSVhnNlhHb25PdThpcTh4bmJCUG9lOHBmNi13OFp5U3JZZFhRSElMSGs?oc=5"
-      },
-      {
-        "date": "2026-06-16",
-        "title": "Nobel winner Jennifer Doudna talks personalized gene therapies, AI and the importance of collaboration",
-        "source": "Scientific American",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8ycU9pZm1TWFNxMHAyV0tNM2lOM2pqTTNHLUc4N0ViZWMzRmo2ZU9ucTFuaHVIRHRtNWFyUWFUOHBzM29jd3c5bDlZWEVzanFnSzFJX1RscGY5TUkyRnQ4QjdRVTEtTTVBQnRR?oc=5"
       }
     ],
-    "Nathan Benaich": [
+    "David Liu": [
       {
-        "date": "2026-03-23",
-        "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
-        "source": "TechCrunch",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVmRQbEpjOEE3QTZ4QW1zQmlhUFlYYzlDX0laT2FCY2RqMmNkM2U0QXhEUndjSzNJb1B5alU5T3E0b1NTRVB0UkYwbTFLa2NUb29YRzVrc1gyMTJWckpQQkJnRzk1MnRtZnd0aVhnekx6UHBQLWVrQ2o3Mk1kQU9odi1YY3Y5YTRYeExzaFFOZUFTSnR4d0Y0SkxPNkJxbTZ6aWgyRHZLc1VDZw?oc=5"
-      },
+        "date": "2026-04-30",
+        "title": "Gene therapy pioneer David Liu among 2026 Franklin Institute honorees",
+        "source": "Inquirer.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVdQQ3JWaUNNYTdWZWprRVdnZ3EzUWg0ZHRGWUlhNVZWbENJaEtfcmhlV0tOSXFPSUMzM2c4Y194Vlhra1hLanZEcWNHSG5YMDhVT2V1UmlUTFNOck5QazZMY2tranRwVWVmS2tqQk5nOThhTXVFaFgzOF9wWTRoTTRucTQwM21NTkNrY0VsTkJfMkI5NFVDWUU4SQ?oc=5"
+      }
+    ],
+    "Frances Arnold": [
       {
-        "date": "2026-03-23",
-        "title": "Air Street Capital Closes $232 Million Fund III, Setting European Solo GP Record",
-        "source": "MLQ.ai",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRk1oTjNhUlAyMjVaczBhT3Y0cmtaUnk4YWlEazFObjJvLWF2VmZHS1NuSVlaa0NxMDN5dkdNM2UwbS1LRVczeFE0VENMWWxJRl9wbE13eW5MSE9XZmpwaUQ2RDF4d2xaTTJxeGJ2Uk1NaTR0S2xqZVZGdl9QZHJnS2JjV1psNzZMNEVlSXlRTGprcURZdkxSb1Z4bXhCLVBC?oc=5"
-      },
-      {
-        "date": "2026-03-23",
-        "title": "Nathan Benaich's Air Street raises $232M Fund III, becoming Europe’s largest solo GP venture firm",
-        "source": "Tech.eu",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ0c4R3l2bURlall5ampDZVo5b29mMnFxWk9leGU5a0E1ZXJVakEtM1lOcEZST004aXpxRWFQWlQxN3JZZUhaRC1SMXNmbklwbzlZQmNMN011X2lqb29pSEQ0WlJUcmcwZ29hQzMtNzRuUzA5Z3M4NVEzN2JpeWJSYmtwSUZING5WNHBta0h1Y013dm1hZUNVU29Nd0NXQnBqUWJJcjc0UjZ1NDBLaF9zNEJDOHNhQmpYU3JWZFlENGY?oc=5"
+        "date": "2026-06-01",
+        "title": "Alphabet director Frances Arnold sells $38,862 in class C stock",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckZhQzk2X2pUSHJfV1lDbHJQbk1oOTcxY3o4QldCMnRHRmpHSWdkcjBGQ05xYnNiZUgtSFV4bW1Pd0xhTXRGNUpwdUg4Rk1JNDBhWHdHS3RRRmVOb3htQ3loaUwyRnVhMXlzdkFzVF93LWU0NTBoalI5WWxTVXRhQzNDOEJ3cm1rNmlfZG9NWTNGNGF2eDJCR1otVmItTjJWN05ucXBEaDI0ZFRJVnJSQVh3Nlg2Z1F2T0NUVURiTjVNLTRR?oc=5"
       }
     ]
   },
