@@ -1,58 +1,8 @@
 {
-  "updated": "2026-07-28T08:44:07Z",
+  "updated": "2026-07-29T08:49:05Z",
   "movements": [
     {
-      "date": "2026-07-28",
-      "type": "press",
-      "who": "Jennifer Doudna",
-      "title": "Nobel Laureate Creates Groundbreaking AI-Designed Gene Scissors From Scratch – More Precise Than Billions-of-Years-Old Evolved CRISPR Systems",
-      "source": "36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByeEV5Rm4xWlhibWlfRm4wTWt3ZWREQ0t4eGxnV1pUZDRNSnlOSHZNVTE2alNRNkp4a3dRLVhTNko1NThWUzZXa2NnOGNMWnl2NGk4?oc=5",
-      "entity": "Jennifer Doudna",
-      "entkind": "person"
-    },
-    {
-      "date": "2026-07-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "When Does Reaction Norm GWAS Discover Plasticity? The Residual Channel in Environmental Index-Based Genetic Dissection https://www.biorxiv.org/conten…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mroyzs5uj72i"
-    },
-    {
-      "date": "2026-07-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "The consequences of mixed-mode transmission for disease prevalence https://www.biorxiv.org/content/10.64898/2026.07.22.740081v1",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mroyumjkxm2s"
-    },
-    {
-      "date": "2026-07-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Macronutrient balance generates distinct nutritional optima for growth, immune function and stress responses in the specialist herbivore Plutella xyl…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mroytz2ply2x"
-    },
-    {
-      "date": "2026-07-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Host genetics and social relationships jointly shape fitness-associated microbiome variation in a population of feral horses https://www.biorxiv.org/…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mroyth7k572s"
-    },
-    {
-      "date": "2026-07-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Live single-molecule imaging reveals global shifts in mRNA mobility during human stem cell differentiation https://www.biorxiv.org/content/10.64898/2…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mroyoen3lp2s"
-    },
-    {
-      "date": "2026-07-27",
+      "date": "2026-07-29",
       "type": "press",
       "who": "Generate Biomedicines",
       "title": "Top Generate Biomedicines (GENB) Competitors 2026",
@@ -62,22 +12,72 @@
       "entkind": "competitor"
     },
     {
-      "date": "2026-07-27",
+      "date": "2026-07-29",
       "type": "press",
-      "who": "Generate Biomedicines",
-      "title": "Generate Biomedicines, Inc. Revenue Breakdown – NASDAQ:GENB",
-      "source": "TradingView",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYQTU2YldFUTlyT0ZRR3BPTkptVWVjaFBIM252OFV4bThsQk5nbEZDYXQ4Q2FMNUNpTGp5VXVSdGZBSXl6akJkU3ZBczFjMWNIUTRzM3Z5bmI3VzBFelRxSGhzQktjZ3MzQWVRaHZwUEVIaTY2Y0dR?oc=5",
-      "entity": "Generate Biomedicines",
+      "who": "Prime Medicine",
+      "title": "ADAR1 Capital Management LLC Makes New Investment in Prime Medicine, Inc. $PRME",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb3hGTE5ELTUyMDMyeVYxRWxHeUEwUmVEbzk0YXg1Q0dnN05pdjY3TE9zRE96QnRabW9laVBHaEFQNW9vX1ZGSVhvaExlMl9EUExldklVSGhVREI4c2s3MFJDR09jVmhYYjNVQ3NGaUZqdnY1OW9rcEZGb3dXQ05pX1VUSUpib2RBTFotT3BUUG50RTdXX25sZm5jNExpZWNDNDF6US01TVRUd1FhaTM0bFl0VzFjamZPU2ZPUG9NR3RRVUdFZWhWQnZKUjhUMjhOZ3JZ?oc=5",
+      "entity": "Prime Medicine",
       "entkind": "competitor"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "press",
+      "who": "Intellia",
+      "title": "Intellia Therapeutics (NTLA) Stock Looks Cheap After A 92% Fall Yet Expensive On Sales",
+      "source": "simplywall.st",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZUVzX0J2S2FncGdRX0JBNGFBYUxnLXYyQkVKNkkwZzB3OWdjMDE1eVR4bXJScDQtRkd1X3BURVBVYkFVT3J3cHZ2cE5vaUlzU3I0b0E5M2tJa3pJanU3bE5RRmVEZTBydmlqOE1xcDE4cGk2SlFlUTNJLWg0ZTFvUXF1OXZkX3cxdUNEN0NTcm1aLWk3T0dyU3NLZWdiTE5lUU9BWENFY3A1WTlLS2NURWdJZ2RWcV8yUTUyMlVoNkV1VnR2cEM4eUlXUG5sWGtwbG54RkVNNGNJLWQ3SURYT0VUVkJnLS1kVnhN0gHwAUFVX3lxTFB3OFNIbk5iTXppSG84YU95clRWZFp5ZDJqMXVHNXFHVFJlTy1JMEQ2SVZIT1QwWkZtLUtUNGp1YUs1YVdhUm1VVjNRTDNSTUpXS1V3RmlsNzdGTE5pdG82VHZrM1lkNFdtNi04cVhhR2QxcXhXVnRqWjZRaHJ6WW5RSE14Q1YyRVAwNm0tc3VxTWtKb0NxcWE2bEFnck00aDZ5VUFFT2UxbVhYeUtkbjh1V2J1cWN1Y1pzb01FVm01c2I5TE8xdHAyT2dzZVVoai1LUDZXcFJfMHRzcXlCY1B0LUIwd2RZMzBCMmctelJBTw?oc=5",
+      "entity": "Intellia",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "KIN-29 SIK regulates stress-induced sleep through mitochondrial redox signaling https://www.biorxiv.org/content/10.64898/2026.07.27.740804v1",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mrrica6tu22d"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Splicing Factor SF3B2 Regulates Cardiomyocyte Calcium Handling Through Alternative Splicing of Cardiac Ion Channel Genes https://www.biorxiv.org/cont…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mrr7dzifdh2g"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "A Sample to Results Workflow for Compositional Analysis of Multiplexed Amplicon Sequencing Experiments https://www.biorxiv.org/content/10.64898/2026.…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mrr74oizaw2q"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Beyond Temporary Scaffolding: Persistent Hippocampal Engagement and Brain-Wide Network Reorganization in Remote Memory Consolidation https://www.bior…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mrr6c5egdn24"
+    },
+    {
+      "date": "2026-07-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Slow relaxation oscillations in multi-scale adaptive next generation neural masses https://www.biorxiv.org/content/10.64898/2026.07.26.740760v1",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mrr6bhl7ak2x"
     },
     {
       "date": "2026-07-27",
       "type": "press",
       "who": "Beam Therapeutics",
-      "title": "Beam Therapeutics (BEAM) insider Amy Simon plans sale of 16,677 common shares",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOE9oODdrSVBaV3BBRUkxUDlGUlNtQ2pZUlBmeS04ZWh2SlhyQXBhRFJoVnFKbGh1UVFTSW1DMnNUMDE2M0NaLUpHeXRsRTloZ0pRUUZobmp6SEJZZGRHV2luZ3VrYnotN212Zmsyd0dJUFpGOHJwcU41VW41MVYtMVkyRGZZT2tvdGNRYWJiZER3RUcwbktzZ3drSjV0Ym8?oc=5",
+      "title": "Beam Therapeutics (BEAM) Revenue Breakdown - Main Composition",
+      "source": "Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNVERJcmFKODNqQ29fQ1NyZWExYTgzYnRKYzVwSUdZdThrUzdxVVpPcnVkNEZzOTFWQVVPU29CWUpCTXVEU1NmZzFUbm9PdU10bmlHeUdPbWNualJPT3J3T3R4SFVqMVVUZEdhcmZ5NXN2azV3QXA1TnE4bEFWRDBneE1hNF9jN3JWS2pDa2RmQjVONlZGSGxrRzBLekVmR00xcXNDaTBOeDdwNnFqcFZMMU1SRkVXbVYyUGpEOXd6TTQyalpfaHdRVUZreWlXNlVJX3Q5LTA2aUxxWFFhcmJYUGdtc2s1ak9aSHloTDlfQ3BNS1dfOGZKdVdETTB3WldyeUs3N1pzRkVuUUdiN0FyM0ZpbkxMN3E1TGJ1NW1CSE50bkNIYVN0UjNZMmtiY05vQkdtam4yVkVsaTB1OUFwTWlqS2gyVXVYZ1RBTk0xZ2V1eVhCUVVQTXF2OHhCM1pLdFdVN3BWb2xlSHJKWExYWGpaeE1kVm5YN21hRDcxUQ?oc=5",
       "entity": "Beam Therapeutics",
       "entkind": "competitor"
     },
@@ -88,14 +88,6 @@
       "title": "Depenes what you consider msa-free. It language model based then even worse. Single sequence modes can be mutation sensitive though not always. Most …",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/martinpacesa.bsky.social/post/3mrnmjcisds2d"
-    },
-    {
-      "date": "2026-07-27",
-      "type": "press",
-      "who": "STAT",
-      "title": "STAT+: Sarepta names Michael Severino, former Tessera CEO, as new chief executive",
-      "source": "STAT",
-      "url": "https://www.statnews.com/2026/07/27/sarepta-therapeutics-michael-severino-doug-ingram-duchenne-muscular-dystrophy/?utm_campaign=rss"
     },
     {
       "date": "2026-07-25",
@@ -126,30 +118,10 @@
     {
       "date": "2026-07-24",
       "type": "press",
-      "who": "Beam Therapeutics",
-      "title": "Beam Therapeutics Inc. (BEAM) stock price, news, quote and history",
-      "source": "Yahoo Finance Australia",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tSF94bG5yM2RfTEFnQ3lzZUc4dWx2bzZDaVltUFVyVzBvaks2Z28zTlY2blNfMG9rcE1WeUlqOXd0bWpydW1PbkQzbnZOeHhVekE?oc=5",
-      "entity": "Beam Therapeutics",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-07-24",
-      "type": "press",
       "who": "Intellia",
       "title": "Intellia Therapeutics (NTLA) CFO logs 8,111-share sell-to-cover tax trade",
       "source": "Stock Titan",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNTAwLXlwcXZxeDBOZ1NGdTV1UVowOF9qMjFLVWJia2RWbUdNUE1YVE5IUkFpcWM2LV9ndFhncGlKMVFhTXNvU1JubkUxM0VsYVVweTV4aDBhTG41WkMteS1CWGtrSmRGa3FxU2hDNFFlR0RRNVNXTWx5eHNFUi1IWkpSd1A4NVlBTUlKcWpRSFFkY0gwWVU5Uld2UlZsVTdHRXQzN2lzUERVdVc2TzVfVEtBalYwdkJCbVUw?oc=5",
-      "entity": "Intellia",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-07-24",
-      "type": "press",
-      "who": "Intellia",
-      "title": "Intellia Therapeutics CFO sells $91,248 in stock",
-      "source": "Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFBYNmF3aFpYYWJIa01fQmtsRU5qOV9fTDI0Z0trOVh0ZmNoMWFmLWNnUUZ1ZWNqS2VBZWs0N1BIT01oTXhnT3ZjVTNYbmFXVzcxVjhNb0tnY2htTXpfVmtTUm5sbTNxb21Kdk9DNS1qcUtmZnJkUm9DV2JtT2NCdjZyckJ5NVAyRG5rbHBoSHJMQlN6X1Nuei0xbG9NcU1XRUJDVGVVYnE2VFZHVjJYSg?oc=5",
       "entity": "Intellia",
       "entkind": "competitor"
     },
@@ -184,14 +156,6 @@
     {
       "date": "2026-07-24",
       "type": "press",
-      "who": "BioPharma Dive",
-      "title": "Scribe secures $129M in a rare gene editing IPO",
-      "source": "BioPharma Dive",
-      "url": "https://www.biopharmadive.com/news/scribe-ipo-price-gene-editing-biotech-pcsk9-lpa/825933/"
-    },
-    {
-      "date": "2026-07-24",
-      "type": "press",
       "who": "Phys.org Biotech",
       "title": "Combining AI protein design with laboratory evolution improves engineered enzymes",
       "source": "Phys.org Biotech",
@@ -214,16 +178,6 @@
       "title": "Prime Medicine Announces U.S. FDA Clearance of Investigational New Drug Application for PM577a in H1069Q-mutated Wilson Disease",
       "source": "Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc1FuMHBDRUV1XzhwWk9Dd0hUMzY5cmZmbU56S04xUldjNzJLc1ZaeVRxSUtIR3VnWVNCSW5uRGVhRkRKVGRxb1BtMDQxdEFmSTNSc2JHLXc3UVB1RmI0dnNSa0U1dnJqeEJiWU1HaGlnN1NTLVQtdGdaVXdyMFdpaTF1T09IU2lSRWtvVVhuZDlWUVVOUFE?oc=5",
-      "entity": "Prime Medicine",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-07-23",
-      "type": "press",
-      "who": "Prime Medicine",
-      "title": "Prime Medicine expects first-in-human Wilson trial in second half of 2026",
-      "source": "Stock Titan",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaEtNQTE5WDVjbDlFUzhXeHlaOTVMeWJHR3QtQ054Q0NFeWJDS1RYc3BOOElUVG5KdHZTNUF5V0VjMGlvUFVaWlVWd0hCRkFrcFFRUDl2Y3VkX2NXWVVnV3d1VmpYNndEa1FSdTN1RTR0QXZ5NTV4Qno3TnZ1Sl91cEZmaEs1V0NJUkY0Wm5CUHZjLXliV3ZYeDVkdUZuSTlnOFBJb1RaQXV4ZE9tZTduR2Nidms0cGt0djNuZQ?oc=5",
       "entity": "Prime Medicine",
       "entkind": "competitor"
     },
@@ -257,16 +211,6 @@
     },
     {
       "date": "2026-07-21",
-      "type": "press",
-      "who": "Frances Arnold",
-      "title": "Frances Arnold | Biography & Facts",
-      "source": "Encyclopedia Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyY1NRMGdfVlRWM1JKLXF5allidXBrNG5aQ09rZkhNcE0zTzM4QVdDekJ2bnBTNlBfaFlUWTBxX2lVUFVWT29EQ2NLWmp5eUtVb0hkYUZxcGJFX081UmVqOA?oc=5",
-      "entity": "Frances Arnold",
-      "entkind": "person"
-    },
-    {
-      "date": "2026-07-21",
       "type": "social",
       "who": "Yo Akiyama",
       "title": "Excited to share our now published paper @cp-cell.bsky.social highlighting advances in modeling the evolution of protein-protein interactions with MS…",
@@ -288,6 +232,16 @@
       "title": "RSS is officially launched! This is the latest project to join OMSF and will focus on unlocking experimental data modeling at scale. Co-founded by th…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mr6b36gc7c2j"
+    },
+    {
+      "date": "2026-07-20",
+      "type": "press",
+      "who": "Arzeda",
+      "title": "Mane to produce, commercialize Arzeda’s ViaLeaf Reb M",
+      "source": "Baking Business",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSGJpcHdrVVAxS1BtcFJiZlR4aEs3bktZeGQ3SUZ6MHZudXJIRnZaRVBrVTlsU2NWekhWWk9EYzRheHpUZU5DUDhpdkkwM0g3bmQxMk9aOGZ2WFdpMWE1UDhWalVUZVgwNTdXSkFBOUpfRXV6b21UMTIzdVFDSXoxQm5qc05EcEhVZzFjUGtTZ3RHb3VhSFd1bzRVaFlRdw?oc=5",
+      "entity": "Arzeda",
+      "entkind": "competitor"
     },
     {
       "date": "2026-07-20",
@@ -317,6 +271,16 @@
       "source": "Yahoo Finance Singapore",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0p0S21sVnBxWW5pS3NwcEU3TjhfWHp1Z2s1Wm5yTmpaYm9qWXRvbkx3RHRRN2puNkwzV3d5M3JWMUhzempzTkE4bTFRVWFtWl9yaWhVTXRYMy1JNy1ITFdDQUVFSE1SZWotVHVNaHJONEM5RmFHbXVrNmpMaU9TYm96WU40bnA5?oc=5",
       "entity": "Frances Arnold",
+      "entkind": "person"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "press",
+      "who": "Jennifer Doudna",
+      "title": "AI-designed nucleases build on nature’s design",
+      "source": "C&EN",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEZHa09TZkpIazZFYzd1MkprSlNCbnpmbnJiRVROR2kwMjRsZzJrYWFnLUpoUU9aNC1LTUMxdzh6QWFwdV9lOFNwZFo0NU03S1JvQUlMUldiLU1fbi1xZXVtRmpmT1NKeE1uTVJ4S2dfX21iQUVOTlpKXzFPZ2RfRHdPVDEzWndTWG9wa0FRanVUQlJMS2Z1WE42QQ?oc=5",
+      "entity": "Jennifer Doudna",
       "entkind": "person"
     },
     {
@@ -362,16 +326,6 @@
     {
       "date": "2026-07-16",
       "type": "press",
-      "who": "Arzeda",
-      "title": "Mane secures global license for Arzeda’s AI-designed Reb M sugar-reduction technology",
-      "source": "Food Ingredients First",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXRNclY0QmtmN1EzZlN0bnVraER0bGJtUzFPWFlsNFpZMEpHWkt5RXhyNlhvTjBYRXBnQmZlN2RvQW1WejZwaDNzRHRxRXdodE9qY1NoRk1Gb1VCb2dvamdHd2ZabmFfSU9yN3dCblZ3cm14SUhGeXpVWUlkcXUydXZ1RQ?oc=5",
-      "entity": "Arzeda",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-07-16",
-      "type": "press",
       "who": "Mandrake",
       "title": "Mandrake Bio raises Rs 16 crore to build AI-powered gene-editing platform for agriculture, medicine",
       "source": "The Economic Times",
@@ -383,9 +337,9 @@
       "date": "2026-07-16",
       "type": "press",
       "who": "Mandrake",
-      "title": "Mandrake Bio Raises ₹16 Crore Pre-Seed Round to Advance AI-Powered Gene Editing Platform",
-      "source": "Indian Startup Times",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUpUVi1JRzZ0ZFJmbm9mUUZSVklWdGtydmJHMDh5QVR4d1dxWU1XQ2s1RVkydm9fYW1jQjA2Sk1SeTE3MjhOZWtqb0tPWmNhd2ZWcDFVTGhXWjkwUEZTQWtNQkNhVWNuUmlab1ZWUUQyeEV4VFlYUmZDejZBdVBadlJtbXdwMzA5MzVQVWhaUVVGNWk2VVZKTElmazlOTEJRWXFRQUxmMU8xWmhvNFdrV0VEVEhpemRCYTluUHdKbi03NkVPaGRvTk14MFZXZnVmS2JpSS1tOEN6bG8?oc=5",
+      "title": "Mandrake Bio Raises ₹16 Crore to Develop Next-Generation AI-Powered Gene Editors",
+      "source": "Machine Maker",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUJoeDFJMnFkV1B6d1E4VUZmelZTcWRsVkk2RWtsYlBNQmpYMnVPakZPVzFfWFZEU0pNaWxvVV9uZy1ERWdmc2NMdFNrZzhaeXNTZENOaUx5dF9PeHhxdVl3VHhycVVBUEFJXzVfMHp2OUQtcGpleXRMRTMtZ01yTjM1YmhZbWludUoxRU5qVjIweVhJb2VVZFA5MHNrOGVwSk04R0VtQk9YZ3JVYnBIVHV3VVdZMFRYZmZTNHV3aw?oc=5",
       "entity": "Mandrake",
       "entkind": "competitor"
     },
@@ -393,9 +347,9 @@
       "date": "2026-07-16",
       "type": "press",
       "who": "Mandrake",
-      "title": "Mandrake Bio raises Rs 16 Cr in pre-seed round co-led by Activate and Antler",
-      "source": "Entrackr",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zd9IBtgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zdw?oc=5",
+      "title": "Bengaluru-Based Mandrake Bio Raises ₹16 Crore to Build AI-Designed Gene Editors",
+      "source": "analyticsindiamag.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLUVLM0JFWWRfRklDV3ZTQ2NrX2txMk1yX3VlNk9peUo0bzVaZ1ZOOHhTakxjTnJFV2MxNWFTYW56X2prUHVja0g4RlVQWmFqM0l6Skl2cUZQV3o2TlZ3Ymg2NmVrYVJZbkxLSVNHQ1RBRmR2Qi12LXI0OHZyQUNSWDVJdGIxSXVIVDFIMjAxdTVTbWNrTEN1ZDBoSUVGVk0tYU9XVERpX21lV3JDOFZFRWZrNWw0VHM?oc=5",
       "entity": "Mandrake",
       "entkind": "competitor"
     },
@@ -425,6 +379,26 @@
       "source": "Nutraceutical Business Review",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQW52RkZVQXEtYU1mUG9yWFNFWGc1cnFvN3hldnBzMW1TRW1lck5aS24yT1hrazJ0UjlHNVdMM01FOWdYeXZwek9USTZTdklzNHdEY1hER0h2cUhvaWxEbnZmWWFEUk5zWXR4bXp5RC1RX3NzTUdBUWVnQWRnN1pGWW1DeExwNjBkSGlZdXdDc1NmUXRueXJxQXVOaVE3WkE?oc=5",
       "entity": "Arzeda",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-07-15",
+      "type": "press",
+      "who": "Beam Therapeutics",
+      "title": "Bank of America Securities Maintains Buy Rating for Beam Therapeutics (BEAM)",
+      "source": "Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeE1aaDZWMFVGS01CUzJ5MU1EUkFSWVVjbW5OVEdWdXNSVnkwdmMyUFI5WHpmcFJEdlBjdmJTVmFUMDNYdjNxZTdYUzh5MlJ3Zk9hd1ZqMnhxblJhMXd6VHpLcGgyV01GUkh2S2o4VXNrYmo2ME9JcUQzc3hqdnRlSjVUaEdQM0w5Z2NqMjEzbWUtSUZlRUNUVFZPR0JDdkE?oc=5",
+      "entity": "Beam Therapeutics",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "press",
+      "who": "Intellia",
+      "title": "Intellia Therapeutics: An Overvalued Biotech With Little To No Commercial Potential (NTLA)",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3k1N0JNdmdzM1JtTzY4M2JvcEhtdlk4TjRyNWZXd3lUaW9iVVNKN1ZiMGpLengtekhndXJBYjVvaWRHNkc2MzZGT1hOZGlDMTNKQ3VfN3FWTi03TzF6M09HS3J0M3l3YWFSR2xQLTZ5Rmo4VFloeWpZRzl4RDdLdXI0Nm1xNEZ0dlBnZTNHbGJiU2dnSnl4ZUtJM3FnQURvUXZXN2wxbklscjQ3Z25DQTVYcmtERVpoRWFadTU3cGg?oc=5",
+      "entity": "Intellia",
       "entkind": "competitor"
     },
     {
@@ -496,16 +470,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11NkdmNG56ZFRPUjdnajlBSjBaSTZCMkU3NGVBdGwxOHVMSmhQcTdjUWU1TnpUSDQ3VlZPYkJpRGtoSEZJekloVkt0NXJ6eWRPSUNWb3VWQlpPUQ?oc=5",
       "entity": "David Liu",
       "entkind": "person"
-    },
-    {
-      "date": "2026-07-10",
-      "type": "press",
-      "who": "Intellia",
-      "title": "Intellia Therapeutics (NTLA) Is Down 12.1% After Positive Phase 3 Lonvo-z Data And 2027 Launch Plans - What's Changed",
-      "source": "simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTlkzQ3Vuei1xMUplVTYyYUNUNkhYRlhocXQ3UXNDQzNpTVhFbFhkd3h2QkUycDQ1YUsxZDcxZV83YjNDVWIxUnB5TTJHRFpqdnhncThoR0Q3eDZjZzMxd2NwUml1Y1gxZnVUc2llalk1OUJRMGR0QTBxdHJoVFdFanVsY3FPZDFsektQdWdnS2RvWlpDZlcybXdNSWgtdnBacFducWY2TF9UeWVWMFJ4MWhObmVFUEdNdUlOdTd4MEZOYnJXd3FKWmVOWEhyZHBzbnR3UFIyOHJIZmhXRjJCWVNlRTQzTzQtT1HSAe8BQVVfeXFMUDNpdVdXMWFsZFZTWHJ5MlRwNDc5em56YVRtalVLb1hZdEFFZ25zWU4xMnR0OWtZSk83bTJQR3NEdEoyR2dSZF9LbjNobkRYbHh1NVlLcHVzS3lBRnF1VkRPLVVRanBpWTdpUENwcDNQWDhMOGp3RnplY2kzSUpFOWlrb2R0YjJBdElkNkJKUjhhdXZrTjlSOWJPYWlwNm94WVJHUGI0NTNtZ0JfQ3ZYdXV4ejVIdER3cnBiNG1RNWZWYXVobjEwVUFwd0JIbjEyVkF1MDN5MTItWnAwTzlMUHp1ei1ybGVoVXU5RFpjRE0?oc=5",
-      "entity": "Intellia",
-      "entkind": "competitor"
     },
     {
       "date": "2026-07-10",
@@ -700,13 +664,47 @@
       "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3modzzjn3fs22"
     },
     {
-      "date": "2026-06-13",
+      "date": "2026-06-11",
+      "type": "social",
+      "who": "Scott Soderling",
+      "title": "Funny quote of the day. “No major life decisions within 30 days of: A meditation retreat A psychedelic experience Your first encounter with the lates…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mnziitecgc2u"
+    },
+    {
+      "date": "2026-06-11",
+      "type": "social",
+      "who": "Scott Soderling",
+      "title": "Looking forward to this!",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mnz6pqafek2q"
+    },
+    {
+      "date": "2026-06-09",
+      "type": "social",
+      "who": "Emma Chory, Ph.D.",
+      "title": "Deeply honored to be named a 2026 Beckman Young Investigator #BYI!🧬 This recognition reflects the creativity and hard work of my incredible lab, and …",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mnuzgcdz522a"
+    },
+    {
+      "date": "2026-06-03",
       "type": "press",
-      "who": "Intellia",
-      "title": "Intellia Therapeutics Reports Additional Positive Phase 3 Results for Lonvoguran Ziclumeran (lonvo-z) in Patients with Hereditary Angioedema",
-      "source": "Intellia Therapeutics",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelhtVFRTNVk4MGhDM2NYSGViWEo0LUdkTmFWbHp6SGNPb0xxNUVDc1hRakpnYWw4X3VieHZ5RDVmcjFRaUZzNEVwYjYyTDVKYTdEaDdnS3FoZEllNVZsR1ljcmp2S0d2LWdCQ2ZYUzZPelJ5bVdVcXBLYkdxYU55dHZzcjlTTmRBSHhvN0tkTV9UUzFESGNPZFdYb1JuMzZaSHVQY1gwMDFqaE1GdHc1eWVpcG5VR09XdkE?oc=5",
-      "entity": "Intellia",
+      "who": "Cradle",
+      "title": "Lundbeck partners with Cradle for AI-based protein design",
+      "source": "medwatch.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRSnV3WkRBZmxlYVJvdHFJUnJmOWh2LVNsaDdsaUgwazNlSUN6UmdDUzRiZnpOc0ZKTkhGU2kzZ2tQb3hJeEJMeGtxbnNfZmVLa21ySzFobVdQLWZmSU5KS0dpYlE1c2VzVk1XcUdNaw?oc=5",
+      "entity": "Cradle",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "press",
+      "who": "Cradle",
+      "title": "Exclusive: Lundbeck taps Cradle for antibody design",
+      "source": "C&EN",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWmo3MG1XeFM0X3JVNjRrSXZwVi15S0phdC1DVjM1eC1hR1h1VFVDSFhzdnhpS2p6SjltSjVNUGRMN3lHZjdzM2YtTm9pY1FVMWJFMFEyOXhjNV9wV3JtUExLVjE1MFp0cGNma1hOVFlkaFV0S3BtWVV5cE81eVpjNEtPTzZWRDBGbTZ5TXFtVlk4UGlSaWhsWjBSMmtmcVhVSHVWQQ?oc=5",
+      "entity": "Cradle",
       "entkind": "competitor"
     }
   ],
@@ -765,6 +763,14 @@
       "source": "Theoretical and Natural Science",
       "date": "2026-07-06",
       "url": "https://doi.org/10.54254/2753-8818/2026.au35138",
+      "type": "paper"
+    },
+    {
+      "title": "Tandem kinase proteins and kinase-fusion architectures in plant immune system",
+      "institution": "University of Alberta",
+      "source": "Biotechnology Advances",
+      "date": "2026-07-01",
+      "url": "https://doi.org/10.1016/j.biotechadv.2026.108991",
       "type": "paper"
     },
     {
@@ -830,25 +836,9 @@
       "date": "2026-06-11",
       "url": "https://doi.org/10.64898/2026.06.08.730993",
       "type": "paper"
-    },
-    {
-      "title": "Beyond Productivity: CRISPR-Based Genome Editing for High-Value and Well-being Tomato Production",
-      "institution": "Gyeongsang National University",
-      "source": "Plant Breeding and Biotechnology",
-      "date": "2026-06-10",
-      "url": "https://doi.org/10.9787/pbb.2026.14.152",
-      "type": "paper"
     }
   ],
   "entity_news": {
-    "Profluent": [
-      {
-        "date": "2026-04-29",
-        "title": "Eli Lilly bets on recombinases in $2.25bn Profluent R&D pact",
-        "source": "Pharmaceutical Technology",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTXAwMHlzLXp4eVhWU0hEdzhmZDY1aExmbFpqV1dXT0hJdWFTclNkUnM3R2w0WDRSRVN3VDQ2ZHM3UDUtdEJGbC1jMUQwZU92Q3lSeFVid0s4c3QtN0RaamRTTXk4V1lMa3pVTUIydE1pRFlEN1pVeVAxMXVZSl9rTG5YekMxMHRZTXUxcWhWaXYzNEttZW5pNFJUd0JRaHVVejVOaVZ3?oc=5"
-      }
-    ],
     "EvolutionaryScale": [
       {
         "date": "2026-05-27",
@@ -859,28 +849,22 @@
     ],
     "Generate Biomedicines": [
       {
-        "date": "2026-07-27",
+        "date": "2026-07-29",
         "title": "Top Generate Biomedicines (GENB) Competitors 2026",
         "source": "MarketBeat",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5"
-      },
-      {
-        "date": "2026-07-27",
-        "title": "Generate Biomedicines, Inc. Revenue Breakdown – NASDAQ:GENB",
-        "source": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYQTU2YldFUTlyT0ZRR3BPTkptVWVjaFBIM252OFV4bThsQk5nbEZDYXQ4Q2FMNUNpTGp5VXVSdGZBSXl6akJkU3ZBczFjMWNIUTRzM3Z5bmI3VzBFelRxSGhzQktjZ3MzQWVRaHZwUEVIaTY2Y0dR?oc=5"
-      },
-      {
-        "date": "2026-07-23",
-        "title": "Generate Biomedicines: Post Mega-Money IPO, Caution Is Warranted (NASDAQ:GENB)",
-        "source": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX2pOLU5CREFwUU9HRWpKV0Jkck1JZ0lKZGdFQmcxVm5JcGVaTm5JWGoyY0NKZG5haTY5VURSRV93T3lNUUZ0LWxoVDRwMzlmcGZEalh0YlVPVWdTRWFHb2xRTVZwNzVPRkM3dVBMUm1NcEZvdlYzWTd3SkJ5aGtDN1AxX3kwS1poREFBZFd4Uzg1cFRpdHFSRG9PaHZwZ2tEdXc?oc=5"
       },
       {
         "date": "2026-06-23",
         "title": "Morgan Stanley Maintains an Overweight Rating on Generate Biomedicines, Inc. (GENB)",
         "source": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVFdxNDZ3ZnpiUlRfOF83TG42MWlBX3VhUXZBZVNVZjJQMlhZVjBTZ2tydWtSdkdtTUJoakkyUHFBX1F0R1pRajFELXUzbktUVDB3bEhaaDRLb202QVRsUEVudHFWZUZvb0l1REQ1Vko2WXRSVnF1LW5jY0pFQVVNUlF4SkNjcGZicHJXeXBhSldEOFVUcFpOSEpJOTBrcm8wUDdEOXBB?oc=5"
+      },
+      {
+        "date": "2026-07-23",
+        "title": "Generate Biomedicines: Post Mega-Money IPO, Caution Is Warranted (NASDAQ:GENB)",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX2pOLU5CREFwUU9HRWpKV0Jkck1JZ0lKZGdFQmcxVm5JcGVaTm5JWGoyY0NKZG5haTY5VURSRV93T3lNUUZ0LWxoVDRwMzlmcGZEalh0YlVPVWdTRWFHb2xRTVZwNzVPRkM3dVBMUm1NcEZvdlYzWTd3SkJ5aGtDN1AxX3kwS1poREFBZFd4Uzg1cFRpdHFSRG9PaHZwZ2tEdXc?oc=5"
       }
     ],
     "Cradle": [
@@ -923,19 +907,13 @@
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQW52RkZVQXEtYU1mUG9yWFNFWGc1cnFvN3hldnBzMW1TRW1lck5aS24yT1hrazJ0UjlHNVdMM01FOWdYeXZwek9USTZTdklzNHdEY1hER0h2cUhvaWxEbnZmWWFEUk5zWXR4bXp5RC1RX3NzTUdBUWVnQWRnN1pGWW1DeExwNjBkSGlZdXdDc1NmUXRueXJxQXVOaVE3WkE?oc=5"
       },
       {
-        "date": "2026-07-16",
-        "title": "Mane secures global license for Arzeda’s AI-designed Reb M sugar-reduction technology",
-        "source": "Food Ingredients First",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXRNclY0QmtmN1EzZlN0bnVraER0bGJtUzFPWFlsNFpZMEpHWkt5RXhyNlhvTjBYRXBnQmZlN2RvQW1WejZwaDNzRHRxRXdodE9qY1NoRk1Gb1VCb2dvamdHd2ZabmFfSU9yN3dCblZ3cm14SUhGeXpVWUlkcXUydXZ1RQ?oc=5"
+        "date": "2026-07-20",
+        "title": "Mane to produce, commercialize Arzeda’s ViaLeaf Reb M",
+        "source": "Baking Business",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSGJpcHdrVVAxS1BtcFJiZlR4aEs3bktZeGQ3SUZ6MHZudXJIRnZaRVBrVTlsU2NWekhWWk9EYzRheHpUZU5DUDhpdkkwM0g3bmQxMk9aOGZ2WFdpMWE1UDhWalVUZVgwNTdXSkFBOUpfRXV6b21UMTIzdVFDSXoxQm5qc05EcEhVZzFjUGtTZ3RHb3VhSFd1bzRVaFlRdw?oc=5"
       }
     ],
     "Mandrake": [
-      {
-        "date": "2026-07-16",
-        "title": "Mandrake Bio raises Rs 16 crore to build AI-powered gene-editing platform for agriculture, medicine",
-        "source": "The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSzJJdHpOdEtwdVFGOTJYbWlfdlBfYVFBRUVudGJkNnRQZ2ZiX21MR3NhbGlNdHRfR2NndkFCZXVIbzB4TWtHU0JVc3I3OGtiVDZTRkphZ19jODRzUVFjLWsyNEdzdG4yU3hOQkdBZzVGdkh1Vzl6NmVZSnJpWjNjNFMzUjl2RlBlZzZlRDZuQWMycTVfUTF4Y3I1SXlPczZFY0Z2TEJFTmw5Vnk3dE5UQ0s5N19pTjVsMVBxeTNKU3hRWEx3S1Brd1R2Y1N6MjMxSGVmLXk5d0MwaERUbnhmY2Y4dEZqUmxkRmdNclQxTUFlRHI2VGtEd0l5eU5kRFZGTlM4ODNqSjJEclQwRXfSAZMCQVVfeXFMTmlYR0VfcUdRckpSQU1oYUtGTEZmX3FMZW80b1BKQ0NXb2Y0RWJsb1E3MU1nOWlDQ21wZDZoTU5kVko5bjJLdEdOX3RQUEo0WEU1MDFuUzFNRHpHV0I2dF9YUnFhSVhrTnZhbDNFSndlWmd5VzlHVzR4VXRic1lEdkFNMzBpWEhsMzBrb1FWVWZtYkxGT1o0ZG4tbktHUTAxbGpUdDc2R1Q3MGc0X05VNGF5cTlWM0JSVzNscExWT0FBWUVPVDIzRWRON3pjU2REYW5NM1dWRWJZX0Ywb1lVcUFWRjNnQ2NnbWJ5NXZqcUYyRl9TMWVEMGxUNDQ3WGFGNlVEMGRiTy16eUMyS0x3ZE5aMjQ?oc=5"
-      },
       {
         "date": "2026-07-20",
         "title": "Mandrake Bio Raises Approx. $1.9M USD in Pre-Seed Funding",
@@ -944,18 +922,30 @@
       },
       {
         "date": "2026-07-16",
-        "title": "Mandrake Bio Raises ₹16 Crore Pre-Seed Round to Advance AI-Powered Gene Editing Platform",
-        "source": "Indian Startup Times",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUpUVi1JRzZ0ZFJmbm9mUUZSVklWdGtydmJHMDh5QVR4d1dxWU1XQ2s1RVkydm9fYW1jQjA2Sk1SeTE3MjhOZWtqb0tPWmNhd2ZWcDFVTGhXWjkwUEZTQWtNQkNhVWNuUmlab1ZWUUQyeEV4VFlYUmZDejZBdVBadlJtbXdwMzA5MzVQVWhaUVVGNWk2VVZKTElmazlOTEJRWXFRQUxmMU8xWmhvNFdrV0VEVEhpemRCYTluUHdKbi03NkVPaGRvTk14MFZXZnVmS2JpSS1tOEN6bG8?oc=5"
+        "title": "Mandrake Bio raises Rs 16 crore to build AI-powered gene-editing platform for agriculture, medicine",
+        "source": "The Economic Times",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSzJJdHpOdEtwdVFGOTJYbWlfdlBfYVFBRUVudGJkNnRQZ2ZiX21MR3NhbGlNdHRfR2NndkFCZXVIbzB4TWtHU0JVc3I3OGtiVDZTRkphZ19jODRzUVFjLWsyNEdzdG4yU3hOQkdBZzVGdkh1Vzl6NmVZSnJpWjNjNFMzUjl2RlBlZzZlRDZuQWMycTVfUTF4Y3I1SXlPczZFY0Z2TEJFTmw5Vnk3dE5UQ0s5N19pTjVsMVBxeTNKU3hRWEx3S1Brd1R2Y1N6MjMxSGVmLXk5d0MwaERUbnhmY2Y4dEZqUmxkRmdNclQxTUFlRHI2VGtEd0l5eU5kRFZGTlM4ODNqSjJEclQwRXfSAZMCQVVfeXFMTmlYR0VfcUdRckpSQU1oYUtGTEZmX3FMZW80b1BKQ0NXb2Y0RWJsb1E3MU1nOWlDQ21wZDZoTU5kVko5bjJLdEdOX3RQUEo0WEU1MDFuUzFNRHpHV0I2dF9YUnFhSVhrTnZhbDNFSndlWmd5VzlHVzR4VXRic1lEdkFNMzBpWEhsMzBrb1FWVWZtYkxGT1o0ZG4tbktHUTAxbGpUdDc2R1Q3MGc0X05VNGF5cTlWM0JSVzNscExWT0FBWUVPVDIzRWRON3pjU2REYW5NM1dWRWJZX0Ywb1lVcUFWRjNnQ2NnbWJ5NXZqcUYyRl9TMWVEMGxUNDQ3WGFGNlVEMGRiTy16eUMyS0x3ZE5aMjQ?oc=5"
       },
       {
         "date": "2026-07-16",
-        "title": "Mandrake Bio raises Rs 16 Cr in pre-seed round co-led by Activate and Antler",
-        "source": "Entrackr",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zd9IBtgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zdw?oc=5"
+        "title": "Mandrake Bio Raises ₹16 Crore to Develop Next-Generation AI-Powered Gene Editors",
+        "source": "Machine Maker",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLUJoeDFJMnFkV1B6d1E4VUZmelZTcWRsVkk2RWtsYlBNQmpYMnVPakZPVzFfWFZEU0pNaWxvVV9uZy1ERWdmc2NMdFNrZzhaeXNTZENOaUx5dF9PeHhxdVl3VHhycVVBUEFJXzVfMHp2OUQtcGpleXRMRTMtZ01yTjM1YmhZbWludUoxRU5qVjIweVhJb2VVZFA5MHNrOGVwSk04R0VtQk9YZ3JVYnBIVHV3VVdZMFRYZmZTNHV3aw?oc=5"
+      },
+      {
+        "date": "2026-07-16",
+        "title": "Bengaluru-Based Mandrake Bio Raises ₹16 Crore to Build AI-Designed Gene Editors",
+        "source": "analyticsindiamag.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLUVLM0JFWWRfRklDV3ZTQ2NrX2txMk1yX3VlNk9peUo0bzVaZ1ZOOHhTakxjTnJFV2MxNWFTYW56X2prUHVja0g4RlVQWmFqM0l6Skl2cUZQV3o2TlZ3Ymg2NmVrYVJZbkxLSVNHQ1RBRmR2Qi12LXI0OHZyQUNSWDVJdGIxSXVIVDFIMjAxdTVTbWNrTEN1ZDBoSUVGVk0tYU9XVERpX21lV3JDOFZFRWZrNWw0VHM?oc=5"
       }
     ],
     "Prime Medicine": [
+      {
+        "date": "2026-07-29",
+        "title": "ADAR1 Capital Management LLC Makes New Investment in Prime Medicine, Inc. $PRME",
+        "source": "MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb3hGTE5ELTUyMDMyeVYxRWxHeUEwUmVEbzk0YXg1Q0dnN05pdjY3TE9zRE96QnRabW9laVBHaEFQNW9vX1ZGSVhvaExlMl9EUExldklVSGhVREI4c2s3MFJDR09jVmhYYjNVQ3NGaUZqdnY1OW9rcEZGb3dXQ05pX1VUSUpib2RBTFotT3BUUG50RTdXX25sZm5jNExpZWNDNDF6US01TVRUd1FhaTM0bFl0VzFjamZPU2ZPUG9NR3RRVUdFZWhWQnZKUjhUMjhOZ3JZ?oc=5"
+      },
       {
         "date": "2026-07-23",
         "title": "Prime Medicine Announces U.S. FDA Clearance of Investigational New Drug Application for PM577a in H1069Q-mutated Wilson Disease",
@@ -973,32 +963,26 @@
         "title": "Price to earnings forward of Prime Medicine, Inc. – NASDAQ:PRME",
         "source": "TradingView",
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV0hIU25Xdy1GcXI3VjVIb3VHUzBFZ2t5ZWppMVQ5UTNXX2FOQmxNbW5YY3dlbWdRZnd2TDUwNXRGa2J3RTFSSklhOGprNzhWZFU5QlFOc0tKODVCWmtlb1ZUSWRYVldBamNrLWppV0JmWEpCTDd4QXFNTDhkQzV6Vl85VlRTNloxUGFJLVZNbi1Ua2dXWUJ0Y0VpNm4yZ0NXV1E?oc=5"
-      },
-      {
-        "date": "2026-07-23",
-        "title": "Prime Medicine expects first-in-human Wilson trial in second half of 2026",
-        "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaEtNQTE5WDVjbDlFUzhXeHlaOTVMeWJHR3QtQ054Q0NFeWJDS1RYc3BOOElUVG5KdHZTNUF5V0VjMGlvUFVaWlVWd0hCRkFrcFFRUDl2Y3VkX2NXWVVnV3d1VmpYNndEa1FSdTN1RTR0QXZ5NTV4Qno3TnZ1Sl91cEZmaEs1V0NJUkY0Wm5CUHZjLXliV3ZYeDVkdUZuSTlnOFBJb1RaQXV4ZE9tZTduR2Nidms0cGt0djNuZQ?oc=5"
       }
     ],
     "Beam Therapeutics": [
-      {
-        "date": "2026-07-24",
-        "title": "Beam Therapeutics Inc. (BEAM) stock price, news, quote and history",
-        "source": "Yahoo Finance Australia",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tSF94bG5yM2RfTEFnQ3lzZUc4dWx2bzZDaVltUFVyVzBvaks2Z28zTlY2blNfMG9rcE1WeUlqOXd0bWpydW1PbkQzbnZOeHhVekE?oc=5"
-      },
-      {
-        "date": "2026-07-27",
-        "title": "Beam Therapeutics (BEAM) insider Amy Simon plans sale of 16,677 common shares",
-        "source": "Stock Titan",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOE9oODdrSVBaV3BBRUkxUDlGUlNtQ2pZUlBmeS04ZWh2SlhyQXBhRFJoVnFKbGh1UVFTSW1DMnNUMDE2M0NaLUpHeXRsRTloZ0pRUUZobmp6SEJZZGRHV2luZ3VrYnotN212Zmsyd0dJUFpGOHJwcU41VW41MVYtMVkyRGZZT2tvdGNRYWJiZER3RUcwbktzZ3drSjV0Ym8?oc=5"
-      },
       {
         "date": "2026-07-08",
         "title": "Prime Medicine claims victory in dispute over gene-editing technology with Beam Therapeutics",
         "source": "STAT",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT3RGVGRsVVEzLWZBa2xQbEVQN3RSSDV3QVJ1UGRtRW1zN3YtMi1zMWZYZEJFVHBaOFpDNTdGaU1yNDltNldZbWwyRXA0M1BURzZXbTF4VGp5TDNxR2xEbk1yUDV4YTd4SlhoS2JJX2FYM19GZmxDbXI1SWxnS203dWZfQVhROUFQVHQtNFZJbmJub3M?oc=5"
+      },
+      {
+        "date": "2026-07-15",
+        "title": "Bank of America Securities Maintains Buy Rating for Beam Therapeutics (BEAM)",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeE1aaDZWMFVGS01CUzJ5MU1EUkFSWVVjbW5OVEdWdXNSVnkwdmMyUFI5WHpmcFJEdlBjdmJTVmFUMDNYdjNxZTdYUzh5MlJ3Zk9hd1ZqMnhxblJhMXd6VHpLcGgyV01GUkh2S2o4VXNrYmo2ME9JcUQzc3hqdnRlSjVUaEdQM0w5Z2NqMjEzbWUtSUZlRUNUVFZPR0JDdkE?oc=5"
+      },
+      {
+        "date": "2026-07-27",
+        "title": "Beam Therapeutics (BEAM) Revenue Breakdown - Main Composition",
+        "source": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNVERJcmFKODNqQ29fQ1NyZWExYTgzYnRKYzVwSUdZdThrUzdxVVpPcnVkNEZzOTFWQVVPU29CWUpCTXVEU1NmZzFUbm9PdU10bmlHeUdPbWNualJPT3J3T3R4SFVqMVVUZEdhcmZ5NXN2azV3QXA1TnE4bEFWRDBneE1hNF9jN3JWS2pDa2RmQjVONlZGSGxrRzBLekVmR00xcXNDaTBOeDdwNnFqcFZMMU1SRkVXbVYyUGpEOXd6TTQyalpfaHdRVUZreWlXNlVJX3Q5LTA2aUxxWFFhcmJYUGdtc2s1ak9aSHloTDlfQ3BNS1dfOGZKdVdETTB3WldyeUs3N1pzRkVuUUdiN0FyM0ZpbkxMN3E1TGJ1NW1CSE50bkNIYVN0UjNZMmtiY05vQkdtam4yVkVsaTB1OUFwTWlqS2gyVXVYZ1RBTk0xZ2V1eVhCUVVQTXF2OHhCM1pLdFdVN3BWb2xlSHJKWExYWGpaeE1kVm5YN21hRDcxUQ?oc=5"
       },
       {
         "date": "2026-07-08",
@@ -1009,28 +993,22 @@
     ],
     "Intellia": [
       {
-        "date": "2026-06-13",
-        "title": "Intellia Therapeutics Reports Additional Positive Phase 3 Results for Lonvoguran Ziclumeran (lonvo-z) in Patients with Hereditary Angioedema",
-        "source": "Intellia Therapeutics",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNelhtVFRTNVk4MGhDM2NYSGViWEo0LUdkTmFWbHp6SGNPb0xxNUVDc1hRakpnYWw4X3VieHZ5RDVmcjFRaUZzNEVwYjYyTDVKYTdEaDdnS3FoZEllNVZsR1ljcmp2S0d2LWdCQ2ZYUzZPelJ5bVdVcXBLYkdxYU55dHZzcjlTTmRBSHhvN0tkTV9UUzFESGNPZFdYb1JuMzZaSHVQY1gwMDFqaE1GdHc1eWVpcG5VR09XdkE?oc=5"
+        "date": "2026-07-29",
+        "title": "Intellia Therapeutics (NTLA) Stock Looks Cheap After A 92% Fall Yet Expensive On Sales",
+        "source": "simplywall.st",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZUVzX0J2S2FncGdRX0JBNGFBYUxnLXYyQkVKNkkwZzB3OWdjMDE1eVR4bXJScDQtRkd1X3BURVBVYkFVT3J3cHZ2cE5vaUlzU3I0b0E5M2tJa3pJanU3bE5RRmVEZTBydmlqOE1xcDE4cGk2SlFlUTNJLWg0ZTFvUXF1OXZkX3cxdUNEN0NTcm1aLWk3T0dyU3NLZWdiTE5lUU9BWENFY3A1WTlLS2NURWdJZ2RWcV8yUTUyMlVoNkV1VnR2cEM4eUlXUG5sWGtwbG54RkVNNGNJLWQ3SURYT0VUVkJnLS1kVnhN0gHwAUFVX3lxTFB3OFNIbk5iTXppSG84YU95clRWZFp5ZDJqMXVHNXFHVFJlTy1JMEQ2SVZIT1QwWkZtLUtUNGp1YUs1YVdhUm1VVjNRTDNSTUpXS1V3RmlsNzdGTE5pdG82VHZrM1lkNFdtNi04cVhhR2QxcXhXVnRqWjZRaHJ6WW5RSE14Q1YyRVAwNm0tc3VxTWtKb0NxcWE2bEFnck00aDZ5VUFFT2UxbVhYeUtkbjh1V2J1cWN1Y1pzb01FVm01c2I5TE8xdHAyT2dzZVVoai1LUDZXcFJfMHRzcXlCY1B0LUIwd2RZMzBCMmctelJBTw?oc=5"
+      },
+      {
+        "date": "2026-07-14",
+        "title": "Intellia Therapeutics: An Overvalued Biotech With Little To No Commercial Potential (NTLA)",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3k1N0JNdmdzM1JtTzY4M2JvcEhtdlk4TjRyNWZXd3lUaW9iVVNKN1ZiMGpLengtekhndXJBYjVvaWRHNkc2MzZGT1hOZGlDMTNKQ3VfN3FWTi03TzF6M09HS3J0M3l3YWFSR2xQLTZ5Rmo4VFloeWpZRzl4RDdLdXI0Nm1xNEZ0dlBnZTNHbGJiU2dnSnl4ZUtJM3FnQURvUXZXN2wxbklscjQ3Z25DQTVYcmtERVpoRWFadTU3cGg?oc=5"
       },
       {
         "date": "2026-07-24",
         "title": "Intellia Therapeutics (NTLA) CFO logs 8,111-share sell-to-cover tax trade",
         "source": "Stock Titan",
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNTAwLXlwcXZxeDBOZ1NGdTV1UVowOF9qMjFLVWJia2RWbUdNUE1YVE5IUkFpcWM2LV9ndFhncGlKMVFhTXNvU1JubkUxM0VsYVVweTV4aDBhTG41WkMteS1CWGtrSmRGa3FxU2hDNFFlR0RRNVNXTWx5eHNFUi1IWkpSd1A4NVlBTUlKcWpRSFFkY0gwWVU5Uld2UlZsVTdHRXQzN2lzUERVdVc2TzVfVEtBalYwdkJCbVUw?oc=5"
-      },
-      {
-        "date": "2026-07-24",
-        "title": "Intellia Therapeutics CFO sells $91,248 in stock",
-        "source": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWFBYNmF3aFpYYWJIa01fQmtsRU5qOV9fTDI0Z0trOVh0ZmNoMWFmLWNnUUZ1ZWNqS2VBZWs0N1BIT01oTXhnT3ZjVTNYbmFXVzcxVjhNb0tnY2htTXpfVmtTUm5sbTNxb21Kdk9DNS1qcUtmZnJkUm9DV2JtT2NCdjZyckJ5NVAyRG5rbHBoSHJMQlN6X1Nuei0xbG9NcU1XRUJDVGVVYnE2VFZHVjJYSg?oc=5"
-      },
-      {
-        "date": "2026-07-10",
-        "title": "Intellia Therapeutics (NTLA) Is Down 12.1% After Positive Phase 3 Lonvo-z Data And 2027 Launch Plans - What's Changed",
-        "source": "simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTlkzQ3Vuei1xMUplVTYyYUNUNkhYRlhocXQ3UXNDQzNpTVhFbFhkd3h2QkUycDQ1YUsxZDcxZV83YjNDVWIxUnB5TTJHRFpqdnhncThoR0Q3eDZjZzMxd2NwUml1Y1gxZnVUc2llalk1OUJRMGR0QTBxdHJoVFdFanVsY3FPZDFsektQdWdnS2RvWlpDZlcybXdNSWgtdnBacFducWY2TF9UeWVWMFJ4MWhObmVFUEdNdUlOdTd4MEZOYnJXd3FKWmVOWEhyZHBzbnR3UFIyOHJIZmhXRjJCWVNlRTQzTzQtT1HSAe8BQVVfeXFMUDNpdVdXMWFsZFZTWHJ5MlRwNDc5em56YVRtalVLb1hZdEFFZ25zWU4xMnR0OWtZSk83bTJQR3NEdEoyR2dSZF9LbjNobkRYbHh1NVlLcHVzS3lBRnF1VkRPLVVRanBpWTdpUENwcDNQWDhMOGp3RnplY2kzSUpFOWlrb2R0YjJBdElkNkJKUjhhdXZrTjlSOWJPYWlwNm94WVJHUGI0NTNtZ0JfQ3ZYdXV4ejVIdER3cnBiNG1RNWZWYXVobjEwVUFwd0JIbjEyVkF1MDN5MTItWnAwTzlMUHp1ei1ybGVoVXU5RFpjRE0?oc=5"
       }
     ],
     "Jennifer Doudna": [
@@ -1053,10 +1031,10 @@
         "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWW9ESmRxLXVYdXZIQmpaa0dZTjFiNzFKbnRyQ2NkYUxpbW01N0FHLUo2emJsc2t6TURWYVBlWFc3XzNPQVdrOW1CVWNmTjBEdWhMQ3VvYlVDVV9Wc0ktTks0OURTQVdFUWt4eTJpRTU2dHI5aEJWdTZIeXloLUhYWHJFVGp0U1MyUzZvdHhucmJNUE42TU1oMGVsWkhHSlpQbGc?oc=5"
       },
       {
-        "date": "2026-07-28",
-        "title": "Nobel Laureate Creates Groundbreaking AI-Designed Gene Scissors From Scratch – More Precise Than Billions-of-Years-Old Evolved CRISPR Systems",
-        "source": "36 Kr",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByeEV5Rm4xWlhibWlfRm4wTWt3ZWREQ0t4eGxnV1pUZDRNSnlOSHZNVTE2alNRNkp4a3dRLVhTNko1NThWUzZXa2NnOGNMWnl2NGk4?oc=5"
+        "date": "2026-07-17",
+        "title": "AI-designed nucleases build on nature’s design",
+        "source": "C&EN",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEZHa09TZkpIazZFYzd1MkprSlNCbnpmbnJiRVROR2kwMjRsZzJrYWFnLUpoUU9aNC1LTUMxdzh6QWFwdV9lOFNwZFo0NU03S1JvQUlMUldiLU1fbi1xZXVtRmpmT1NKeE1uTVJ4S2dfX21iQUVOTlpKXzFPZ2RfRHdPVDEzWndTWG9wa0FRanVUQlJMS2Z1WE42QQ?oc=5"
       }
     ],
     "David Liu": [
@@ -1080,12 +1058,6 @@
       }
     ],
     "Frances Arnold": [
-      {
-        "date": "2026-07-21",
-        "title": "Frances Arnold | Biography & Facts",
-        "source": "Encyclopedia Britannica",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyY1NRMGdfVlRWM1JKLXF5allidXBrNG5aQ09rZkhNcE0zTzM4QVdDekJ2bnBTNlBfaFlUWTBxX2lVUFVWT29EQ2NLWmp5eUtVb0hkYUZxcGJFX081UmVqOA?oc=5"
-      },
       {
         "date": "2026-07-20",
         "title": "FAST Awards Grant to Nobel Laureate Frances Arnold to Advance Next-Generation Tools for a Novel Therapeutic Strategy for Angelman Syndrome",
@@ -1120,9 +1092,9 @@
     {
       "name": "Liu lab (Broad)",
       "latest": {
-        "title": "Emerging applications of CRISPR-Cas9 genome editing in horticultural crop improvement",
-        "date": "2026-07-26",
-        "url": "https://doi.org/10.1007/s44372-026-00782-y"
+        "title": "Mediated civic engagement: online activity and community participation on the Indian subcontinent",
+        "date": "2026-07-27",
+        "url": "https://doi.org/10.3389/fcomm.2026.1862977"
       }
     },
     {
