@@ -1,6 +1,94 @@
 {
-  "updated": "2026-09-28T13:27:15Z",
+  "updated": "2026-09-29T12:30:53Z",
   "movements": [
+    {
+      "date": "2026-09-29",
+      "type": "press",
+      "who": "Beam Therapeutics",
+      "title": "Beam Therapeutics: Ignore The Anthropic Noise And Focus On Clinical Progress (NASDAQ:BEAM)",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTJFYVF4RGlBeTE4QkxiU1Z6aEhkaml5RDdzcjZydThhWDc4bnIxZ05JWl96NUxaWmFNRUJiQTF3enY1RjlZOHJheUVpVkJuS2RETGhYa3ZobjdqdjlicjAyNHRWVzByT3htZkgzczlUZ0pOcWxka3hUVE1qUzhxNU1Yc1ZrUDNhTV95dzNNUjJoN1VaZFI4dFF6QzQxc0V2OTl6bEtHb3RzZGhHTzdEWHptQkhIMlZZN3BNVHhfdGExdw?oc=5",
+      "entity": "Beam Therapeutics",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "press",
+      "who": "Beam Therapeutics",
+      "title": "Beam Therapeutics remains a long-term buy with strong 2028-29 upside from gene editing advances.",
+      "source": "Pluang",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVjVqRDZzUDk5Zk5FNkFrbHNCeW5ES1ByamhUcWN3TFlRLWljN2dyNDM2YkhyS2dETUdBSno4bTJITFJNVnNGdlZTTFZQN0IydDFYd202dklBeXFPcDVnUENCRVVvY1FvMU1oTVdMeTRVbDVsZEhnUEFNMW9vU3pHSkR1RnZyY2Z2MmlKUXlHU1dMR2V5OWxYS3o4c0h4MEZqYWZ1VQ?oc=5",
+      "entity": "Beam Therapeutics",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Tissue resident CD4+ memory T-cells mark response to immune checkpoint inhibition in high-grade glioma https://www.biorxiv.org/content/10.64898/2026.…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwnnoix3ou23"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Probing the sequence variability tolerance in a de novo α-helical barrel biocatalyst https://www.biorxiv.org/content/10.64898/2026.09.28.754888v1",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwnnkz54h42u"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "A combinatorial pre-mRNP retention factor network couples nuclear speckle architecture to splicing quality control https://www.biorxiv.org/content/10…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwnmqwn2wh2g"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "P-body sequestration of clock transcripts delays repressor synthesis to set circadian period in Drosophila https://www.biorxiv.org/content/10.64898/2…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwnmpvvvnv2r"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Msp1-dependent extraction promotes ubiquitylation of translocation-stalled mitochondrial precursor proteins https://www.biorxiv.org/content/10.64898/…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwnlyblno72a"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "press",
+      "who": "STAT",
+      "title": "STAT+: UniQure’s gene therapy continues to slow Huntington’s progression after four years",
+      "source": "STAT",
+      "url": "https://www.statnews.com/2026/09/29/uniqure-huntingtons-gene-therapy-slows-disease-progression-four-years/?utm_campaign=rss"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "press",
+      "who": "Generate Biomedicines",
+      "title": "Top Generate Biomedicines (GENB) Competitors 2026",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5",
+      "entity": "Generate Biomedicines",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-09-28",
+      "type": "press",
+      "who": "Prime Medicine",
+      "title": "Prime Medicine receives FDA clearance for PM647 in alpha-1 antitrypsin deficiency",
+      "source": "AllSci",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWtzbUNJWEw1Sk9naVd0UktrT2pwNHNwVlJxR3ZIV1pDeFlYQWFCcGhBa2N4T0l6V29NazF3eUEwX0FpcVFyU01WSWRfbnJ6bl9fbVBmc0Q5Y3lBVy1JX0lCREMwd0F4MUJvS2tlM21IMGg5eUpIb2NNaUhJUHVPdzh3cmMxOU0?oc=5",
+      "entity": "Prime Medicine",
+      "entkind": "competitor"
+    },
     {
       "date": "2026-09-28",
       "type": "press",
@@ -13,61 +101,11 @@
     },
     {
       "date": "2026-09-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "A dedicated motif in human polymerase gamma enables DNA synthesis through replication roadblocks https://www.biorxiv.org/content/10.64898/2026.09.27.…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwlfk5wkmg2m"
-    },
-    {
-      "date": "2026-09-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Nucleosome-scale p53-hormone receptor grammar distributed by Alu elements https://www.biorxiv.org/content/10.64898/2026.09.26.754600v1",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwlfjrvbp323"
-    },
-    {
-      "date": "2026-09-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "A population-scale landscape of the subgingival microbiome reveals divergent routes to periodontal dysbiosis https://www.biorxiv.org/content/10.64898…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwlfjcattz2u"
-    },
-    {
-      "date": "2026-09-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "GEMOT: Towards Mechanistic World Models for Biology https://www.biorxiv.org/content/10.64898/2026.09.26.754619v1",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwlepy33le2z"
-    },
-    {
-      "date": "2026-09-28",
-      "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Quantitative machine learning of protein interactions reveals the multiscale organization and molecular syntax of signaling networks https://www.bior…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mwleph4nbm25"
-    },
-    {
-      "date": "2026-09-27",
-      "type": "press",
-      "who": "Generate Biomedicines",
-      "title": "Top Generate Biomedicines (GENB) Competitors 2026",
-      "source": "marketbeat.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5",
-      "entity": "Generate Biomedicines",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-09-27",
       "type": "press",
       "who": "Beam Therapeutics",
-      "title": "PRME Surges 15% After Winning Arbitration Against Beam — Clears Path To Human Trials For Its Gene-Editing Drug",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMXp6S2lidE5CZnc4ajl1Y09JWlR1X181UVhpR2VnRkVMTGF2NGgxNGZDakRJY0lEOUx6Z1FMNTN0c1NtTGFSX3pDNWFSdXgtdFJSNUdDRHFlRUtWcERWdUdxNVBWQzByZ2taS3U0UlRpSzl2Z3VsUmlLTUp2VllIMzV0djNwLUUweER1SGxHRGFuRzhHb3NsdkZ4TU1YV0F6a09nOWdKbFFSSnp2bDF3UHEyeFNYNG8za0pTNGJ2RFd4RjZFcTU4bGZvVzkwWDE5OFQxb2NVcmZYYTZkdElEQUViVHhRemIyT2hvYnNQcnlzY1hoZTEyeVNRR2tYTG8?oc=5",
+      "title": "As Claude Enters the Gene-Editing Arena, There’s Still a Long-Term Case for BEAM Stock",
+      "source": "Barchart.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUHZqWmdNSUhWdUlrOFVnOUtYMjd5aWFNUlRXQ0RTUlRyQTlqLWdYWHRuOWtPR3FPZV9PdlB5eVd6VlpJT0ZIWk10TjVCMDJjbDBvUjNrdk41U0VScThBaE9BeHNIaFdNSFJ1ay15Z1gtbElCV0hXSHlFR0I5dE1Oa1hfZXVIMnQxTjZIRUFPUGlfX2o1b21DMU9Xd3ZMeGkwbVE1VkJUbmlZUTZuNHdZTGVVM0Q0YlZXQkN3Sy1aTElpTVJ1N0lj?oc=5",
       "entity": "Beam Therapeutics",
       "entkind": "competitor"
     },
@@ -75,9 +113,9 @@
       "date": "2026-09-27",
       "type": "press",
       "who": "Intellia",
-      "title": "NTLA Jumps Premarket On Positive Late-Stage Trial Data For Gene-Editing Therapy — Retail Says Buy Now Before It’s Too Late",
-      "source": "Stocktwits",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdWZuWlFiX0JGd3BGb3hzdWMtZ0pZMVF1cEYtQ0hoZVlNNXZPQVZMZ2RFVnU4SDlFRm9oZXgzWTBiNldjT193ZUNCU2swams2aEtCYk5GOTBDU2hSYUVjOFFxY05LRHFqQ1Q5N0VNN1JUaWJlNHVxZnRkWUlWa0hZU1hnVFJWNGp2WG93dkZhTWhUUG9hTGY4U2ZPRVpEUDFweXlzb2JSMVJZeV9jZWgxZTZVbmpDYnJq?oc=5",
+      "title": "Intellia Therapeutics Bears Growl Again, This Time About Claude AI -- Yawn! (NASDAQ:NTLA)",
+      "source": "Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbmt6Rk43YXIwcVFNUXpXZ2FkUzNsbmVxRzZJU0tpRlNURFNKMExzQXRBSkd5aHF2S0hrVGdfVnJORWlxeU9FXy13aFprclNzV1p6YmRzeWFnN3VhQ3ROMG83dl8yTVFhZnNYWVFTTWJTeTBXd1M5SnF5NXJSQTNnV18xeE15UldoUkFrT0xxdERMVkthM29jVUxiZHFpeE9xMmhsYUhlQ1NnaGphNHhVVg?oc=5",
       "entity": "Intellia",
       "entkind": "competitor"
     },
@@ -94,18 +132,8 @@
       "type": "press",
       "who": "Prime Medicine",
       "title": "Prime Medicine, Inc. (PRME) Stock Price, News, Quote & History",
-      "source": "ca.finance.yahoo.com",
+      "source": "Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9haWhhN2xNRmQxd3d4SDY4c3U3QXp5a2lKOUVxNlMwdHpqbFgzdnNrN2drNVFaRS1HSTlIemdxQk9PbnJfeENuanZzXzRaMm9VYVE?oc=5",
-      "entity": "Prime Medicine",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-09-25",
-      "type": "press",
-      "who": "Prime Medicine",
-      "title": "Prime Medicine: A Buy Due To BLA Filing H1 '27 And In Vivo Therapy Development (PRME)",
-      "source": "Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSTU2X1l5ZS1iWlVjLWUzMmF0V1lWMTQxdDA0OTBOWTNMX3V6ZENuWlZvSm5xZWZmVVF5bHJrQ2VhUUFEcHhNQ2gySWF3REV5RzdjZ1B4NEwxdjgxS2NvYW5VR19qQ0xzMXJfWTBOLWhKSFlwUDZmbUQ4NU9EZVhOQi0xUkt6YXVORFVILXhtckVERkJxVVN2QVpCWWw1MC1tTWV6OUNBMTFDN1Z6ZjlsOG5DcG9yS2V4?oc=5",
       "entity": "Prime Medicine",
       "entkind": "competitor"
     },
@@ -114,7 +142,7 @@
       "type": "press",
       "who": "Beam Therapeutics",
       "title": "Beam Therapeutics Inc. (BEAM) Stock Price, News, Quote & History",
-      "source": "ca.finance.yahoo.com",
+      "source": "Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KREhaWG92dWt3NGxaa0U1MUZPeG1CZjVXTWl3cGFRQmE4dE1NVVZ0V2JCdlBBX2EzbGt4S2tkak9sQWsyZGl5N1pGb0tmTjVQMVE?oc=5",
       "entity": "Beam Therapeutics",
       "entkind": "competitor"
@@ -134,7 +162,7 @@
       "type": "press",
       "who": "David Liu",
       "title": "\"Leading Through Uncertainty\" with Betty Liu, David Liu, and Sandro Roco",
-      "source": "asiasociety.org",
+      "source": "Asia Society",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVnV1VjZPWEVseEZpNHJmYVNMb3JuVC1XRjc5dDBmOVlNd0JQSDk5Nko3MmZBYzBib1ZFNG5XaS1uUzc1T3ZZcEZ6NjdPNW42M3ctQmM3ckxWalhwZTN1cFRVMUd4ZjlUeEJRc3BMOE9GdzVfd1lqYWZMalRBV2VFamF1d2FYZmRCc2lQTXZ4VF9SWFdVLUlaX09obnFfeFcxY191Zw?oc=5",
       "entity": "David Liu",
       "entkind": "person"
@@ -155,16 +183,6 @@
       "source": "GlobeNewswire",
       "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPVG5rc0tZMDVvWWNpWTZ3eDBCNG9CQmY5X0Z4NjdlZ3B5NVU3VzFydkVVLWFhakJybEJLRWVtY3FiMzU3eTAwbXhhem5UdFIxeFJJSXRwVXpOOV9JbWlyR3dOQ2hwWGNlUjB4VmFXbjJ4WWhuNmtJTEZlWG9TOUNSMHJTS1pSbXBsSzhVbUx0bHB5aVJmaGxoaVRYZkFib2x6emp3TzFhQWlrSHFoRmxBSlVYRWJ3X20xekEwUWVEMi1FLUdOaXNKYUJXb3JNaVhEU2dQQXlkeHpESC12RDdRVmVtSkpDd3pfQ09vejNBZzQxZmx5bWJuSWlaS21lRUlYTy1BM2FQWFN6ejBtVnR5dEpxV3ZQeWRWLVN2QWY4dzhfbDBY?oc=5",
       "entity": "Prime Medicine",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-09-24",
-      "type": "press",
-      "who": "Beam Therapeutics",
-      "title": "Beam Therapeutics (BEAM) Stock Looks Fully Valued Despite In Vivo Gene Editing Growth",
-      "source": "simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0MtTzMzeXJ3X2ZCcmstazgxTEtmXzFmNzVDTXBZVEFhTUhlSnNkeXZZbEM1TXFwT1oxajRLY2d4eGNaUExGYmNRMkdVVURJUVFob3FRaGVzaUE2MHNzeG9EejlrSldCeGRLYXNpVkxyc2tTd1JWZGF6STlqblZJaWRsWm5qVF9Rc182NnRqY3M1aWRJQ0ZQTHJVTkVPbk84TW5na0VzWUF2Q1F1WnRVdHdONUhrSnlvOUNhMUM5SUNwZF9Cb2JwVUhwTWFDODN2c2NqRlk0ZlRIdmFXRUNKNG41ZEtuUdIB6wFBVV95cUxPc2xLZk5kN01mekpUTHBBLTlUNXpYaWRtUUpBeUR6cWJlTnZkcmNYemRLWVYySm5GSHhxcnpvY01CWUoxTlljNXdsNV92LU44VWRyMnVfbE9nUlJQbzEwa3VwdGxGVVpjOXlXN1Q0TnZzT2gwdnc0Nk13ZzBVMlRBWHo0YkVrM1FoSDlRRWxkOFhMeEMxLXF0UTd4UDFsdDVCbnVwdDBkUG9NdWpORjJ5MDctODROemJBNjVyMHdkSlVMeV82QURZdDU5QldUM2NrRXEtcVR3VlIzdDJoTmlwS2RscVVrV0U4UERv?oc=5",
-      "entity": "Beam Therapeutics",
       "entkind": "competitor"
     },
     {
@@ -396,7 +414,7 @@
       "type": "press",
       "who": "Nathan Benaich",
       "title": "Jack & Jill raises $40M to put an AI agent on both sides of the hiring table",
-      "source": "The Next Web",
+      "source": "thenextweb.com",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52VlZyVFFhVUFVMV90ZUlsTkNaUlVmaTNtUWo1TXlZWWhkakV4b1BjWDNJREJDX2JwZzBCYmVRU3NtSzItbFdPZjRrRDg1LVJUalBLZDNsdTI3eGl6OTVaQWVPMkQ?oc=5",
       "entity": "Nathan Benaich",
       "entkind": "person"
@@ -416,16 +434,6 @@
       "title": "A nice review on ways to discover and engineer proteins that use fewer amino acids while maintaining structure and function. @FilipBuchel @KlaraH_lab…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3mviywbtgy22i"
-    },
-    {
-      "date": "2026-09-08",
-      "type": "press",
-      "who": "Beam Therapeutics",
-      "title": "Beam Therapeutics Presents Updated Clinical Data from the",
-      "source": "GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQaUUxMDlFQXZzWnJucnVZNTV4YXZMaldxLUdJMnQ1MEpVTE9MZmNPTnVreVd0N3U4RW93Y2pMY3M1MkxIbHl0Q3VxQ1NzamxjdDVSX2ZuaUhGNE5FYVpPYUx6dnZOdndBcUZDaXk3Nkw4elRMcHlvVUItejNMM2pLamh2clhXOHRwRW9FMHExLWxVRXRNZ0M2S3A1NVJlMmVYZ1JvMzJEUUNwNnhrU21fNE5ScERJeVlyNmE3dmdtM1JxODRMXzVoTFRNcEM3aFFnQndTcktZZWg0eUNuSkJYcmp2bXBpNXBuNVVBOHRaYTJqZzdrR0hLZEItOXByUWZTSDd2MUpIU1FaczJyZTJ5ODctLW5Ec3RoZlk3U2JqRjRyMHctWkxUajdocDlsMkdRaHN4RXFsQWJQM2llTXZERVdtZkg0UzFoajdlVFJGdTZLaTNZMEs2X0J5M1JibGVVS3NuUjhnNnZpUQ?oc=5",
-      "entity": "Beam Therapeutics",
-      "entkind": "competitor"
     },
     {
       "date": "2026-09-08",
@@ -678,152 +686,64 @@
       "title": "If you're a UK scientist depending on national facilities like Diamond Light Source, please consider signing this letter! openletter.earth/open-lette…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mrfmqihsl225"
-    },
-    {
-      "date": "2026-07-21",
-      "type": "social",
-      "who": "Yo Akiyama",
-      "title": "Excited to share our now published paper @cp-cell.bsky.social highlighting advances in modeling the evolution of protein-protein interactions with MS…",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mr6od3za7s2a"
     }
   ],
   "research": [
     {
-      "title": "CRISPR/Cas Systems: Biological Basis and Genome Editing Applications",
-      "institution": "Dokuz Eylül University",
-      "source": "Methods in molecular biology",
-      "date": "2026-09-22",
-      "url": "https://doi.org/10.1007/978-1-0716-5547-4_1",
-      "type": "paper"
+      "title": "Agrochemical-responsive gene expression control systems for modulating plant development and metabolism",
+      "institution": "Colorado State University",
+      "source": "bioRxiv",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.64898/2026.07.30.741590",
+      "type": "preprint"
     },
     {
-      "title": "Overview of Delivery Methods for Gene Editing",
-      "institution": "Ege University",
-      "source": "Methods in molecular biology",
-      "date": "2026-09-22",
-      "url": "https://doi.org/10.1007/978-1-0716-5547-4_6",
-      "type": "paper"
+      "title": "Metformin enhances differentiation and function of skeletal muscle in models of Facioscapulohumeral Muscular Dystrophy (FSHD)",
+      "institution": "Kings College London",
+      "source": "bioRxiv",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.64898/2026.07.30.736088",
+      "type": "preprint"
     },
     {
-      "title": "Production and Storage of High-Capacity Adenoviral Vectors for the Delivery of Advanced CRISPR Systems",
-      "institution": "Leiden University Medical Center",
-      "source": "Methods in molecular biology",
-      "date": "2026-09-22",
-      "url": "https://doi.org/10.1007/978-1-0716-5547-4_8",
-      "type": "paper"
+      "title": "Dispersal ability modulates macroinvertebrate metacommunity responses to environmental filtering and spatial connectivity in an Afrotropical stream network",
+      "institution": "University of Eldoret",
+      "source": "bioRxiv",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.64898/2026.07.30.741733",
+      "type": "preprint"
     },
     {
-      "title": "Optimization and Application of CRISPR/Cas-based in planta Gene Targeting Technologies",
-      "institution": "",
-      "source": "Repository KITopen (Karlsruhe Institute of Technology)",
-      "date": "2026-09-15",
-      "url": "https://doi.org/10.5445/ir/1000196897",
-      "type": "paper"
+      "title": "A nuclear targeting approach enables efficient transgenesis in the milkweed bug Oncopeltus fasciatus",
+      "institution": "Harvard University",
+      "source": "bioRxiv",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.64898/2026.07.30.741915",
+      "type": "preprint"
     },
     {
-      "title": "Engineering Biology Beyond Single Genes: Advances and Challenges in Multiplex Genome Editing",
-      "institution": "Ministry of Agriculture and Rural Affairs",
-      "source": "Animal Research and One Health",
-      "date": "2026-09-12",
-      "url": "https://doi.org/10.1002/aro2.70094",
-      "type": "paper"
+      "title": "Characterizing benthic community structure across Western Pacific seamounts to ~5,000 m depth: Implications for conservation",
+      "institution": "Second Institute of Oceanography",
+      "source": "bioRxiv",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.64898/2026.07.30.741913",
+      "type": "preprint"
     },
     {
-      "title": "Genome Editing for Biotic and Abiotic Stress Resistance in Tomato: Advances Enabled by CRISPR/Cas Systems",
-      "institution": "",
-      "source": "Crop Breeding Genetics and Genomics",
-      "date": "2026-09-10",
-      "url": "https://doi.org/10.20900/cbgg20260021",
-      "type": "paper"
-    },
-    {
-      "title": "Retrotransposon-based mechanisms for transgene addition to the human genome",
-      "institution": "University of California, Berkeley",
-      "source": "Current Opinion in Chemical Biology",
-      "date": "2026-09-10",
-      "url": "https://doi.org/10.1016/j.cbpa.2026.102762",
-      "type": "paper"
-    },
-    {
-      "title": "Navigating off-target effects in CRISPR-based genome editing for safer gene therapies",
-      "institution": "Amity University",
-      "source": "Discover Genetics and Evolution",
-      "date": "2026-09-09",
-      "url": "https://doi.org/10.1007/s00294-026-01339-y",
-      "type": "paper"
-    },
-    {
-      "title": "Gene Therapy Approaches for Rare Genetic Diseases: Current Advances, Challenges and Future Perspectives",
-      "institution": "Başkent University",
-      "source": "IntechOpen eBooks",
-      "date": "2026-09-05",
-      "url": "https://doi.org/10.5772/intechopen.1017730",
-      "type": "paper"
-    },
-    {
-      "title": "Beyond the single gene: Integrating genomic selection and genome editing for the improvement of polygenic traits in crop plants",
-      "institution": "Agriculture University, Jodhpur",
-      "source": "Scientific Reviews",
-      "date": "2026-09-02",
-      "url": "https://doi.org/10.1038/s44573-026-00002-4",
-      "type": "paper"
-    },
-    {
-      "title": "Genome Editing for Glycogen Storage Diseases",
-      "institution": "Duke University",
-      "source": "Journal of Inherited Metabolic Disease",
-      "date": "2026-09-01",
-      "url": "https://doi.org/10.1002/jimd.70249",
-      "type": "paper"
-    },
-    {
-      "title": "CRISPR/Cas9 genome editing as a precision tool for accelerating vegetable breeding and crop improvement",
-      "institution": "University of Sargodha",
-      "source": "Current Plant Biology",
-      "date": "2026-09-01",
-      "url": "https://doi.org/10.1016/j.cpb.2026.100657",
-      "type": "paper"
-    },
-    {
-      "title": "Genome Editing Technologies in Plant miRNA Research: From Functional Dissection to Precision Engineering",
-      "institution": "Anhui Academy of Agricultural Sciences",
-      "source": "Agriculture and Biology",
-      "date": "2026-09-01",
-      "url": "https://doi.org/10.70737/rse20h76",
-      "type": "paper"
-    },
-    {
-      "title": "Harnessing multi-omics, genome editing and AI-enabled high-throughput phenotyping for forest tree improvement",
-      "institution": "Northwest A&F University",
-      "source": "Current Plant Biology",
-      "date": "2026-09-01",
-      "url": "https://doi.org/10.1016/j.cpb.2026.100672",
-      "type": "paper"
-    },
-    {
-      "title": "CRISPR‐Cas9 and precision editing technologies linking functional genomics to clinical translation in genetic diseases",
-      "institution": "Hunan Agricultural University",
-      "source": "Clinical and Translational Medicine",
-      "date": "2026-09-01",
-      "url": "https://doi.org/10.1002/ctm2.70764",
-      "type": "paper"
-    },
-    {
-      "title": "Engineering abiotic stress resilience in crops using CRISPR/Cas: from tools to trait improvement",
-      "institution": "Guizhou University",
-      "source": "Horticultural Plant Journal",
-      "date": "2026-09-01",
-      "url": "https://doi.org/10.1016/j.hpj.2026.05.012",
-      "type": "paper"
+      "title": "Apparent survival suggests the female-biased dispersal in a truly subterranean rodent, Ellobius talpinus",
+      "institution": "Saint Petersburg State University",
+      "source": "bioRxiv",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.64898/2026.07.30.741862",
+      "type": "preprint"
     }
   ],
   "entity_news": {
     "Generate Biomedicines": [
       {
-        "date": "2026-09-27",
+        "date": "2026-09-28",
         "title": "Top Generate Biomedicines (GENB) Competitors 2026",
-        "source": "marketbeat.com",
+        "source": "MarketBeat",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5"
       },
       {
@@ -875,7 +795,7 @@
       {
         "date": "2026-07-16",
         "title": "Mane secures global license for Arzeda’s AI-designed Reb M sugar-reduction technology",
-        "source": "foodingredientsfirst.com",
+        "source": "Food Ingredients First",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXRNclY0QmtmN1EzZlN0bnVraER0bGJtUzFPWFlsNFpZMEpHWkt5RXhyNlhvTjBYRXBnQmZlN2RvQW1WejZwaDNzRHRxRXdodE9qY1NoRk1Gb1VCb2dvamdHd2ZabmFfSU9yN3dCblZ3cm14SUhGeXpVWUlkcXUydXZ1RQ?oc=5"
       }
     ],
@@ -889,7 +809,7 @@
       {
         "date": "2026-07-16",
         "title": "Mandrake Bio raises Rs 16 Cr in pre-seed round co-led by Activate and Antler",
-        "source": "Entrackr",
+        "source": "entrackr.com",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zd9IBtgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zdw?oc=5"
       },
       {
@@ -907,10 +827,10 @@
     ],
     "Prime Medicine": [
       {
-        "date": "2026-09-28",
-        "title": "Citizens reiterates Prime Medicine stock rating on gene editing capabilities",
-        "source": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLXhVN0o3ZVE1ZGFaUzR0a3g4Wjl4SklaSDVVQUN6SUNlYk1RM2tqVnR3WGh5MHVjRC1JVGttQUVZSlRrSjFwUGlBRzFmaE1FY0FiT0F5SXhVeThQTHBNUlhadWR3MEpCSWhTdTFta29PRHpqb05nRzBySF82dngxTkV3THZFdzZsUzJhUG5RSHBDSHM5cC1oSmJjVThWcS03MnJFNGRvR3E0ZlpzNGhiX216TXZJcUZ2WjhJX0ZzbzRVRGJmNndlM0ZSbUhQSEtGQ2c?oc=5"
+        "date": "2026-09-25",
+        "title": "Prime Medicine, Inc. (PRME) Stock Price, News, Quote & History",
+        "source": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9haWhhN2xNRmQxd3d4SDY4c3U3QXp5a2lKOUVxNlMwdHpqbFgzdnNrN2drNVFaRS1HSTlIemdxQk9PbnJfeENuanZzXzRaMm9VYVE?oc=5"
       },
       {
         "date": "2026-09-24",
@@ -919,62 +839,62 @@
         "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPVG5rc0tZMDVvWWNpWTZ3eDBCNG9CQmY5X0Z4NjdlZ3B5NVU3VzFydkVVLWFhakJybEJLRWVtY3FiMzU3eTAwbXhhem5UdFIxeFJJSXRwVXpOOV9JbWlyR3dOQ2hwWGNlUjB4VmFXbjJ4WWhuNmtJTEZlWG9TOUNSMHJTS1pSbXBsSzhVbUx0bHB5aVJmaGxoaVRYZkFib2x6emp3TzFhQWlrSHFoRmxBSlVYRWJ3X20xekEwUWVEMi1FLUdOaXNKYUJXb3JNaVhEU2dQQXlkeHpESC12RDdRVmVtSkpDd3pfQ09vejNBZzQxZmx5bWJuSWlaS21lRUlYTy1BM2FQWFN6ejBtVnR5dEpxV3ZQeWRWLVN2QWY4dzhfbDBY?oc=5"
       },
       {
-        "date": "2026-09-25",
-        "title": "Prime Medicine, Inc. (PRME) Stock Price, News, Quote & History",
-        "source": "ca.finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9haWhhN2xNRmQxd3d4SDY4c3U3QXp5a2lKOUVxNlMwdHpqbFgzdnNrN2drNVFaRS1HSTlIemdxQk9PbnJfeENuanZzXzRaMm9VYVE?oc=5"
+        "date": "2026-09-28",
+        "title": "Prime Medicine receives FDA clearance for PM647 in alpha-1 antitrypsin deficiency",
+        "source": "AllSci",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWtzbUNJWEw1Sk9naVd0UktrT2pwNHNwVlJxR3ZIV1pDeFlYQWFCcGhBa2N4T0l6V29NazF3eUEwX0FpcVFyU01WSWRfbnJ6bl9fbVBmc0Q5Y3lBVy1JX0lCREMwd0F4MUJvS2tlM21IMGg5eUpIb2NNaUhJUHVPdzh3cmMxOU0?oc=5"
       },
       {
-        "date": "2026-09-25",
-        "title": "Prime Medicine: A Buy Due To BLA Filing H1 '27 And In Vivo Therapy Development (PRME)",
-        "source": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSTU2X1l5ZS1iWlVjLWUzMmF0V1lWMTQxdDA0OTBOWTNMX3V6ZENuWlZvSm5xZWZmVVF5bHJrQ2VhUUFEcHhNQ2gySWF3REV5RzdjZ1B4NEwxdjgxS2NvYW5VR19qQ0xzMXJfWTBOLWhKSFlwUDZmbUQ4NU9EZVhOQi0xUkt6YXVORFVILXhtckVERkJxVVN2QVpCWWw1MC1tTWV6OUNBMTFDN1Z6ZjlsOG5DcG9yS2V4?oc=5"
+        "date": "2026-09-28",
+        "title": "Citizens reiterates Prime Medicine stock rating on gene editing capabilities",
+        "source": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQLXhVN0o3ZVE1ZGFaUzR0a3g4Wjl4SklaSDVVQUN6SUNlYk1RM2tqVnR3WGh5MHVjRC1JVGttQUVZSlRrSjFwUGlBRzFmaE1FY0FiT0F5SXhVeThQTHBNUlhadWR3MEpCSWhTdTFta29PRHpqb05nRzBySF82dngxTkV3THZFdzZsUzJhUG5RSHBDSHM5cC1oSmJjVThWcS03MnJFNGRvR3E0ZlpzNGhiX216TXZJcUZ2WjhJX0ZzbzRVRGJmNndlM0ZSbUhQSEtGQ2c?oc=5"
       }
     ],
     "Beam Therapeutics": [
       {
+        "date": "2026-09-29",
+        "title": "Beam Therapeutics: Ignore The Anthropic Noise And Focus On Clinical Progress (NASDAQ:BEAM)",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTJFYVF4RGlBeTE4QkxiU1Z6aEhkaml5RDdzcjZydThhWDc4bnIxZ05JWl96NUxaWmFNRUJiQTF3enY1RjlZOHJheUVpVkJuS2RETGhYa3ZobjdqdjlicjAyNHRWVzByT3htZkgzczlUZ0pOcWxka3hUVE1qUzhxNU1Yc1ZrUDNhTV95dzNNUjJoN1VaZFI4dFF6QzQxc0V2OTl6bEtHb3RzZGhHTzdEWHptQkhIMlZZN3BNVHhfdGExdw?oc=5"
+      },
+      {
         "date": "2026-09-25",
         "title": "Beam Therapeutics Inc. (BEAM) Stock Price, News, Quote & History",
-        "source": "ca.finance.yahoo.com",
+        "source": "Yahoo! Finance Canada",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KREhaWG92dWt3NGxaa0U1MUZPeG1CZjVXTWl3cGFRQmE4dE1NVVZ0V2JCdlBBX2EzbGt4S2tkak9sQWsyZGl5N1pGb0tmTjVQMVE?oc=5"
       },
       {
-        "date": "2026-09-24",
-        "title": "Beam Therapeutics (BEAM) Stock Looks Fully Valued Despite In Vivo Gene Editing Growth",
-        "source": "simplywall.st",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU0MtTzMzeXJ3X2ZCcmstazgxTEtmXzFmNzVDTXBZVEFhTUhlSnNkeXZZbEM1TXFwT1oxajRLY2d4eGNaUExGYmNRMkdVVURJUVFob3FRaGVzaUE2MHNzeG9EejlrSldCeGRLYXNpVkxyc2tTd1JWZGF6STlqblZJaWRsWm5qVF9Rc182NnRqY3M1aWRJQ0ZQTHJVTkVPbk84TW5na0VzWUF2Q1F1WnRVdHdONUhrSnlvOUNhMUM5SUNwZF9Cb2JwVUhwTWFDODN2c2NqRlk0ZlRIdmFXRUNKNG41ZEtuUdIB6wFBVV95cUxPc2xLZk5kN01mekpUTHBBLTlUNXpYaWRtUUpBeUR6cWJlTnZkcmNYemRLWVYySm5GSHhxcnpvY01CWUoxTlljNXdsNV92LU44VWRyMnVfbE9nUlJQbzEwa3VwdGxGVVpjOXlXN1Q0TnZzT2gwdnc0Nk13ZzBVMlRBWHo0YkVrM1FoSDlRRWxkOFhMeEMxLXF0UTd4UDFsdDVCbnVwdDBkUG9NdWpORjJ5MDctODROemJBNjVyMHdkSlVMeV82QURZdDU5QldUM2NrRXEtcVR3VlIzdDJoTmlwS2RscVVrV0U4UERv?oc=5"
+        "date": "2026-09-29",
+        "title": "Beam Therapeutics remains a long-term buy with strong 2028-29 upside from gene editing advances.",
+        "source": "Pluang",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVjVqRDZzUDk5Zk5FNkFrbHNCeW5ES1ByamhUcWN3TFlRLWljN2dyNDM2YkhyS2dETUdBSno4bTJITFJNVnNGdlZTTFZQN0IydDFYd202dklBeXFPcDVnUENCRVVvY1FvMU1oTVdMeTRVbDVsZEhnUEFNMW9vU3pHSkR1RnZyY2Z2MmlKUXlHU1dMR2V5OWxYS3o4c0h4MEZqYWZ1VQ?oc=5"
       },
       {
-        "date": "2026-09-08",
-        "title": "Beam Therapeutics Presents Updated Clinical Data from the",
-        "source": "GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQaUUxMDlFQXZzWnJucnVZNTV4YXZMaldxLUdJMnQ1MEpVTE9MZmNPTnVreVd0N3U4RW93Y2pMY3M1MkxIbHl0Q3VxQ1NzamxjdDVSX2ZuaUhGNE5FYVpPYUx6dnZOdndBcUZDaXk3Nkw4elRMcHlvVUItejNMM2pLamh2clhXOHRwRW9FMHExLWxVRXRNZ0M2S3A1NVJlMmVYZ1JvMzJEUUNwNnhrU21fNE5ScERJeVlyNmE3dmdtM1JxODRMXzVoTFRNcEM3aFFnQndTcktZZWg0eUNuSkJYcmp2bXBpNXBuNVVBOHRaYTJqZzdrR0hLZEItOXByUWZTSDd2MUpIU1FaczJyZTJ5ODctLW5Ec3RoZlk3U2JqRjRyMHctWkxUajdocDlsMkdRaHN4RXFsQWJQM2llTXZERVdtZkg0UzFoajdlVFJGdTZLaTNZMEs2X0J5M1JibGVVS3NuUjhnNnZpUQ?oc=5"
-      },
-      {
-        "date": "2026-09-27",
-        "title": "PRME Surges 15% After Winning Arbitration Against Beam — Clears Path To Human Trials For Its Gene-Editing Drug",
-        "source": "Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPMXp6S2lidE5CZnc4ajl1Y09JWlR1X181UVhpR2VnRkVMTGF2NGgxNGZDakRJY0lEOUx6Z1FMNTN0c1NtTGFSX3pDNWFSdXgtdFJSNUdDRHFlRUtWcERWdUdxNVBWQzByZ2taS3U0UlRpSzl2Z3VsUmlLTUp2VllIMzV0djNwLUUweER1SGxHRGFuRzhHb3NsdkZ4TU1YV0F6a09nOWdKbFFSSnp2bDF3UHEyeFNYNG8za0pTNGJ2RFd4RjZFcTU4bGZvVzkwWDE5OFQxb2NVcmZYYTZkdElEQUViVHhRemIyT2hvYnNQcnlzY1hoZTEyeVNRR2tYTG8?oc=5"
+        "date": "2026-09-28",
+        "title": "As Claude Enters the Gene-Editing Arena, There’s Still a Long-Term Case for BEAM Stock",
+        "source": "Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUHZqWmdNSUhWdUlrOFVnOUtYMjd5aWFNUlRXQ0RTUlRyQTlqLWdYWHRuOWtPR3FPZV9PdlB5eVd6VlpJT0ZIWk10TjVCMDJjbDBvUjNrdk41U0VScThBaE9BeHNIaFdNSFJ1ay15Z1gtbElCV0hXSHlFR0I5dE1Oa1hfZXVIMnQxTjZIRUFPUGlfX2o1b21DMU9Xd3ZMeGkwbVE1VkJUbmlZUTZuNHdZTGVVM0Q0YlZXQkN3Sy1aTElpTVJ1N0lj?oc=5"
       }
     ],
     "Intellia": [
-      {
-        "date": "2026-09-22",
-        "title": "Intellia Therapeutics (NTLA) Stock Gets FDA Priority Review For Lonvo Z Gene Editing Therapy",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3V2My1feF9qMlJJTGVJRWFleEYyQXB2UTk5Q3pVSHZseXV0OUVvRmxIcTBtN2tkVlY3X0hWcjNuclZ4ZFB5SE5tRVRrZEtzRlQ1UVlBcXFIdm0wNTBuRmtUMWFUODB5eDEtdEVUaGhaT3hQS0NTdjRXa3Jlckhqei16T1JiVldpdXRER2k4Nzh4VVVQRkFhNzB3eVVWSkk?oc=5"
-      },
-      {
-        "date": "2026-09-27",
-        "title": "NTLA Jumps Premarket On Positive Late-Stage Trial Data For Gene-Editing Therapy — Retail Says Buy Now Before It’s Too Late",
-        "source": "Stocktwits",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdWZuWlFiX0JGd3BGb3hzdWMtZ0pZMVF1cEYtQ0hoZVlNNXZPQVZMZ2RFVnU4SDlFRm9oZXgzWTBiNldjT193ZUNCU2swams2aEtCYk5GOTBDU2hSYUVjOFFxY05LRHFqQ1Q5N0VNN1JUaWJlNHVxZnRkWUlWa0hZU1hnVFJWNGp2WG93dkZhTWhUUG9hTGY4U2ZPRVpEUDFweXlzb2JSMVJZeV9jZWgxZTZVbmpDYnJq?oc=5"
-      },
       {
         "date": "2026-09-08",
         "title": "Intellia Therapeutics Announces FDA Acceptance of Biologics License Application with Priority Review for Lonvoguran Ziclumeran (Lonvo-z) for Hereditary Angioedema (HAE)",
         "source": "ir.intelliatx.com",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZGs5aWdBeGp3ZjdMc3dpNzY0bVNQTnVGWjZKMzhFWEIzQVA5dFdLQXNaLXhjN08wSG9QOUh3VEJPVHl2Qml4bk9WQWt3TjlzZjVRUVB6ZmxLNnBfS2R4SDZFOGg0QzNJN3RnMkFMaEJ4YW80d1ZvTXBQVXhpQXR0cWlnWUhWMUtUOUVTNW5tVU53dERkZHB6TFAwRGdBLU8wQ0RPYUdDZHFoM0dIUkVSaEY3d2wyTTIxRy1meExJT3JoeU0?oc=5"
+      },
+      {
+        "date": "2026-09-27",
+        "title": "Intellia Therapeutics Bears Growl Again, This Time About Claude AI -- Yawn! (NASDAQ:NTLA)",
+        "source": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbmt6Rk43YXIwcVFNUXpXZ2FkUzNsbmVxRzZJU0tpRlNURFNKMExzQXRBSkd5aHF2S0hrVGdfVnJORWlxeU9FXy13aFprclNzV1p6YmRzeWFnN3VhQ3ROMG83dl8yTVFhZnNYWVFTTWJTeTBXd1M5SnF5NXJSQTNnV18xeE15UldoUkFrT0xxdERMVkthM29jVUxiZHFpeE9xMmhsYUhlQ1NnaGphNHhVVg?oc=5"
+      },
+      {
+        "date": "2026-09-22",
+        "title": "Intellia Therapeutics (NTLA) Stock Gets FDA Priority Review For Lonvo Z Gene Editing Therapy",
+        "source": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3V2My1feF9qMlJJTGVJRWFleEYyQXB2UTk5Q3pVSHZseXV0OUVvRmxIcTBtN2tkVlY3X0hWcjNuclZ4ZFB5SE5tRVRrZEtzRlQ1UVlBcXFIdm0wNTBuRmtUMWFUODB5eDEtdEVUaGhaT3hQS0NTdjRXa3Jlckhqei16T1JiVldpdXRER2k4Nzh4VVVQRkFhNzB3eVVWSkk?oc=5"
       },
       {
         "date": "2026-09-25",
@@ -1001,7 +921,7 @@
       {
         "date": "2026-09-25",
         "title": "\"Leading Through Uncertainty\" with Betty Liu, David Liu, and Sandro Roco",
-        "source": "asiasociety.org",
+        "source": "Asia Society",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVnV1VjZPWEVseEZpNHJmYVNMb3JuVC1XRjc5dDBmOVlNd0JQSDk5Nko3MmZBYzBib1ZFNG5XaS1uUzc1T3ZZcEZ6NjdPNW42M3ctQmM3ckxWalhwZTN1cFRVMUd4ZjlUeEJRc3BMOE9GdzVfd1lqYWZMalRBV2VFamF1d2FYZmRCc2lQTXZ4VF9SWFdVLUlaX09obnFfeFcxY191Zw?oc=5"
       },
       {
@@ -1033,7 +953,7 @@
       {
         "date": "2026-07-14",
         "title": "Directed enzyme evolution and the Nobel Prize: Making enzymes evolve in the lab",
-        "source": "News-Medical",
+        "source": "news-medical.net",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSV9GRld6c0JLNUxNZEZUbG5IYzNJMUFJd0FSdFJYQ3J6SUoybFQ4SnZyZnY4dnNtZExYc2VNeTVwTGRUVEJRVHh4dUZmbGV5SlhHekxVZGNZZ1pGdnNZak4yVnJERTM5UDg2Q3hSelRrOE5pTm42QVRXdEVBa09XTldTS0RNMDhmbGl0R0drY0V6UEJOM1p0dXZRbEpDQlpwakFFQ2JXNHE1Wkx2SzY5eFdfekZ6ZjY0Z1JKUFlqeUtUSTc4?oc=5"
       }
     ],
@@ -1061,7 +981,7 @@
       {
         "date": "2026-09-15",
         "title": "Jack & Jill raises $40M to put an AI agent on both sides of the hiring table",
-        "source": "The Next Web",
+        "source": "thenextweb.com",
         "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52VlZyVFFhVUFVMV90ZUlsTkNaUlVmaTNtUWo1TXlZWWhkakV4b1BjWDNJREJDX2JwZzBCYmVRU3NtSzItbFdPZjRrRDg1LVJUalBLZDNsdTI3eGl6OTVaQWVPMkQ?oc=5"
       }
     ]
@@ -1073,11 +993,7 @@
     },
     {
       "name": "Liu lab (Broad)",
-      "latest": {
-        "title": "Journal of GIS based Historical Studies",
-        "date": "2029-05-06",
-        "url": "https://doi.org/10.5281/zenodo.7368979"
-      }
+      "latest": null
     },
     {
       "name": "Knott lab (Monash)",
@@ -1085,19 +1001,11 @@
     },
     {
       "name": "Baker / IPD (UW)",
-      "latest": {
-        "title": "Preclinical evaluation of PSMA-targeted ultrasound contrast agents in an orthotopic model of prostate cancer in rabbits.",
-        "date": "2027-01-01",
-        "url": "https://doi.org/10.1016/j.bioactmat.2026.07.040"
-      }
+      "latest": null
     },
     {
       "name": "Arc Institute",
-      "latest": {
-        "title": "Preclinical evaluation of PSMA-targeted ultrasound contrast agents in an orthotopic model of prostate cancer in rabbits.",
-        "date": "2027-01-01",
-        "url": "https://doi.org/10.1016/j.bioactmat.2026.07.040"
-      }
+      "latest": null
     }
   ]
 }
