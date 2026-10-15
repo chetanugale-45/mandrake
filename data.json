@@ -1,13 +1,83 @@
 {
-  "updated": "2026-10-14T11:33:01Z",
+  "updated": "2026-10-15T11:10:52Z",
   "movements": [
+    {
+      "date": "2026-10-15",
+      "type": "press",
+      "who": "Generate Biomedicines",
+      "title": "Zealand Pharma CEO hails AI protein deal with Generate Biomedicines",
+      "source": "MedWatch",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RNVlGWVA4TWsya1FjaFlCZ3BZTXJXZ1lLOGtCNTNVMEdVMWhxbmdBQ3Fsdi05bElXZ3VZTXdHWUdsMDB2X01ILXptRHhnUTBSc0s5RmUtN2J2X1Q2RUIwZ2JQNVJqbDBxSTByUFlpNA?oc=5",
+      "entity": "Generate Biomedicines",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "press",
+      "who": "Beam Therapeutics",
+      "title": "HC Wainwright & Co. reiterates Buy rating on Beam Therapeutics, $80 price target",
+      "source": "TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQUhrN0kzN2NBLXJEZm03cVpDZTE4VUQ0bWRxS1pvNzhkZk1Rc1JYcDlGbDVCTWw4elJMd0xmamU0VVNBeENEdE1XcmVDWFZYbE5BWHh4SGd1bEZING1yRno1bi05TzZ4dEctSGdUZDhRX3o4STBiM1ZCaFpSeHZPZjk5elFDYmJxdTQzOWhOUzlQd3V6UWJwTDV3cGdGNWNWLXBmRXRmRVBHQWVqaWJjQkZMRnM0V2plX2huUkNSR2dCQ3ZrSzlUZFFtYVdrUzlQVE5N?oc=5",
+      "entity": "Beam Therapeutics",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "MAPKAP Kinase-2 signaling enhances the resolution of colonic inflammation through specialized pro-resolving mediators https://www.biorxiv.org/content…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxvvwbznwn2g"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Does specific membrane surface area constrain Escherichia coli energy spillage and therefore aerobic and anaerobic growth rates? https://www.biorxiv.…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxvvvsp5762v"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "A microbiota-driven neuroepithelial feed-forward circuit drives gastroesophageal junction tumorigenesis https://www.biorxiv.org/content/10.64898/2026…",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxvv2mumkr2g"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Identification of Cysteine-Reactive Early Mitotic Inhibitors https://www.biorxiv.org/content/10.64898/2026.10.13.758496v1",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxvuzic3am2s"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "social",
+      "who": "bioRxivpreprint",
+      "title": "Mitigating genotype-driven bias improves atlas-scale single-cell DNA methylome profiling https://www.biorxiv.org/content/10.64898/2026.10.14.756197v1",
+      "source": "Bluesky",
+      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxvu7mqjwz22"
+    },
     {
       "date": "2026-10-14",
       "type": "press",
       "who": "Generate Biomedicines",
-      "title": "Zealand inks $1.2B Generate pact to add multispecific proteins to obesity pipeline",
-      "source": "Fierce Biotech",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ0pYczdreS1nTy15SU55aWY0eE1tNGl4S01kYTRHb1JDY252WW5nN01tWDF6TlZTVU4wRjhVVk00Uzg0NkdpRVM5RkRSQXBUckhTbXNtN2MwcmlTM1o4a19RcUNSQVI1eS1BWXFVbFhGeFR6UHdSTlVPckpuWjBSQ0dZbVZGYkkxY2tEV3JFR1UzTnRMbHVQMlpabkFhOUFmeU5BNGZvRmVOcTFwSEVVOG1B?oc=5",
+      "title": "Generate Biomedicines, Inc. (GENB) Stock Price, News, Quote & History",
+      "source": "Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2RGg5SnN5b2VIRjJKejZScWl0eWZ3MmtQZEgyT1pnZE41YlU4RHdoRlhtTkZvOWRjOEJZc2xETm9QY21yRnJaU0QyUVRIMGlBRXc?oc=5",
+      "entity": "Generate Biomedicines",
+      "entkind": "competitor"
+    },
+    {
+      "date": "2026-10-14",
+      "type": "press",
+      "who": "Generate Biomedicines",
+      "title": "Top Generate Biomedicines (GENB) Competitors 2026",
+      "source": "MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5",
       "entity": "Generate Biomedicines",
       "entkind": "competitor"
     },
@@ -34,42 +104,42 @@
     {
       "date": "2026-10-14",
       "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Global failure to track international biodiversity targets on islands https://www.biorxiv.org/content/10.64898/2026.10.12.758463v1",
+      "who": "Institute for Protein Design",
+      "title": "Learn more about all the recipients: blog.google/company-news...",
       "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxth5pmdp52s"
+      "url": "https://bsky.app/profile/uwproteindesign.bsky.social/post/3mxu7s55oec2b"
     },
     {
       "date": "2026-10-14",
       "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Intra- and interspecific relationships of alpine ungulates reorganise along a wolf recolonisation gradient https://www.biorxiv.org/content/10.64898/2…",
+      "who": "Institute for Protein Design",
+      "title": "We're thrilled to share that we've been selected as a recipient of the Google Impact Challenge: AI for Science! We’ll be partnering with Dr. Pang Wei…",
       "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxth5dhb5d2t"
+      "url": "https://bsky.app/profile/uwproteindesign.bsky.social/post/3mxu7rnr7l22b"
     },
     {
       "date": "2026-10-14",
       "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Human Choroid Plexus Organoids Progress to Postnatal-like Maturation and Reveal a Closing Window of Developmental Plasticity https://www.biorxiv.org/…",
+      "who": "Mohammed AlQuraishi",
+      "title": "First OpenBind Blind Challenge!",
       "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxth4g2zmf2s"
+      "url": "https://bsky.app/profile/moalquraishi.bsky.social/post/3mxtyriee3s2o"
     },
     {
       "date": "2026-10-14",
       "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "Brief communication - Phaeodactylum tricornutum is a bona fide calcifying diatom https://www.biorxiv.org/content/10.64898/2026.10.12.758572v1",
+      "who": "Yudong Gao",
+      "title": "Postdoc position available to study mechanisms of protein phosphorylation and dynamic plasticity at the Axon Initial Segment! Join us in curiosity-dr…",
       "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxth3o6mcs2t"
+      "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mxtqh7qqoc2u"
     },
     {
       "date": "2026-10-14",
       "type": "social",
-      "who": "bioRxivpreprint",
-      "title": "The role of the NLRP3 inflammasome in a CLN2 mouse model of neuroinflammation https://www.biorxiv.org/content/10.64898/2026.10.12.758052v1",
-      "source": "Bluesky",
-      "url": "https://bsky.app/profile/biorxivpreprint.bsky.social/post/3mxth37ajin2r"
+      "who": "r/biotech",
+      "title": "Claude just found a CRISPR-like DNA pattern, but even Anthropic's scientists aren't sure what it does",
+      "source": "Reddit",
+      "url": "https://www.reddit.com/r/biotech/comments/1x66ihi/claude_just_found_a_crisprlike_dna_pattern_but/"
     },
     {
       "date": "2026-10-13",
@@ -84,30 +154,10 @@
     {
       "date": "2026-10-13",
       "type": "press",
-      "who": "Generate Biomedicines",
-      "title": "Zealand Pharma and Generate Biomedicines Enter Collaboration and License Agreement to Develop Protein Therapeutics Engineered with AI for Metabolic Diseases",
-      "source": "GlobeNewswire",
-      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMk1iMEQxUjZEX0NfMnhiS0JVSGZESk9NWkFTMFlwR0VBd200dTBUREpZYkZzQ1RZY3Nrb2w0UDdmYTd5M2JiSEdnS2NrV1d3Qk5uNDB6aHg0Vy1JM0NqeVRPZXhXWGRvd21ZS0N5aEUwX1FjdjQxdVNNUkdZaUlvcGNmOXh3b0FDeEg2eWhlN3ZkY1Ewd2QzYW9jMWR1MGRuWF8wMWVzYXRZdW5ZeUlocDdjQk5QUGVidDZoemlQU19TV0VZUGRhbTNPVm90OGI4X08yTGF5SUc3TkVPekI4Z29XQmNpaklzVWdQd056WVh1NGtMeXV1TGtMaHZkQnRHOGNBbGhyWlpKcFZNeDYzUHg4c1B3elJXQnZoMVJPVmNnbHdoZXo4enh5c3BxMEZuQ0ZzTnBEWVZ4S2NMVmppZXdaSGNMNnpuX3ZFbg?oc=5",
-      "entity": "Generate Biomedicines",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-10-13",
-      "type": "press",
-      "who": "Generate Biomedicines",
-      "title": "Generate Biomedicines, Zealand Pharma Report Partnership",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEc3aU1GNmx3UFQ3TW9pQnhZR0l3R1V6OHhpTHgtMnhPTUVyMGwySnBsSmtDUmNScmRSQjFFRVF0TjZjSGEzLXhxMXJqMUd1QWJnUkxYSWhSRTA5bGJtTFNYUFVJSzZ1NzI0ZVFUR19MM25JSTdsOTgxVFZsZ1c2SzV6cm5GT2RhVVJHM2FmYzlvdnpMRVVJQURTOXM0YjVjX282Tlk3bw?oc=5",
-      "entity": "Generate Biomedicines",
-      "entkind": "competitor"
-    },
-    {
-      "date": "2026-10-13",
-      "type": "press",
       "who": "Prime Medicine",
-      "title": "First Trust Heitman Glbl Prm Rl Estt ETF (PRME) stock price, news, quote and history",
-      "source": "Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SYmJEd251NkRYUHFTUnQwMmc1WXV0UFFfVTZrZm1yZnpnSWRLcDZOelRSRmtDbkdNQnhfMnZ1UUplV2txVEdsNG9TdnJUN0pXZVE?oc=5",
+      "title": "Prime Medicine, Inc. (PRME) Stock Price, News, Quote & History",
+      "source": "Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9haWhhN2xNRmQxd3d4SDY4c3U3QXp5a2lKOUVxNlMwdHpqbFgzdnNrN2drNVFaRS1HSTlIemdxQk9PbnJfeENuanZzXzRaMm9VYVE?oc=5",
       "entity": "Prime Medicine",
       "entkind": "competitor"
     },
@@ -115,9 +165,9 @@
       "date": "2026-10-13",
       "type": "press",
       "who": "Beam Therapeutics",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pRjZpOG90cWRNaWtPTjBxeUlPZDFZWUJjbGt6dEs4eWlxNDMteUxyd3JyUnZ4U2lkdmJMejNUS0w5VW9rdTAzN2pxenNZS3Vv?oc=5",
+      "title": "Beam Therapeutics Inc. (BEAM) stock price, news, quote and history",
+      "source": "Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tSF94bG5yM2RfTEFnQ3lzZUc4dWx2bzZDaVltUFVyVzBvaks2Z28zTlY2blNfMG9rcE1WeUlqOXd0bWpydW1PbkQzbnZOeHhVekE?oc=5",
       "entity": "Beam Therapeutics",
       "entkind": "competitor"
     },
@@ -176,14 +226,6 @@
       "title": "We're hiring a postdoc (Scientist I) at the Allen Institute in Seattle! We'll be developing and scaling new approaches to study synaptic proteomes in…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/scottsoderling.bsky.social/post/3mxrxbjwkys2g"
-    },
-    {
-      "date": "2026-10-13",
-      "type": "social",
-      "who": "r/biotech",
-      "title": "Researchers at Aarhus University have demonstrated that a new form of gene therapy can correct genetic defects in patients’ own stem cells. In the fu…",
-      "source": "Reddit",
-      "url": "https://www.reddit.com/r/biotech/comments/1x547r3/researchers_at_aarhus_university_have/"
     },
     {
       "date": "2026-10-12",
@@ -248,24 +290,6 @@
       "url": "https://bsky.app/profile/kevinkaichuang.bsky.social/post/3mxp7u63t6k2y"
     },
     {
-      "date": "2026-10-12",
-      "type": "press",
-      "who": "GEN",
-      "title": "StockWatch: Caribou Plunges as It Pursues Strategic Alternatives",
-      "source": "GEN",
-      "url": "https://www.genengnews.com/topics/genome-editing/stockwatch-caribou-plunges-as-it-pursues-strategic-alternatives/"
-    },
-    {
-      "date": "2026-10-11",
-      "type": "press",
-      "who": "Beam Therapeutics",
-      "title": "Beam Therapeutics (Nasdaq:BEAM) - Stock Analysis",
-      "source": "Simply Wall Street",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNXdfd0puaWVFS1FyaTZydEFvU2tPaG5Kc1dUNjN2LVNGd0Vwd1RkY24tX25LcU1hZUU5WUJ4N3RISHFCNU5HZjBIczc5QzJMMUZ1c0J5d3hYalVWdmMxWWhveFhvdE9FTllGeXNYckpuRVdTYTAyVEdnTjRsV29jV3FUYmpjWkRXUnAtZW9B?oc=5",
-      "entity": "Beam Therapeutics",
-      "entkind": "competitor"
-    },
-    {
       "date": "2026-10-11",
       "type": "social",
       "who": "Martin Pacesa",
@@ -303,7 +327,7 @@
       "date": "2026-10-09",
       "type": "press",
       "who": "David Liu",
-      "title": "Chutes & Ladders—Vir looks to Liu to lead late-stage push",
+      "title": "Vir looks to Liu to lead late-stage push—Chutes & Ladders",
       "source": "Fierce Biotech",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUEVpQ1dFRHpsR2VCZ0x4a2tZY0lZZ3JYVXlSenFqQ1o2R3p5R2ZzbzRHVHZwalVrQWRrQUdQZmh0SUotdW9ESXpvOG9Db2V1MERST2ZLM3dSMHNpZGpGcVQxcmhrM2hLV0JRa19kV3VINnFnZllISFdtWWo1SzFrTFRNVHpJektpazUxYUR0Z28?oc=5",
       "entity": "David Liu",
@@ -379,16 +403,6 @@
     },
     {
       "date": "2026-10-07",
-      "type": "press",
-      "who": "David Liu",
-      "title": "Vir Biotechnology Names David Liu Chief Medical Officer",
-      "source": "citybiz",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaE9Dekh1ekJ0SUkxRWtBMmJXMEFIQ2ZtYTAxUEZLT1ByMnRtNV9fbkRMMEw5SjBVaC1ueGp1dkpRN0UzT3NEN1Joa255ckxmUFJTaHgxOVBLWU5VYnREdU9FckN1V0o4M2FNZ0V6OTM4WlNkT1JXMloyYzlaancxZzdYMXUyWVNIWVFmQXBzc1JPZU9XaU4tU1JR?oc=5",
-      "entity": "David Liu",
-      "entkind": "person"
-    },
-    {
-      "date": "2026-10-07",
       "type": "social",
       "who": "Kasper Krunderup Jakobsen",
       "title": "We further validated LIDS on protein language model (PLM) oracles in silico. It is very fast. Here, LIDS can find the optimum in 2 experimental round…",
@@ -444,16 +458,6 @@
       "title": "CRISPR Therapeutics to Present Clinical Data on Zugocabtagene Geleucel (Zugo-cel) in Autoimmune Disease at the American College of Rheumatology (ACR) Convergence 2026",
       "source": "CRISPR Therapeutics",
       "url": "https://crisprtx.gcs-web.com/news-releases/news-release-details/crispr-therapeutics-present-clinical-data-zugocabtagene-geleucel"
-    },
-    {
-      "date": "2026-10-01",
-      "type": "press",
-      "who": "Profluent",
-      "title": "BioMarin and Profluent partner on AI-designed enzyme therapies",
-      "source": "Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVWR4UkFjYXhlSHpyci12dkI4VWRVTHBnM00zOVJVWDc4YlFKYlYyTVZkQVU5cGF6ZmYzSFBlMjhaR0VLbG1YdEhobXB2eVlVbHFYVmFNU3VNTXlvbGRzdWZKU0Rtb1J5cHJOMG1FRDM1Y1RBcUE2UU1NLVBmTVpiX2I5bjA0alVzMG41a29DRDhVQ3FNV0dELXEySVdHN0Ni?oc=5",
-      "entity": "Profluent",
-      "entkind": "competitor"
     },
     {
       "date": "2026-10-01",
@@ -700,16 +704,6 @@
       "title": "ProteinDPO: a protein language model for stability prediction and generation of thermostable protein sequences. @brianhie.bsky.social www.nature.com/…",
       "source": "Bluesky",
       "url": "https://bsky.app/profile/brianhie.bsky.social/post/3mttwlgenek2g"
-    },
-    {
-      "date": "2026-08-21",
-      "type": "press",
-      "who": "Frances Arnold",
-      "title": "Chemistry Nobel Prize winner to lecture and receive 2026 Carrier Medal",
-      "source": "Observer Online",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUkhwbFpWODRrX25OTW9RcGVuZHJDRjhQRExTWjB1X1JhazFTRnNDLThad2IxUzdfdDR4VFphcEtwVkNLcGFSeGd5NzljYzlWZkdqNEVGNGR0MzhOdURHdXo1aUVZWXZWMHdObGl5Z3U3TWplS0lzRTFmdG1taGZvdGtUSURIZFZwRzFDdWtjRTZjWjBRXzl2Q29XaElrNkZUcWFqNng4VDNIcDRtUm5XMldsNHFOeGxn?oc=5",
-      "entity": "Frances Arnold",
-      "entkind": "person"
     }
   ],
   "research": [
@@ -843,15 +837,13 @@
     }
   ],
   "entity_news": {
-    "Profluent": [
-      {
-        "date": "2026-10-01",
-        "title": "BioMarin and Profluent partner on AI-designed enzyme therapies",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVWR4UkFjYXhlSHpyci12dkI4VWRVTHBnM00zOVJVWDc4YlFKYlYyTVZkQVU5cGF6ZmYzSFBlMjhaR0VLbG1YdEhobXB2eVlVbHFYVmFNU3VNTXlvbGRzdWZKU0Rtb1J5cHJOMG1FRDM1Y1RBcUE2UU1NLVBmTVpiX2I5bjA0alVzMG41a29DRDhVQ3FNV0dELXEySVdHN0Ni?oc=5"
-      }
-    ],
     "Generate Biomedicines": [
+      {
+        "date": "2026-10-14",
+        "title": "Generate Biomedicines, Inc. (GENB) Stock Price, News, Quote & History",
+        "source": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2RGg5SnN5b2VIRjJKejZScWl0eWZ3MmtQZEgyT1pnZE41YlU4RHdoRlhtTkZvOWRjOEJZc2xETm9QY21yRnJaU0QyUVRIMGlBRXc?oc=5"
+      },
       {
         "date": "2026-10-13",
         "title": "Zealand Pharma, Generate strike AI obesity drug deal worth up to $1.2 billion",
@@ -859,22 +851,16 @@
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVBYYzREdlNzYWh1Q2IwR2cwcE8tc2F2VmRvWGRYalBLdFB5NlNHRkpFV01IcmM5M0RTMlhoQWdlU1JKUS1rdUJWOHhvVnlub2lWcHJjMUc3SDlwejBOM2NGUUQ4V19LaXRfT1B5U3N3X3NHVTUwSDdhSWZYLUp3dmk3ZXNLdEpISDNzcGVXNXQ2VWt0bFdfX25oQmZCUG9PZzJpQi1RMVNzWUdWRkxZOEtWamtmaGNreVhfNXUwc2EyaFdBZzdRQ2x1QQ?oc=5"
       },
       {
-        "date": "2026-10-13",
-        "title": "Zealand Pharma and Generate Biomedicines Enter Collaboration and License Agreement to Develop Protein Therapeutics Engineered with AI for Metabolic Diseases",
-        "source": "GlobeNewswire",
-        "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMk1iMEQxUjZEX0NfMnhiS0JVSGZESk9NWkFTMFlwR0VBd200dTBUREpZYkZzQ1RZY3Nrb2w0UDdmYTd5M2JiSEdnS2NrV1d3Qk5uNDB6aHg0Vy1JM0NqeVRPZXhXWGRvd21ZS0N5aEUwX1FjdjQxdVNNUkdZaUlvcGNmOXh3b0FDeEg2eWhlN3ZkY1Ewd2QzYW9jMWR1MGRuWF8wMWVzYXRZdW5ZeUlocDdjQk5QUGVidDZoemlQU19TV0VZUGRhbTNPVm90OGI4X08yTGF5SUc3TkVPekI4Z29XQmNpaklzVWdQd056WVh1NGtMeXV1TGtMaHZkQnRHOGNBbGhyWlpKcFZNeDYzUHg4c1B3elJXQnZoMVJPVmNnbHdoZXo4enh5c3BxMEZuQ0ZzTnBEWVZ4S2NMVmppZXdaSGNMNnpuX3ZFbg?oc=5"
-      },
-      {
-        "date": "2026-10-13",
-        "title": "Generate Biomedicines, Zealand Pharma Report Partnership",
-        "source": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEc3aU1GNmx3UFQ3TW9pQnhZR0l3R1V6OHhpTHgtMnhPTUVyMGwySnBsSmtDUmNScmRSQjFFRVF0TjZjSGEzLXhxMXJqMUd1QWJnUkxYSWhSRTA5bGJtTFNYUFVJSzZ1NzI0ZVFUR19MM25JSTdsOTgxVFZsZ1c2SzV6cm5GT2RhVVJHM2FmYzlvdnpMRVVJQURTOXM0YjVjX282Tlk3bw?oc=5"
+        "date": "2026-10-15",
+        "title": "Zealand Pharma CEO hails AI protein deal with Generate Biomedicines",
+        "source": "MedWatch",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RNVlGWVA4TWsya1FjaFlCZ3BZTXJXZ1lLOGtCNTNVMEdVMWhxbmdBQ3Fsdi05bElXZ3VZTXdHWUdsMDB2X01ILXptRHhnUTBSc0s5RmUtN2J2X1Q2RUIwZ2JQNVJqbDBxSTByUFlpNA?oc=5"
       },
       {
         "date": "2026-10-14",
-        "title": "Zealand inks $1.2B Generate pact to add multispecific proteins to obesity pipeline",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ0pYczdreS1nTy15SU55aWY0eE1tNGl4S01kYTRHb1JDY252WW5nN01tWDF6TlZTVU4wRjhVVk00Uzg0NkdpRVM5RkRSQXBUckhTbXNtN2MwcmlTM1o4a19RcUNSQVI1eS1BWXFVbFhGeFR6UHdSTlVPckpuWjBSQ0dZbVZGYkkxY2tEV3JFR1UzTnRMbHVQMlpabkFhOUFmeU5BNGZvRmVOcTFwSEVVOG1B?oc=5"
+        "title": "Top Generate Biomedicines (GENB) Competitors 2026",
+        "source": "MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5"
       }
     ],
     "Cradle": [
@@ -903,46 +889,20 @@
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQanRQOG9TTHdSV2dSREpVUGt4aUVrWG55Z3BYeTJkLXg1aVZXRFJSNk9fckk2bU40eWRoQUEwbUxzVGtEd2dqaU45RnRiMnVaUG95MTl2RTZEbnFkWDZsLS1iQThldXNwYmF6Vm03clNTUHZkLTVLOG04Zi1ZOWgwRkZCVWVoTWpiQktFaDRqdkZIanNiYkVIeWJVaE92djZPLTk0WXJYV0QyNDBXemlPVXZ3?oc=5"
       }
     ],
-    "Arzeda": [
-      {
-        "date": "2026-07-16",
-        "title": "Mane secures global license for Arzeda’s AI-designed Reb M sugar-reduction technology",
-        "source": "Food Ingredients First",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNXRNclY0QmtmN1EzZlN0bnVraER0bGJtUzFPWFlsNFpZMEpHWkt5RXhyNlhvTjBYRXBnQmZlN2RvQW1WejZwaDNzRHRxRXdodE9qY1NoRk1Gb1VCb2dvamdHd2ZabmFfSU9yN3dCblZ3cm14SUhGeXpVWUlkcXUydXZ1RQ?oc=5"
-      }
-    ],
     "Mandrake": [
       {
         "date": "2026-07-20",
         "title": "Mandrake Bio Raises Approx. $1.9M USD in Pre-Seed Funding",
         "source": "FinSMEs",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdk5FclR3MC1lcjctQ2hFc0V0UE51LUtjVVk5SjBEc0ZFaFJRU2ZGR3RHOFBCN1gtWjB5WFdnUUNXVWE0dmpCcnY5a29vaHcwSHRVbUs3cGJpVXcxUUgwSzdDWlRjUWViTllqWHZPTmtVdWdiOFNpb09SeXRfMTUxUjFTTlo4b3VXa3pGSGdIN1dwS19sNVlB?oc=5"
-      },
-      {
-        "date": "2026-07-16",
-        "title": "Mandrake Bio raises Rs 16 crore to build AI-powered gene-editing platform for agriculture, medicine",
-        "source": "The Economic Times",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQSzJJdHpOdEtwdVFGOTJYbWlfdlBfYVFBRUVudGJkNnRQZ2ZiX21MR3NhbGlNdHRfR2NndkFCZXVIbzB4TWtHU0JVc3I3OGtiVDZTRkphZ19jODRzUVFjLWsyNEdzdG4yU3hOQkdBZzVGdkh1Vzl6NmVZSnJpWjNjNFMzUjl2RlBlZzZlRDZuQWMycTVfUTF4Y3I1SXlPczZFY0Z2TEJFTmw5Vnk3dE5UQ0s5N19pTjVsMVBxeTNKU3hRWEx3S1Brd1R2Y1N6MjMxSGVmLXk5d0MwaERUbnhmY2Y4dEZqUmxkRmdNclQxTUFlRHI2VGtEd0l5eU5kRFZGTlM4ODNqSjJEclQwRXfSAZMCQVVfeXFMTmlYR0VfcUdRckpSQU1oYUtGTEZmX3FMZW80b1BKQ0NXb2Y0RWJsb1E3MU1nOWlDQ21wZDZoTU5kVko5bjJLdEdOX3RQUEo0WEU1MDFuUzFNRHpHV0I2dF9YUnFhSVhrTnZhbDNFSndlWmd5VzlHVzR4VXRic1lEdkFNMzBpWEhsMzBrb1FWVWZtYkxGT1o0ZG4tbktHUTAxbGpUdDc2R1Q3MGc0X05VNGF5cTlWM0JSVzNscExWT0FBWUVPVDIzRWRON3pjU2REYW5NM1dWRWJZX0Ywb1lVcUFWRjNnQ2NnbWJ5NXZqcUYyRl9TMWVEMGxUNDQ3WGFGNlVEMGRiTy16eUMyS0x3ZE5aMjQ?oc=5"
-      },
-      {
-        "date": "2026-07-16",
-        "title": "Mandrake Bio raises Rs 16 Cr in pre-seed round co-led by Activate and Antler",
-        "source": "Entrackr",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zd9IBtgFBVV95cUxNclRiSXllZWdhcVlUZmMwT19IM3JpWTNKakxQbFhZOGozRUt0SUZkeDBtaE1PdHR5c2RHSXhNa3VXbUQyQ0JqUm82QjBOelJRdnA3UnJWSVpiZ190d2lCTFQ1bHR4VmZZZGlRODVfd1hJQ2dqbE8tMlBNMHk4ZUVHMzdFQ3Q2SjZQa3V1TGN2Ni1iOGo4elRydS13SlhJMzIxdE9ZemxuenV2RHhFd0ZVZHZZbU9Zdw?oc=5"
-      },
-      {
-        "date": "2026-07-16",
-        "title": "Mandrake Bio Raises ₹16 Crore Pre-Seed Round to Advance AI-Powered Gene Editing Platform",
-        "source": "Indian Startup Times",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYUpUVi1JRzZ0ZFJmbm9mUUZSVklWdGtydmJHMDh5QVR4d1dxWU1XQ2s1RVkydm9fYW1jQjA2Sk1SeTE3MjhOZWtqb0tPWmNhd2ZWcDFVTGhXWjkwUEZTQWtNQkNhVWNuUmlab1ZWUUQyeEV4VFlYUmZDejZBdVBadlJtbXdwMzA5MzVQVWhaUVVGNWk2VVZKTElmazlOTEJRWXFRQUxmMU8xWmhvNFdrV0VEVEhpemRCYTluUHdKbi03NkVPaGRvTk14MFZXZnVmS2JpSS1tOEN6bG8?oc=5"
       }
     ],
     "Prime Medicine": [
       {
         "date": "2026-10-13",
-        "title": "First Trust Heitman Glbl Prm Rl Estt ETF (PRME) stock price, news, quote and history",
-        "source": "Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SYmJEd251NkRYUHFTUnQwMmc1WXV0UFFfVTZrZm1yZnpnSWRLcDZOelRSRmtDbkdNQnhfMnZ1UUplV2txVEdsNG9TdnJUN0pXZVE?oc=5"
+        "title": "Prime Medicine, Inc. (PRME) Stock Price, News, Quote & History",
+        "source": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9haWhhN2xNRmQxd3d4SDY4c3U3QXp5a2lKOUVxNlMwdHpqbFgzdnNrN2drNVFaRS1HSTlIemdxQk9PbnJfeENuanZzXzRaMm9VYVE?oc=5"
       },
       {
         "date": "2026-09-24",
@@ -966,15 +926,15 @@
     "Beam Therapeutics": [
       {
         "date": "2026-10-13",
-        "title": "symbol__ Stock Quote Price and Forecast",
-        "source": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9pRjZpOG90cWRNaWtPTjBxeUlPZDFZWUJjbGt6dEs4eWlxNDMteUxyd3JyUnZ4U2lkdmJMejNUS0w5VW9rdTAzN2pxenNZS3Vv?oc=5"
+        "title": "Beam Therapeutics Inc. (BEAM) stock price, news, quote and history",
+        "source": "Yahoo Finance Australia",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tSF94bG5yM2RfTEFnQ3lzZUc4dWx2bzZDaVltUFVyVzBvaks2Z28zTlY2blNfMG9rcE1WeUlqOXd0bWpydW1PbkQzbnZOeHhVekE?oc=5"
       },
       {
-        "date": "2026-10-11",
-        "title": "Beam Therapeutics (Nasdaq:BEAM) - Stock Analysis",
-        "source": "Simply Wall Street",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNXdfd0puaWVFS1FyaTZydEFvU2tPaG5Kc1dUNjN2LVNGd0Vwd1RkY24tX25LcU1hZUU5WUJ4N3RISHFCNU5HZjBIczc5QzJMMUZ1c0J5d3hYalVWdmMxWWhveFhvdE9FTllGeXNYckpuRVdTYTAyVEdnTjRsV29jV3FUYmpjWkRXUnAtZW9B?oc=5"
+        "date": "2026-10-15",
+        "title": "HC Wainwright & Co. reiterates Buy rating on Beam Therapeutics, $80 price target",
+        "source": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQUhrN0kzN2NBLXJEZm03cVpDZTE4VUQ0bWRxS1pvNzhkZk1Rc1JYcDlGbDVCTWw4elJMd0xmamU0VVNBeENEdE1XcmVDWFZYbE5BWHh4SGd1bEZING1yRno1bi05TzZ4dEctSGdUZDhRX3o4STBiM1ZCaFpSeHZPZjk5elFDYmJxdTQzOWhOUzlQd3V6UWJwTDV3cGdGNWNWLXBmRXRmRVBHQWVqaWJjQkZMRnM0V2plX2huUkNSR2dCQ3ZrSzlUZFFtYVdrUzlQVE5N?oc=5"
       },
       {
         "date": "2026-09-30",
@@ -1023,12 +983,6 @@
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNHFOTktKYVN4QzRNOWlrTVRubUZiN2xvWG1wbG1qa0NXTENjOUd6dzVqcW5HNmdEZUJYd2xicExTNnpKWFNfRUE4RVlRaEJhTzdReFpsWElsTFJud1BBUXBlZkpvY2s2WC1SdEd6ZkpsVjN4OHdKTHkzYzNIOVlNX1RnbWFkdDBMM1Zv?oc=5"
       },
       {
-        "date": "2026-07-16",
-        "title": "Nobel Laureate Jennifer Doudna enters AI protein design arena",
-        "source": "Fierce Biotech",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa1VuVzU3MFBhZnhoZDRTZHNMQklTVTlPYW42UjlvQTBqZE1aVUZFTm41NFlvUFZyOHk5cUt4QkIxWm4yNnJSMXU5OTJ6S1oyQzVmdzY3OHZsVkpKRFRuZHd5ejBRczE5bUthbE5YTjM4Q3d2Zm5TeTFEOUtvYUNNamxQajd5bGtPOGpPVWVVVFdYVkpsTVI3Z0hqaTF4bUtuOXc?oc=5"
-      },
-      {
         "date": "2026-10-07",
         "title": "Caribou Biosciences, biotech co-founded by Jennifer Doudna, is shutting down",
         "source": "STAT",
@@ -1044,7 +998,7 @@
     "David Liu": [
       {
         "date": "2026-10-09",
-        "title": "Chutes & Ladders—Vir looks to Liu to lead late-stage push",
+        "title": "Vir looks to Liu to lead late-stage push—Chutes & Ladders",
         "source": "Fierce Biotech",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUEVpQ1dFRHpsR2VCZ0x4a2tZY0lZZ3JYVXlSenFqQ1o2R3p5R2ZzbzRHVHZwalVrQWRrQUdQZmh0SUotdW9ESXpvOG9Db2V1MERST2ZLM3dSMHNpZGpGcVQxcmhrM2hLV0JRa19kV3VINnFnZllISFdtWWo1SzFrTFRNVHpJektpazUxYUR0Z28?oc=5"
       },
@@ -1059,12 +1013,6 @@
         "title": "Progeria Research Foundation to Honor Gene-Editing Pioneer David R. Liu, Ph.D., and Peabody Philanthropists Cathy and Dave Gravel at 2026 Night of Wonder Gala",
         "source": "PR Newswire",
         "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNck03STlwY0Znd0hVdk9ES2VoanItd2NpdGo4Nkt0THNLU2wybjlXNmh3LU56djZSb1p4d0FGN3MxdlJ6Ri1zZVZmM18zcXdHWXF6YzVhMGxWZEkwZ3gyUHJMNTQwcV9oaVVrYWRfZVVtMUYzSWdUTlgzN2dfcmZtYXBBSUFRSjdQaFlLeWZYYkNveUFqUDZnRnJaa3BzTGotYkVNNGhaTmhiM1NYZE9GZDQzSjdnNnFMVHBZVlhfdGxDblkwbmlVdXpfQkFtc0JfNElXSGNFMjk5TU9QZTJ6U01lTnpNWWNEREN6TDZ6VUJrenNWQW9YRWVHVG1FR2pOa0NmZmRIczlKWmRoZzN3LXZzdGlGYlhmREs5YUprdEVCS2pnSDFvbnhRTGhBOGFoM3hv?oc=5"
-      },
-      {
-        "date": "2026-10-07",
-        "title": "Vir Biotechnology Names David Liu Chief Medical Officer",
-        "source": "citybiz",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaE9Dekh1ekJ0SUkxRWtBMmJXMEFIQ2ZtYTAxUEZLT1ByMnRtNV9fbkRMMEw5SjBVaC1ueGp1dkpRN0UzT3NEN1Joa255ckxmUFJTaHgxOVBLWU5VYnREdU9FckN1V0o4M2FNZ0V6OTM4WlNkT1JXMloyYzlaancxZzdYMXUyWVNIWVFmQXBzc1JPZU9XaU4tU1JR?oc=5"
       }
     ],
     "Frances Arnold": [
@@ -1126,9 +1074,9 @@
     {
       "name": "Doudna lab / IGI",
       "latest": {
-        "title": "Phytochemical screening as an inhibitor of β-lactamases to overcome the carbapenem-resistant of Klebsiella pneumoniae",
-        "date": "2026-10-12",
-        "url": "https://doi.org/10.1038/s41598-026-68970-0"
+        "title": "A data-driven framework to identify restenosis-prone regions in femoral arteries from geometric and inflow waveform parameters",
+        "date": "2026-10-14",
+        "url": "https://doi.org/10.1098/rsif.2026.0109"
       }
     },
     {
@@ -1142,9 +1090,9 @@
     {
       "name": "Knott lab (Monash)",
       "latest": {
-        "title": "Discovery of a hydrolysis operon in Lachnospiraceae provides a genetic basis to understanding castalagin metabolism by the human microbiome in a clinical study",
-        "date": "2026-10-06",
-        "url": "https://doi.org/10.64898/2026.10.05.756759"
+        "title": "27th IUSTI World Congress",
+        "date": "2026-10-13",
+        "url": "https://doi.org/10.1071/shv23n5abs"
       }
     },
     {
